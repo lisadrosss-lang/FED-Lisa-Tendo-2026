@@ -134,7 +134,7 @@ elementen te gebruiken om dingen te klikken. Dus klikken gaat lastiger.</p>
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
+  ### de hele pagina:kkmnn 
   <p>website used for screenshot:https://screenshotone.com/tools/full-page-website-screenshot/</p>
   <p>Screenshot van hele pagina zonder schets: <img src="/readme-images/full-screen-claire-page.png"> </p>
   <figma link>https://www.figma.com/design/PFzIfHlEsx0mTZ2j4jem24/Untitled?node-id=126-24&t=6Cs9coWRB6grZT9S-1</figma link>
