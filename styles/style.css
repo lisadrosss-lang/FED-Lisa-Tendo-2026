@@ -25,7 +25,52 @@
 
 /****************/
 /* JOUW STYLING */
+
+
+/* NAVIGATION */
+
+
+.logoclaire{
+	height:2rem;
+}
+
+header a {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+header nav {
+	display:flex;
+	flex-grow:1;
+
+ 
+}
+ header nav ul {
+	 display:flex;
+}
+
+
+header nav li {
+	flex-grow:1;
+	min-width:3rem;
+	list-style: none;
+	background-color: bisque;
+}
+
+header li a {
+	display:block;
+	text-decoration: none;
+	line-height:2.5rem;
+}
+
+a {
+ text-align:center;
+}
+
 /****************/
 
 /* jouw code */
 
+img {
+	height:3rem;
+}

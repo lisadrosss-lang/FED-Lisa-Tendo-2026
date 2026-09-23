@@ -183,6 +183,11 @@ elementen te gebruiken om dingen te klikken. Dus klikken gaat lastiger.</p>
   - nog een punt
   - ...
 
+na de voortgang 1 heb ik mijn breakdownschets verbeterd aan de hand van de feedback van Danny 
+<img src="/readme-images/Eerste pagina lisa tendo - claire website-4.png" alt= "verbeterde breakdownschets alleen met html">
+ 
+ <img src="/readme-images/Eerste pagina lisa tendo - claire website-4.png" alt= "breakdownschets html + CSS">
+
 </details>
 
 
@@ -307,4 +312,11 @@ elementen te gebruiken om dingen te klikken. Dus klikken gaat lastiger.</p>
   2. bron 2
   3. ...
 
+
+ 4.voor iconen navbar 
+ <!--link icons https://www.youtube.com/watch?v=ihTB-aZ-Msk,
+         https://www.w3schools.com/html/html_layout.asp
+         https://cdnjs.com/libraries/font-awesome
+         https://fontawesome.com/icons/classic/solid/bag-shopping
+         https://www.youtube.com/watch?v=E2Er0ntd1yU-->
 </details>
