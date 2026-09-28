@@ -190,6 +190,35 @@ na de voortgang 1 heb ik mijn breakdownschets verbeterd aan de hand van de feedb
 
 </details>
 
+Tijdens het maken van de website:
+-Ik heb kwam er achter dat het beter is op elementen een kleurtje te geven. 
+-Ik heb geleerd dat "your path" erg belangrijk is als het gaat om het selecteren van bepaald elementen in je html in je CSS zoals nth-type
+-Ik heb een bij mijn breakdown schets de lessen waarbij ik bepaalde functies leer er bij gezet zodat ik meer structuur heb. 
+
+Theorie op een rijtje 
+Display flex ( NAAST)
+Display grid ( gallerij)
+
+
+
+In de lessen
+Toegankelijkheids les 
+-Alt helpen mensen die een berperking hebben beter te weten waar de website over gaan. 
+
+Postioneren
+-Position: relatieve ( placed anywhere),
+ absolute (vast op een plek like a stick note- scrolt niet mee)
+ fixed: ( blijft in beeld ook als je scrolt, zoals ene chatbot)
+ sticky: (blijft ook in beeld, zoals een navbar )
+
+
+
+
+Dingen die ik nog moet doen zijn
+Read.me bijwerken, voortuigang 1ste keer verwerken, verwerken van de test die ik met Samya heb gedaan en werken aan de site met name de CSS.Vragen bedenken voor de voortuigangsgesprek
+
+
+
 
 
 
