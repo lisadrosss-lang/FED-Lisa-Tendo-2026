@@ -319,4 +319,5 @@ na de voortgang 1 heb ik mijn breakdownschets verbeterd aan de hand van de feedb
          https://cdnjs.com/libraries/font-awesome
          https://fontawesome.com/icons/classic/solid/bag-shopping
          https://www.youtube.com/watch?v=E2Er0ntd1yU-->
+         https://fontawesome.com/start/confirm
 </details>

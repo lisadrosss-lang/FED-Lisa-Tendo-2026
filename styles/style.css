@@ -14,9 +14,9 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+  /* startje */
+  --color-text:#111;
+  --color-background:#eee;
 }
 
 
@@ -27,50 +27,60 @@
 /* JOUW STYLING */
 
 
-/* NAVIGATION */
+header {
+	display: flex;
+	justify-content: space-between;
+	padding:1em;
+	background-color: lightgrey;
+}
+
+ nav details > ul  {
+ list-style: none;
+}
+
+ nav details > ul> li  {
+ background-color: red;
+}
+
+ nav details > ul> li > a  {
+ text-decoration: none;
+}
+
+header nav:nth-of-type(2)  {
+ background-color: pink;
+}
+
+header nav:nth-of-type(2) ul  {
+list-style: none;
+ display: flex;
+}
+
+header nav:nth-of-type(2) li  {
+background-color: blue;
+  min-width:2rem;
+	flex-grow:1;
+}
+
+
+header nav:nth-of-type(2) a  {
+background-color: yellow;
+gap:3rem;
+line-height: 1.5rem;
+}
 
 
 .logoclaire{
-	height:2rem;
+  height:1.5rem;
+	
 }
 
-header a {
-	display:flex;
-	flex-wrap:wrap;
-}
-
-header nav {
-	display:flex;
-	flex-grow:1;
 
  
-}
- header nav ul {
-	 display:flex;
-}
 
 
-header nav li {
-	flex-grow:1;
-	min-width:3rem;
-	list-style: none;
-	background-color: bisque;
-}
 
-header li a {
-	display:block;
-	text-decoration: none;
-	line-height:2.5rem;
-}
 
-a {
- text-align:center;
-}
+/* NAVIGATION */
 
-/****************/
 
-/* jouw code */
 
-img {
-	height:3rem;
-}
