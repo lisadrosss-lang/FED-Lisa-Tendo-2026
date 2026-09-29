@@ -80,18 +80,18 @@ line-height: 1.5rem;
 }
 
 main img:nth-of-type(1){
-  max-width: 360px;
+  max-width: 400px;
 
 }
 
 
 main img:nth-of-type(2){
-  max-width: 360px;
+  max-width: 400px;
    height: auto;
 }
  
 main img:nth-of-type(3){
-  max-width: 360px;
+  max-width: 400px;
    height: auto;
 }
  
