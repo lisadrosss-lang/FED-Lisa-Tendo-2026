@@ -34,6 +34,9 @@ header {
 	justify-content: space-between;
 	padding:1em;
 	background-color: lightgrey;
+  position: sticky;
+  top:0;
+  
 }
 
  nav details > ul  {
@@ -97,7 +100,7 @@ main img:nth-of-type(4){
    height: auto;
 }
  
- main section:nth-of-type(1),h1 {
+ main section:nth-of-type(1) {
   background-color:lightyellow;
   max-width: 360px;
    display:grid;
@@ -120,12 +123,17 @@ main section:nth-of-type(1) p {
 
  }
 
+
  .button {
  background-color: white;
  border:0.1rem solid black;
  font-size: 1rem;
  border-radius:2rem;
  padding:0.5rem;
+ 
+
+ 
+
 
 }
 
@@ -171,7 +179,7 @@ main section:nth-of-type(3) p {
 
 main section:nth-of-type(5),h3 {
   background-color:lightyellow;
-  max-width: 380px;
+  max-width: 360px;
    display:grid;
     grid-auto-columns:auto; 
      place-content:center;
@@ -189,7 +197,7 @@ main section:nth-of-type(5),h3 {
 
  main section:nth-of-type(6),h3 {
   background-color:lightyellow;
-  max-width: 380px;
+  max-width: 360px;
    display:grid;
     grid-auto-columns:auto; 
      place-content:center;
@@ -199,7 +207,7 @@ main section:nth-of-type(5),h3 {
 
   main section:nth-of-type(6) p {
   background-color:lightyellow;
-  max-width: 380px;
+  max-width: 360px;
    display:grid;
     grid-auto-columns:auto; 
      place-content:center;
@@ -232,7 +240,7 @@ main section:nth-of-type(7) p {
 
   main section:nth-of-type(8),h2 {
   background-color:#F0E0F0;;
-  max-width: 380px;
+  max-width: 360px;
    display:grid;
     grid-auto-columns:auto; 
      place-content:center;
@@ -243,7 +251,7 @@ main section:nth-of-type(7) p {
 
   main section:nth-of-type(8)p {
   background-color:#F0E0F0;;
-  max-width: 380px;
+  max-width: 360px;
    display:grid;
     grid-auto-columns:auto; 
      place-content:center;
@@ -263,9 +271,33 @@ main section:nth-of-type(7) p {
 
  footer   {
   background-color:#F0E0F0;
-
+  list-style: none;
  }
 
+
+  footer > details   {
+  padding:2rem;
+ }
+
+
+  footer > ul   {
+  list-style: none;
+  line-height:1.9rem;
+ }
+
+   footer > h4  {
+   font-size: 2rem;
+    padding:2rem;
+ }
+
+ footer > h5  {
+   padding: 2rem;
+   color:purple;
+   
+ }
+
+
+ 
 
  
 
