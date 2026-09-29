@@ -80,7 +80,7 @@ line-height: 1.5rem;
 }
 
 main img:nth-of-type(1){
-  max-width: 428px;
+  max-width: 500px;
 
 }
 
@@ -102,7 +102,7 @@ main img:nth-of-type(4){
  
  main section:nth-of-type(1) {
   background-color:lightyellow;
-  max-width: 428px;
+  max-width: 500px;
    display:grid;
     grid-auto-columns:auto; 
      place-content:center;
@@ -149,7 +149,7 @@ main section:nth-of-type(1) p {
 
 main section:nth-of-type(2),h2 {
   background-color:lightyellow;
-  max-width: 428px;
+  max-width: 500px;
    display:grid;
     grid-auto-columns:auto; 
      place-content:center;
