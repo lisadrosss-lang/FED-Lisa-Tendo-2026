@@ -217,7 +217,8 @@ Postioneren
 Dingen die ik nog moet doen zijn
 Read.me bijwerken, voortuigang 1ste keer verwerken, verwerken van de test die ik met Samya heb gedaan en werken aan de site met name de CSS.Vragen bedenken voor de voortuigangsgesprek
 
-
+zelf geleerd:
+met plugin prettier and beautiful kan je je code goed structeren. 
 
 
 
