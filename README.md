@@ -35,19 +35,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>uitwerken voor kick-off werkgroep
   Week 1
-  Website gekozen en geupload op github:
+  Website gekozen en geupload op github:https://lisadrosss-lang.github.io/FED-Lisa-Tendo-2026/
   
-
-  Week 2
-
-
-  Week 3
-
-
-  Week 4
-
-
-  Week 5
 </summary>
 
 
@@ -158,70 +147,100 @@ elementen te gebruiken om dingen te klikken. Dus klikken gaat lastiger.</p>
 
 <details>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
-  vragen voor de voortuitgang. 
-  1.
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Lastig:
+
+  Goed:
+  Ik vond de tempo van de lessen wel fijn end dat de docent aangaf wat precies af moest zijn voor bepaalde voortganggesprekken. Daardoor kon ik mij steeds richten op 1 ding. 
+
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+Student 1: Lisa
 
-  | student Lisa   | student Sanna      | student jog   | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | detail- tag uitklap            | ...               | flexbox: grow  | ...              |
+Vraag 1:
+Hoe kan je iconen gebruiken zonder classes?
+
+Vraag 2:
+De dingen die in de navbar staan komen in een header te staan, alleen moet ze in 2 of 3 aparte list items?
+
+Vraag 3:
+En welke elemeten kan je het beste gebruiken om bepaalde elementen te selecteren inplaat van classes te gebruiken?
+
+Vraag 4:
+Bij foto's kan het beste rem of pixels gebruiken om hem responsive te maken? 
+
+Belangrijke punten:
+-Gebruik maken van details bij Q en A vragen. ( uitklaptag)
+--electeren kan ook met nth CSS selector 
+-Als het naar een andere pagina gaat is het een link, als het op de pagina blijft is het een button. Een link kan worden vormgeven als een button zoals bij de meeste navbars.
+-div Alleen bij noodgeval ( vormgeving)
+-list items wel apart
+-detail elements tag 
+https://www.w3schools.com/Tags/tryit.asp?filename=tryhtml5_details
+- Als je meerdere dingen wil selecteren in css inplaats van div’s  screen reader 
+*     section:nth-of-type(1) h2 {
+*Als je 2 h2 dan moet je benoemen in welke section de h2 is 
+* Goed kijken carusouls flexbox -flexgrow
+* Paragraph voor the slider en dan animeren
+
+
+
+  Student 2: Jegor
+Vraag 1
+Hoe kan ik foto's van de website downlaoden zodat de niet stretched zijn? 
+
+Vraag 2 
+Hoe moet ik de grid maken zodat alle foto's kloppen?
+
+Belangrijke punten: 
+-Gebruik maken van flex grow
+
+Student 3: Sanna
+
+Belangrijke punten:
+- Wat wil je dat de screen reader outline.
+- Centeren en ruimte - flexbox en grid
+
+haar aantekeningen:
+-Je mag geen divjes gebruiken tenzij het voor vormgeving nodig is.
+-witruimte gaat om de vormgeving dus dat kan je liever doen met Grid of flexbox
+-Dingen die bij elkaar horen groeperen in bijvoorbeeld UL of Selection om het te kunne. flexboxen.
+-Je mag geen section gebruiken zonder een heading!
+-Button met een link is in je HTML een <A> ( ancor link) en in je CSS stijl je het als een button. 
+
+Student 4:Chennye
+Vraag 1:
+Welke pagina is het beste als 2de pagina?
+
+Vraag 2: 
+Wat kan ik nog meer toevogen in mijn breakdownshets?
+
+Belangrijke punten:-
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  hier na afloop snel de uitkomsten van de meeting vastleggen ( algemeen)
+  -
+  
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+Na de voortgang 1 heb ik mijn breakdownschets verbeterd aan de hand van de feedback van Danny.
 
-na de voortgang 1 heb ik mijn breakdownschets verbeterd aan de hand van de feedback van Danny 
+En nog:
+-de links veranderd die buttons waren
+-selectoren geplaats die bepaalde elementen konden selecteren. 
+
 <img src="/readme-images/Eerste pagina lisa tendo - claire website-4.png" alt= "verbeterde breakdownschets alleen met html">
  
  <img src="/readme-images/Eerste pagina lisa tendo - claire website-4.png" alt= "breakdownschets html + CSS">
 
+
+
 </details>
 
-Tijdens het maken van de website:
--Ik heb kwam er achter dat het beter is op elementen een kleurtje te geven. 
--Ik heb geleerd dat "your path" erg belangrijk is als het gaat om het selecteren van bepaald elementen in je html in je CSS zoals nth-type
--Ik heb een bij mijn breakdown schets de lessen waarbij ik bepaalde functies leer er bij gezet zodat ik meer structuur heb. 
-
-Theorie op een rijtje 
-Display flex ( NAAST)
-Display grid ( gallerij)
-
-
-
-In de lessen
-Toegankelijkheids les 
--Alt helpen mensen die een berperking hebben beter te weten waar de website over gaan. 
-
-Postioneren
--Position: relatieve ( placed anywhere),
- absolute (vast op een plek like a stick note- scrolt niet mee)
- fixed: ( blijft in beeld ook als je scrolt, zoals ene chatbot)
- sticky: (blijft ook in beeld, zoals een navbar )
-
-
-
-
-Dingen die ik nog moet doen zijn
-Read.me bijwerken, voortuigang 1ste keer verwerken, verwerken van de test die ik met Samya heb gedaan en werken aan de site met name de CSS.Vragen bedenken voor de voortuigangsgesprek
-
-zelf geleerd:
-met plugin prettier and beautiful kan je je code goed structeren. 
-
-
-
+<details>
 
 
 ## Voortgang 2 (week 3)
@@ -229,19 +248,199 @@ met plugin prettier and beautiful kan je je code goed structeren.
 <details>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
+  website huidige screenshots:
+  1ste pagina
+  <img src="/readme-images/navbar1-pagina1.png" alt= "screenshot-navbar-ingeklapt">
+  <img src="/readme-images/navbar-pagina1.png" alt= "screenshot-navbar-uitgeklapt">
+  <img src="/readme-images/body1-pagina1.png" alt= "screenshot-body1">
+  <img src="/readme-images/body2-pagina1.png" alt= "screenshot-body2">
+  <img src="/readme-images/body3-pagina1.png" alt= "screenshot-body3">
+  <img src="/readme-images/body4-pagina1.png" alt= "screenshot-body4">
+  <img src="/readme-images/footer-pagina1" alt= "screenshot-footer">
+  
+  2de pagina
+ <img src="/readme-images/body-pagina2.png" alt= "screenshot-body-page2">
+ <img src="/readme-images/body1-pagina2.png" alt= "screenshot-body1-page2">
+ <img src="/readme-images/body2-pagina2.png" alt= "screenshot-body2-page2">
+ <img src="/readme-images/body3-pagina2.png" alt= "screenshot-body3-page2">
+ <img src="/readme-images/footer-pagina2" alt= "screenshot-footer-page2">
+  
+
+
+
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Lastig:
+  Wel lastig om als je selectoren gebruikt je de juiste pad moet schrijven anders selecteert hij hem niet co goed. 
+
+  Goed ging: 
+  In het begin vond ik het lastig om de navbar de coderen. Hij staat er wel alleen ben ik niet zo zeker of hij kwa 
+  structuur klopt. Ik heb ook van de img een nav element van gemaakt. Verder bij het maken van de opdracht met de sticky code ging het wel goed en heb ik dat ook direct kunnen toepassen op mijn website. 
+  De lessen position, flexen header en flex opdracht 1 daarvan heb ik deels mijn code over van genomen. 
+
+  Dingen die ik afgelopen weken heb geleerd.
+
+  In de lessen
+  
+  Toegankelijkheids les 2
+  -Alt helpen mensen die een berperking hebben beter te weten waar de website over gaan. 
+
+  Postioneren les 6
+  -Position: relatieve ( placed anywhere),
+  -absolute (vast op een plek like a stick note- scrolt niet mee)
+  -fixed: ( blijft in beeld ook als je scrolt, zoals ene chatbot)
+  -sticky: (blijft ook in beeld, zoals een navbar )
+
+  Theorie op een rijtje 
+  Display flex ( NAAST)
+  Display grid ( gallerij)
+
+
+Tijdens het maken van de website:
+-Ik heb kwam er achter dat het beter is op elementen een kleurtje te geven. 
+-Ik heb geleerd dat "your path" erg belangrijk is als het gaat om het selecteren van bepaald elementen in je html in je CSS zoals nth-type
+-Ik heb een bij mijn breakdown schets de lessen waarbij ik bepaalde functies leer er bij gezet zodat ik meer structuur heb. 
+Eentje waar je de lessen kan zien waar CSS wordt gebruikt en gekoppeld aan mijn website 
+ <img src="/readme-images/Figma-CSS-lessen.png" alt= "breakdownschets html + CSS + lessen">
+
+ En de andere waar JAVASCRIPT is  gekoppeld aan mijn website 
+  <img src="/readme-images/Figma-JAVA-lessen.png" alt= "breakdownschets + JAVASCRIPT + lessen">
+
+  -Ik heb geleerd hoe ik foto's kan downloaden van de website zelf:
+  <img src="/readme-images/download-pic-1.png"  alt= "step 1-instruction-how-to-download-image-from-website">
+   <img src="/readme-images/download-pic-2.png"  alt= "step 2-instruction-how-to-download-image-from-website">
+    <img src="/readme-images/download-pic-3.png"  alt= "step 3-instruction-how-to-download-image-from-website">
+    Je kan hem ook erin slepen in je visual code en dan zou er te voorschijn moeten komen. 
+
+
+
+ FIGMA link:
+"https://www.figma.com/design/PFzIfHlEsx0mTZ2j4jem24/Untitled?node-id=150-596&t=qojFeLYIgBji5bDc-1"
+
+
+
+   
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+   student Lisa   
+   Vragen die ik had: 
+   Dit is de code die ik gebruikte om een section in het midden te krijgen met de button. 
+   Alleen als ik de button kleiner wil maken wordt hij wel kleiner alleen gaat hij telkens
+   naar links als ik de width veranderd. De button zit ook een de section en 
+   heb van de button een class gemaakt, om hem te kunnen selecteren en stijlen.
 
+    Code:
+    display;grid;
+    grid-auto-columns:auto;
+    place-content:center;
+    max-width: 360px;
+
+    Vraag 1: Hoe kan ik controle hebben over een button ookal zit hij in een display:grid? 
+     En hoe kan ik hem nog in het midden zetten ookal gaat hij naar links. 
+   <img src="readme-images/CSS-grid.png" alt="screenshot-CSS">
+
+    
+
+    Vraag 2:
+    Bij het maken van een responsive design is 328px de mobile scherm breedte? Ik heb
+    op mijn 12 pro max getest en de breedte is daar 500px?
+   <img src="readme-images/navbar-niet-midden.png/" alt="screenshot-schermbreedte-12-pro-max">
+
+
+    Vraag 3:
+    Zijn er ook andere selectoren die je kunt gebruiken als je nth-of-type niet kan gebruiken of classes niet kan gebruiken. Ik heb het gevoel dat ik best veel nth-of-type selectors heb in mijn css.
+  <img src="readme-images/CSS-nth-of-type.png/" alt="screenshot-CSS-nth-of-type">
+
+
+    Vraag 4:
+    Hoe krijg je alles op 1 lijn bij de navbar? 
+  <img src="readme-images/navbar-niet-midden.png/" alt="screenshot-navbar">
+
+    Vraag 5:
+    De logo heeft nu een navbar element, alleen weet ik niet of dat juist goed is. ik probeerde steeds de
+    logo te selecteren anders dan een class te gebruiken. Heeft u tips hiervoor?
+    code:
+
+    <details>
+                <summary>Menu </summary>
+                <ul>
+                    <li><a href="/our-glow-up-page.html">Our Glow-Up</a></li>
+                    <li><a href="index.html">Piercing Guide</a></li>
+                    <li><a href="index.html">Aftercare</a></li>
+                    <li><a href="index.html">Explore</a></li>
+                    <li><a href="index.html">Store Finder</a></li>
+                </ul>
+            </details>
+            <!--links nav icons-->
+        </nav>
+        <a href="index.html"> <img src="images/claires-logo.svg" class="logoclaire"
+                alt="logo picture of claire's company"></a>
+        <nav>
+            <ul>
+                <!--LOGO -->
+                <!--links nav pages-->
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </ul>
+
+        </nav>
+
+Vraag 7:
+Bij sommige section overlappen ze met een andere code en bij andere niet. Toch gebruik ik dezelfde soort code.
+ <img src="readme-images/overlappen-section.png" alt="screenshot-overlappen-section">
+
+Vraag 8:
+Hoe creer je meer ruimte bij de grid? 
+gebruik je dan padding en margin?
+
+Mijn versie
+ <img src="readme-images/ruimte-grid.png" alt="screenshot-zonder-veel-ruimte">
+
+Orginele versie
+ <img src="readme-images/orginele-versie.png" alt="screenshot-met-ruimte">
+
+
+Vraag 8:
+Bij foto's kan het beste rem of pixels gebruiken om hem responsive te maken? 
+
+
+
+Student 2: Jegor
+Vraag 1 
+Vraag 2 
+Vraag 3
+Vraag 4
+
+Belangrijke punten:
+
+Student 3:Sanna
+Vraag 1 
+Vraag 2 
+Vraag 3
+Vraag 4
+
+Belangrijke punten:
+
+
+Student 4:Chennye
+Vraag 1 
+Vraag 2 
+Vraag 3
+Vraag 4
+
+Belangrijke punten:
+
+Student 5:
+
+
+
+
+  
+  
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -339,15 +538,31 @@ met plugin prettier and beautiful kan je je code goed structeren.
   Nb. Vermeld de bronnen ook in je code.
 
   1. bron 1
+  Img height and width 
+  -https://www.w3schools.com/howto/howto_css_image_responsive.asp
+
   2. bron 2
-  3. ...
+
+  Buttons
+  -https://www.w3schools.com/TAGs/tryit.asp?filename=tryhtml_button_css
+
+  -https://www.w3schools.com/TAGs/tryit.asp?filename=tryhtml_button3
+
+  3. bron 3 
+  voor iconen navbar 
+  
+  -link icons https://www.youtube.com/watch?v=ihTB-aZ-Msk,
+  -https://www.w3schools.com/html/html_layout.asp
+  -https://cdnjs.com/libraries/font-awesome
+  -https://fontawesome.com/icons/classic/solid/bag-shopping
+  -https://www.youtube.com/watch?v=E2Er0ntd1yU-->
+  -https://fontawesome.com/start/confirm
+
+    4. bron 4
+   -https://css-tricks.com/almanac/properties/b/backdrop-filter/
+   -https://www.w3schools.com/css/css_z-index.asp
+
+    5. bron 5
 
 
- 4.voor iconen navbar 
- <!--link icons https://www.youtube.com/watch?v=ihTB-aZ-Msk,
-         https://www.w3schools.com/html/html_layout.asp
-         https://cdnjs.com/libraries/font-awesome
-         https://fontawesome.com/icons/classic/solid/bag-shopping
-         https://www.youtube.com/watch?v=E2Er0ntd1yU-->
-         https://fontawesome.com/start/confirm
 </details>
