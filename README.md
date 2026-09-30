@@ -316,6 +316,12 @@ Eentje waar je de lessen kan zien waar CSS wordt gebruikt en gekoppeld aan mijn 
 
    Terminal: git pull --rebase origin main
    Chatgt link:https://chatgpt.com/share/6abd2312-9934-83ed-94fb-d5841cb7741b
+  
+   Ik heb geleerd hoe ik mijn website nog steeds responisve kan houden door max-width:100% te gebruiken. Een mede student legt dit uit dat het handig is om naar de waardes te kijken van de website die je wil maken>=.
+
+   Eerst was het zo 
+
+   nu is het zo:
 
 
 
@@ -347,13 +353,14 @@ Eentje waar je de lessen kan zien waar CSS wordt gebruikt en gekoppeld aan mijn 
     Vraag 1: Hoe kan ik controle hebben over een button ookal zit hij in een display:grid? 
      En hoe kan ik hem nog in het midden zetten ookal gaat hij naar links. 
    <img src="readme-images/CSS-grid.png" alt="screenshot-CSS">
-
+   Selected van grid lines:https://css-tricks.com/complete-guide-css-grid-layout/
     
 
     Vraag 2:
     Bij het maken van een responsive design is 328px de mobile scherm breedte? Ik heb
     op mijn 12 pro max getest en de breedte is daar 500px?
    <img src="readme-images/navbar-niet-midden.png/" alt="screenshot-schermbreedte-12-pro-max">
+   Antwoord: Het gaat meer van kleine telefoon naar groot formaat dus schermgrootte is niet hier echt van belang.
 
 
     Vraag 3:
@@ -364,10 +371,12 @@ Eentje waar je de lessen kan zien waar CSS wordt gebruikt en gekoppeld aan mijn 
     Vraag 4:
     Hoe krijg je alles op 1 lijn bij de navbar? 
   <img src="readme-images/navbar-niet-midden.png/" alt="screenshot-navbar">
+  Antwoord:Selected van grid lines:https://css-tricks.com/complete-guide-css-grid-layout/
 
     Vraag 5:
     De logo heeft nu een navbar element, alleen weet ik niet of dat juist goed is. ik probeerde steeds de
     logo te selecteren anders dan een class te gebruiken. Heeft u tips hiervoor?
+
     code:
 
     <details>
@@ -395,13 +404,19 @@ Eentje waar je de lessen kan zien waar CSS wordt gebruikt en gekoppeld aan mijn 
 
         </nav>
 
+
+Antwoord: gebruik align-self of items of je items te centreren. 
+Selected van grid lines:https://css-tricks.com/complete-guide-css-grid-layout/
+
 Vraag 7:
 Bij sommige section overlappen ze met een andere code en bij andere niet. Toch gebruik ik dezelfde soort code.
  <img src="readme-images/overlappen-section.png" alt="screenshot-overlappen-section">
+ Antwoord:Je kan dan het beste je elementen CSS resetten (p margin:0)
 
 Vraag 8:
 Hoe creer je meer ruimte bij de grid? 
 gebruik je dan padding en margin?
+Antwoord:Padding
 
 Mijn versie
  <img src="readme-images/ruimte-grid.png" alt="screenshot-zonder-veel-ruimte">
@@ -410,18 +425,46 @@ Orginele versie
  <img src="readme-images/orginele-versie.png" alt="screenshot-met-ruimte">
 
 
-Vraag 8:
+Vraag 9:
 Bij foto's kan het beste rem of pixels gebruiken om hem responsive te maken? 
-
-
-
-Student 2: Jegor
-Vraag 1 
-Vraag 2 
-Vraag 3
-Vraag 4
+Antwoord:Rem
 
 Belangrijke punten:
+-Flex box carusel
+-Html fixen 
+-CSS bij elkaar zetten. Als je van veel dezelfde hebt.
+
+-Section bij elkaar zetten, dus een section moet wel een h1 hebben, om een section te hebben. De p kan ook bij elkaar. 
+Css tricks with grid 
+-Selected van grid lines:https://css-tricks.com/complete-guide-css-grid-layout/
+-Reset: margin 0,En op alle andere code
+-Voor align-self is voor grid 
+-Align-items is voor flex
+
+-De afbeeldingen zijn anders omdat ze verschillende formaten hebben. In principe gebruik ik carasoul 
+
+-Ik zag dat hij tijdens het gesprek ook ging kijken naar de 
+labels van de code waarmee hij makkelijk en snel kon zien wat waar staat en de precieze afmetingen.
+ <img src="readme-images/label-code.png" alt="screenshot-label-code">
+
+
+feedback:
+-fixen van je html en dan verder gaan met je CSS
+
+
+Student 2:Chennye
+Vraag 1 
+Mijn vragen : 
+"Hoe zorg ik dat mijn hamburger menu op de voorgrond blijft"
+
+Vraag 2 
+"Hoe zet ik mijn list items naast elkaar ipv 2 per grid?"
+
+Vraag 3
+"Hoe maak ik de vormgeving links kleiner want buiten de section gebeurd dat wel"
+
+Vraag 4
+En afbeeldingen van de website kan je opzoeken via inspecteer element (safari) en dan bronnen aanklikken. En daarna zie je tabjes waarin je afbeeldingen kan aanklikken.
 
 Student 3:Sanna
 Vraag 1 
@@ -429,18 +472,39 @@ Vraag 2
 Vraag 3
 Vraag 4
 
-Belangrijke punten:
+
+na gesprek:
+Ik heb gelijk na de feedback gesprek mijn website nagelopen en html veranderd door elementen die bij elkaar horen bij elkaar gedaan en ook gelijk het in CSS verwerkt met de juiste benaming. 
+- daarbij zag ik dat ik toch soms ruimte tussen bepaalde elementen had doordat ik een padding had en merkte dat je website resetten echt heeft geholpen.
+-buttons heb ik kleiner kunnen maken en in het midden gezet 
+
+voor:
+ <img src="readme-images/ruimte-grid-.png" alt="screenshot-ruimte-tussen-pagina's">
+
+na:
+ <img src="readme-images/ruimte-na-code.png" alt="screenshot-geen-ruimte-tussen-pagina's">
 
 
-Student 4:Chennye
-Vraag 1 
-Vraag 2 
-Vraag 3
-Vraag 4
+-Align-self en justify-self hebben ook goed geholpen om de button in het midden de krijgen.:https://css-tricks.com/complete-guide-css-grid-layout/ 
 
-Belangrijke punten:
+dit is hoe de website er nu uit ziet:
+ <img src="readme-images/versie7header.png" alt="screenshot-header">
+<img src="readme-images/versie6body.png" alt="screenshot-section1">
+<img src="readme-images/versie4body.png" alt="screenshot-section2">
+<img src="readme-images/versie3body.png" alt="screenshot-section3">
+<img src="readme-images/versie4body.png" alt="screenshot-section5">
+<img src="readme-images/versie1-footer.png" alt="screenshot-footer ">
 
-Student 5:
+verder wil in nog 
+-fonts toevoegen
+-carusel maken voor de eerste pagina
+-CSS ook aanpassen op mijn tweede pagina
+-bronnen bijhouden
+-werken aan hamburger menu
+
+Wat ik nog wel zie waar ik later nog vragen voor heb
+
+
 
 
 

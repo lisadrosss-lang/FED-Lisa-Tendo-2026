@@ -1,316 +1,341 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
+   p {
+  margin: 0;
+}
 
-
-
-
+/* IMAGES */
+img {
+  max-width: 100%;
+   height: auto;
+  
+}
+/* IMAGES STYLING */
+section:nth-of-type(6) img{
+padding:2.5rem;
+}
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
   /* startje */
-  --color-text:#111;
-  --color-background:#eee;
+  --color-text: #111;
+  --color-background: #eee;
 }
 
 
 
-body{
-  margin:0;
+body, main, section {
+  margin: 0;
 }
 
 /****************/
 /* JOUW STYLING */
 
+/* NAVAGIATION */
 
 header {
-	display: flex;
-	justify-content: space-between;
-	padding:1em;
-	background-color: lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: white;
   position: sticky;
-  top:0;
+  top: 0;
+
+}
+
+nav details>ul {
+  list-style: none;
+}
+
+nav details>ul>li {
+  background-color: red;
+}
+
+nav details>ul>li>a {
+  text-decoration: none;
+}
+
+header nav:nth-of-type(2) {
+  background-color: pink;
+}
+
+header nav:nth-of-type(2) ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav:nth-of-type(2) li {
+  background-color: blue;
+  min-width: 2rem;
+  flex-grow: 1;
+}
+
+
+header nav:nth-of-type(2) a {
+  background-color: yellow;
+  gap: 3rem;
+  line-height: 1.5rem;
+}
+
+.logoclaire {
+  height: 1.5rem;
+
+}
+
+/* button first  */
+.button {
+  background-color: white;
+  border: 0.1rem solid black;
+  font-size: 1rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin:4rem;
+  width:10rem;
+  
   
 }
 
- nav details > ul  {
- list-style: none;
-}
 
- nav details > ul> li  {
- background-color: red;
-}
-
- nav details > ul> li > a  {
- text-decoration: none;
-}
-
-header nav:nth-of-type(2)  {
- background-color: pink;
-}
-
-header nav:nth-of-type(2) ul  {
-list-style: none;
- display: flex;
-}
-
-header nav:nth-of-type(2) li  {
-background-color: blue;
-  min-width:2rem;
-	flex-grow:1;
-}
-
-
-header nav:nth-of-type(2) a  {
-background-color: yellow;
-gap:3rem;
-line-height: 1.5rem;
-}
-
-
-.logoclaire{
-  height:1.5rem;
-	
-}
-
-main img:nth-of-type(1){
-  max-width: 450px;
+/* button second   */
+.button1 {
+  background-color: #d1f6cf;
+  border: 0.1rem solid black;
+  font-size: 1rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin:4rem;
+  width:10rem;
 
 }
 
 
-main img:nth-of-type(2){
-  max-width: 450px;
-   height: auto;
+/* button third   */
+.button2 {
+  background-color: lightyellow;
+  border: 0.1rem solid black;
+  font-size: 1rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin:2rem;
+  width:10rem;
+
 }
+
+.button4 {
+  background-color: white;
+  border: 0.1rem solid black;
+  font-size: 1rem;
+  border-radius: 2rem;
+  padding:1rem;
+  margin:4rem;
+  width:10rem;
+}
+
+
+
+
+
+/* SECTION 1 without picture */
+main section:nth-of-type(1) {
+  background-color: lightyellow;
+  max-width: 100%;
+  display: grid;
+  grid-auto-columns: auto;
+  place-content: center;
+  padding: 2rem;
  
-main img:nth-of-type(3){
-  max-width:450px;
-   height: auto;
 }
- 
-main img:nth-of-type(4){
-  max-width:450px;
-   height: auto;
-}
- 
- main section:nth-of-type(1) {
-  background-color:lightyellow;
-  max-width: 500px;
-   display:grid;
-    grid-auto-columns:auto; 
-     place-content:center;
-     padding:1rem;
- 
- }
 
+section button:nth-of-type(1)  {
+   justify-self:center;
+
+}
+
+ /* SECTION 1 without picture  */
 main section:nth-of-type(1) h1 {
-  font-size:2rem;
-  
-
-  
+  font-size: 2rem;
+  padding:3rem;
 }
 
-main section:nth-of-type(1) p {
-  font-size:1rem;
+
+/* SECTION 2 with picture one + heading */
+main section:nth-of-type(2),
+h2 {
+  background-color: lightyellow;
+  max-width: 100%;
+  display: grid;
+  grid-auto-columns: auto;
+  place-content: center;
+
+
+}
+
+/* SECTION 2 with picture one + p */
+main section:nth-of-type(2) p {
+  font-size: 1rem;
+  padding: 1rem;
+  max-width: 100%;
+  background-color: lightpink;
+
+}
+
+/* SECTION 3 + heading */
+main section:nth-of-type(3),
+h2,h4 {
+  background-color: #F0E0F0;
+  max-width: 100%;
+  display: grid;
+  grid-auto-columns: auto;
+  place-content: center;
+
+}
+
+/* SECTION 4 + p */
+main section:nth-of-type(4)
+p {
+ top:2rem;
+ padding:1.5rem;
+ background-color:#d1f6cf;
+ 
+}
+
+
+/* SECTION 5 + heading */
+main section:nth-of-type(5),
+h3 {
+  background-color: lightyellow;
+  max-width: 100%;
+  display: grid;
+  grid-auto-columns: auto;
+  place-content: center;
   padding: 1rem;
 
- }
-
-
- .button {
- background-color: white;
- border:0.1rem solid black;
- font-size: 1rem;
- border-radius:2rem;
- padding:0.5rem;
- 
-
- 
-
-
 }
-
-
-.button1 {
- background-color: #d1f6cf;
- border:0.1rem solid black;
- font-size: 1rem;
- border-radius:2rem;
- padding:0.5rem;
- 
-}
-
-main section:nth-of-type(2),h2 {
+/* SECTION 5 + p */
+main section:nth-of-type(5) p {
+  font-size: 1rem;
+  padding: 0.5rem;
+  max-width: 100%;
   background-color:lightyellow;
-  max-width: 500px;
-   display:grid;
-    grid-auto-columns:auto; 
-     place-content:center;
-     padding:1rem;
- 
- }
+
+}
+
+/* SECTION 6 */
+main section:nth-of-type(6),
+h3 {
+  background-color: lightyellow;
+  max-width: 100%;
+  display: grid;
+  grid-auto-columns: auto;
+  place-content: center;
+  font-size: 1.5rem;
+}
+
+main section:nth-of-type(6) p {
+  background-color:#E4C5E4;
+  max-width: 100%;
+  display: grid;
+  grid-auto-columns: auto;
+  place-content: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
 
 
-main section:nth-of-type(3) p {
-  font-size:1rem;
+/* SECTION 7 + heading  */
+main section:nth-of-type(7),
+h2 {
+  background-color: #F0E0F0;
+  max-width: 100%;
+  display: grid;
+  grid-auto-columns: auto;
+  place-content: center;
+  padding: 1rem;
+
+}
+
+/* SECTION 7 + p */
+main section:nth-of-type(7) p {
+  font-size: 1rem;
+  padding: 2.5rem;
+  max-width: 100%;
+
+
+}
+
+
+/* SECTION 8 + p */
+main section:nth-of-type(8) {
+  max-width: 100%;
+  display: grid;
+  grid-auto-columns: auto;
+  place-content: center;
+
+
+}
+
+/* SECTION 8   */
+
+main section:nth-of-type(8) p {
+  font-size: 1rem;
+  padding: 0.5rem;
+  max-width: 100%;
   padding:1rem;
-  max-width: 500px;
-  background-color:lightpink;
-
- }
-
-  
- main section:nth-of-type(4),h2 {
-  background-color:#F0E0F0;
-  max-width:500px;
-   display:grid;
-    grid-auto-columns:auto; 
-     place-content:center;
- 
- }
-
-
-main section:nth-of-type(5),h3 {
-  background-color:lightyellow;
-  max-width:500px;
-   display:grid;
-    grid-auto-columns:auto; 
-     place-content:center;
-     padding:1rem;
- 
- }
-
-  main section:nth-of-type(5) p {
-  font-size:1rem;
-  padding:0.5rem;
-  max-width: 500px;
   background-color: #d1f6cf;
 
- }
 
- main section:nth-of-type(6),h3 {
-  background-color:lightyellow;
-  max-width:500px;
-   display:grid;
-    grid-auto-columns:auto; 
-     place-content:center;
-    
-    font-size: 1.5rem;
- }
-
-  main section:nth-of-type(6) p {
-  background-color:lightyellow;
-  max-width:500px;
-   display:grid;
-    grid-auto-columns:auto; 
-     place-content:center;
-    padding:1rem;
-    font-size:1rem;
- }
-
-
-
-
-
- .button2{
- background-color: lightyellow;
- border:0.1rem solid black;
- font-size: 1rem;
- border-radius:2rem;
- padding:0.5rem;
- 
 }
 
- 
- 
-main section:nth-of-type(7) p {
-  font-size:1rem;
-  padding:0.5rem;
-  max-width:500px;
-  background-color:#E4C5E4;
- 
- }
+/* FOOTER */
 
-  main section:nth-of-type(8),h2 {
-  background-color:#F0E0F0;
-  max-width:500px;
-   display:grid;
-    grid-auto-columns:auto; 
-     place-content:center;
-         padding:1rem;
-
- 
- }
-
-  main section:nth-of-type(8)p {
-  background-color:#F0E0F0;
-  max-width: 500px;
-   display:grid;
-    grid-auto-columns:auto; 
-     place-content:center;
-         padding:1rem;
-
- 
- }
-
- main section:nth-of-type(9) p {
-  font-size:1rem;
-  padding:0.5rem;
-  max-width: 500px;
-  background-color:#d1f6cf;
-
-
- }
-
- footer   {
-  background-color:#F0E0F0;
+footer {
+  background-color: #F0E0F0;
   list-style: none;
- }
+}
 
 
-  footer > details   {
-  padding:2rem;
- }
+footer>details {
+  padding: 1rem;
+}
 
 
-  footer > ul   {
+footer>ul {
   list-style: none;
-  line-height:1.9rem;
- }
+  line-height: 1.9rem;
+}
 
-   footer > h4  {
-   font-size: 2rem;
-    padding:2rem;
- }
+footer>h4 {
+  font-size: 2rem;
+  padding: 2rem;
+}
 
- footer > h5  {
-   padding: 2rem;
-   color:purple;
-   
- }
+footer>h5 {
+  padding: 2rem;
+  color: purple;
 
-
- 
-
- 
-
-
- 
- 
-
- 
+}
 
 
 
 
-/* NAVIGATION */
+
+
+
+
+
+
+
+
 
 
 
