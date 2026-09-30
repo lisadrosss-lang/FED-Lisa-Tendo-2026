@@ -321,6 +321,7 @@ Eentje waar je de lessen kan zien waar CSS wordt gebruikt en gekoppeld aan mijn 
 
    Eerst was het zo 
 
+
    nu is het zo:
 
 
@@ -502,7 +503,13 @@ verder wil in nog
 -bronnen bijhouden
 -werken aan hamburger menu
 
+opdrachten nog maken:
+-hamburger
+-carusel
+-states ( komt later)
+
 Wat ik nog wel zie waar ik later nog vragen voor heb
+
 
 
 
