@@ -312,6 +312,12 @@ Eentje waar je de lessen kan zien waar CSS wordt gebruikt en gekoppeld aan mijn 
     <img src="/readme-images/download-pic-3.png"  alt= "step 3-instruction-how-to-download-image-from-website">
     Je kan hem ook erin slepen in je visual code en dan zou er te voorschijn moeten komen. 
 
+    Je moet goed kijken naar welke account je commit als je via visual code je code commit. Ik heb twee accounts en die raakte in de war per ongeluk,waardoor er twee path's werden gemaakt. wel met behulp van chatGTP heb ik ze weer bij ekaar kunnen krijgen en alles commit kunnen krijgen.
+
+   Terminal: git pull --rebase origin main
+   Chatgt link:https://chatgpt.com/share/6abd2312-9934-83ed-94fb-d5841cb7741b
+
+
 
 
  FIGMA link:
