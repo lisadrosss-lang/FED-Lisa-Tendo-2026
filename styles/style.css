@@ -13,7 +13,7 @@
 
 /* IMAGES */
 img {
-  max-width: 100%;
+   max-width: 100%;
    height: auto;
   
 }
@@ -142,6 +142,12 @@ header nav:nth-of-type(2) a {
 }
 
 
+.titan-one-regular {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 
 
@@ -160,11 +166,17 @@ section button:nth-of-type(1)  {
    justify-self:center;
 
 }
+  /*https://chatgpt.com/c/6ad11093-27e4-83ed-9be9-bd3b90983083*/
 
  /* SECTION 1 without picture  */
 main section:nth-of-type(1) h1 {
   font-size: 2rem;
   padding:3rem;
+  font-family: "Titan One",serif;
+  -webkit-text-stroke: 2rem black;
+  paint-order: stroke fill;
+  font-size: 3rem;
+  color:white;
 }
 
 
@@ -174,6 +186,7 @@ h2 {
   background-color: lightyellow;
   max-width: 100%;
   display: grid;
+  font-family: sans-serif;
   grid-auto-columns: auto;
   place-content: center;
 
@@ -301,8 +314,10 @@ main section:nth-of-type(8) p {
 footer {
   background-color: #F0E0F0;
   list-style: none;
+  font-family: sans-serif;
+  font-weight: 600;
+ 
 }
-
 
 footer>details {
   padding: 1rem;
@@ -322,8 +337,15 @@ footer>h4 {
 footer>h5 {
   padding: 2rem;
   color: purple;
-
 }
+
+  footer,a {
+     text-decoration: none;
+}
+
+  footer,a:link {
+    color:black;
+  }
 
 
 

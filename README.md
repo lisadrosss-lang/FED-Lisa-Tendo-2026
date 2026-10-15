@@ -529,6 +529,8 @@ Wat ik nog wel zie waar ik later nog vragen voor heb
 
 </details>
 
+ik heb geleerd dat het checken van je code via https://codeshack.io/html-validator/ deze site echt handig is!!
+
 
 
 
