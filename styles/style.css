@@ -464,10 +464,18 @@ main section:nth-of-type(8) p {
 footer,h3  {
   background-color: #EEE2FF;
   list-style: none;
+
 }
 
-footer>details {
-  padding: 1rem;
+footer>h3 {
+  margin-top: 0rem;
+   margin-bottom: 0rem;
+  padding: 2rem;
+  border-style: solid;
+  text-transform: uppercase;
+  font-size:30rem;
+  font-weight: 900;
+  letter-spacing:0.11rem;
 }
 
 
@@ -484,16 +492,16 @@ footer ul:nth-of-type(1) li{
   margin:0.4rem;
   background-color:#CDAEFF;
   border-radius:50%;
-  width:5rem;
+  width:4.9rem;
   height:5rem;
-  padding: 1.6rem;
+  padding: 1.3rem;
+  
 
 }
 
-footer ul:nth-of-type(1)a {
-  margin:1rem;
 
-}
+
+
 
 
 footer ul:nth-of-type(2) {
@@ -506,39 +514,52 @@ footer ul:nth-of-type(2) {
 
 footer>h2 {
   font-size:1rem;
-  
+font-family: "Manrope";
+border-style:solid;
+border-width:7px;
+border-color:black;
+margin:0.5rem;
 }
 
 footer >label {
   display: flex;
   justify-self: center;
-  margin:1rem;
-  height:4rem;
+  margin:0rem;
+  height:4.5rem;
+  
 }
 
-footer label input{
+footer >label> input{
   padding:1rem;
-    border-radius:2rem;
-      width:25rem;
+    border-radius:3rem;
+      width:28rem;
+      border-style: black;
       
 
 
 }
  footer> label> button {
   padding:1rem;
-   border-radius:2rem;
-  height:4rem;
+   border-radius:3rem;
+  height:4.5rem;
   width: 4.7rem;
   position: absolute;
-  left:24rem;
+  left:24.8rem;
   background-color:#C7A9FF;
+  border-style: none;
  }
+
+
+ footer> label>input {
+  font-size: 1.1em;
+ }
+
+
 
 footer>h3 {
   display:flex;
   justify-content: flex-start;
   font-size: 1.5rem;
-  padding: 2rem;
   font-family: "Manrope";
   font-weight:900;
 }
