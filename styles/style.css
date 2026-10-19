@@ -471,12 +471,68 @@ footer>details {
 }
 
 
-footer>ul {
+footer ul:nth-of-type(1) {
+display:flex;
+justify-content:start;
+list-style: none;
+border-style:solid;
+padding:1rem;
+
+}
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_circles*/
+footer ul:nth-of-type(1) li{
+  margin:0.4rem;
+  background-color:#CDAEFF;
+  border-radius:50%;
+  width:5rem;
+  height:5rem;
+  padding: 1.6rem;
+
+}
+
+footer ul:nth-of-type(1)a {
+  margin:1rem;
+
+}
+
+
+footer ul:nth-of-type(2) {
   list-style: none;
   line-height: 1.9rem;
   font-family: sans-serif;
   font-weight: 600;
+   
 }
+
+footer>h2 {
+  font-size:1rem;
+  
+}
+
+footer >label {
+  display: flex;
+  justify-self: center;
+  margin:1rem;
+  height:4rem;
+}
+
+footer label input{
+  padding:1rem;
+    border-radius:2rem;
+      width:25rem;
+      
+
+
+}
+ footer> label> button {
+  padding:1rem;
+   border-radius:2rem;
+  height:4rem;
+  width: 4.7rem;
+  position: absolute;
+  left:24rem;
+  background-color:#C7A9FF;
+ }
 
 footer>h3 {
   display:flex;
