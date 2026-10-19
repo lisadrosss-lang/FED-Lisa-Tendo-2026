@@ -7,9 +7,16 @@
   box-sizing: border-box;
 }
 
+
+
    p {
   margin: 0;
 }
+
+/* IMAGES STYLING */
+
+
+
 
 /* IMAGES */
 img {
@@ -48,7 +55,7 @@ header {
   align-items: center;
   padding: 1em;
   background-color: white;
-  position: sticky;
+  position:sticky;
   top: 0;
 
 }
@@ -87,35 +94,51 @@ header nav:nth-of-type(2) a {
   line-height: 1.5rem;
 }
 
-.logoclaire {
+.logoclaire{
   height: 1.5rem;
 
 }
 
 /* button first  */
 .button {
-  background-color: white;
+  background-color:#FFFAEB;
   border: 0.1rem solid black;
   font-size: 1rem;
-  border-radius: 2rem;
-  padding: 1rem;
-  margin:4rem;
-  width:10rem;
-  
+  border-radius: 3rem;
+  padding: 0.9rem;
+  margin:3rem;
+  width:14rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
+  font-style: normal;
+    letter-spacing: 0.019rem;
+
   
 }
 
 
 /* button second   */
 .button1 {
-  background-color: #d1f6cf;
+  background-color: #D0F7E4;
   border: 0.1rem solid black;
   font-size: 1rem;
   border-radius: 2rem;
   padding: 1rem;
-  margin:4rem;
-  width:10rem;
-
+  margin:3rem;
+  width:13rem;
+  position: relative;
+  bottom:13rem;
+  align-self: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
+  letter-spacing: 0.019rem;
+  font-style: normal;
 }
 
 
@@ -127,43 +150,60 @@ header nav:nth-of-type(2) a {
   border-radius: 2rem;
   padding: 1rem;
   margin:2rem;
-  width:10rem;
+  width:9rem;
+    text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
+  font-style: normal;
+    letter-spacing: 0.04rem;
+
 
 }
 
 .button4 {
-  background-color: white;
+  background-color:#FFFAEB;
   border: 0.1rem solid black;
   font-size: 1rem;
   border-radius: 2rem;
   padding:1rem;
   margin:4rem;
-  width:10rem;
-}
-
-
-.titan-one-regular {
-  font-family: "Titan One", sans-serif;
-  font-weight: 400;
+  width:12rem;
+     text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
   font-style: normal;
+    letter-spacing: 0.04rem;
 }
+
+
+
 
 
 
 
 /* SECTION 1 without picture */
 main section:nth-of-type(1) {
-  background-color: lightyellow;
+  background-color:#FFE6E5 ;
   max-width: 100%;
   display: grid;
   grid-auto-columns: auto;
   place-content: center;
-  padding: 2rem;
- 
+  padding: 1.5rem;
+    font-size: 1rem;
+  border-style:solid;
+  border-width:7px;
+  border-color:red;
+
+
 }
 
+ /* SECTION 1 button  */
 section button:nth-of-type(1)  {
-   justify-self:center;
+  justify-self:center;
 
 }
   /*https://chatgpt.com/c/6ad11093-27e4-83ed-9be9-bd3b90983083*/
@@ -171,25 +211,38 @@ section button:nth-of-type(1)  {
  /* SECTION 1 without picture  */
 main section:nth-of-type(1) h1 {
   font-size: 2rem;
-  padding:3rem;
+  padding:1.4rem;
   font-family: "Titan One",serif;
-  -webkit-text-stroke: 2rem black;
+  -webkit-text-stroke: 1.3rem black;
   paint-order: stroke fill;
   font-size: 3rem;
   color:white;
+  border-style:solid;
+  border-width:7px;
+  border-color:red;
 }
 
+ /* SECTION 1 + p */
+main section:nth-of-type(1) p {
+font-size:1.6rem;
+font-family: "Manrope";
+border-style:solid;
+border-width:7px;
+border-color:black;
+
+}
 
 /* SECTION 2 with picture one + heading */
 main section:nth-of-type(2),
 h2 {
-  background-color: lightyellow;
   max-width: 100%;
   display: grid;
-  font-family: sans-serif;
+  font-family:sans-serif;
   grid-auto-columns: auto;
   place-content: center;
-
+ border-style:solid;
+  border-width:7px;
+  border-color:green;
 
 }
 
@@ -198,19 +251,55 @@ main section:nth-of-type(2) p {
   font-size: 1rem;
   padding: 1rem;
   max-width: 100%;
-  background-color: lightpink;
+  background-color:#FFFAEB;
+  font-size: 0.9rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
+  font-style: normal;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
 
 }
 
 /* SECTION 3 + heading */
-main section:nth-of-type(3),
-h2,h4 {
-  background-color: #F0E0F0;
+main section:nth-of-type(3),h2,
+p{
   max-width: 100%;
   display: grid;
-  grid-auto-columns: auto;
   place-content: center;
+  grid-auto-columns: auto;
+  border-style:solid;
+  border-width:7px;
+  border-color:blue;
+}
 
+/* SECTION 3 h2*/
+main section:nth-of-type(3) h2{
+  position: absolute;
+  top:55em;
+  left:1rem;
+  right:1rem;
+  font-family: "Playfair Display", serif;
+    font-size:1.5rem;
+    background-color: #EDE1FF;
+    
+}
+/* SECTION 3 h4*/
+main section:nth-of-type(3) p{
+  position: absolute;
+  top:90em;
+  left:3rem;
+   right:3rem;
+  font-family: "Manrope";
+  font-size: 1rem;
+}
+
+/* SECTION 3 button*/
+main section:nth-of-type(3) button{
+  position: absolute;
+  top:100em;
+  left:6rem;
 }
 
 /* SECTION 4 + p */
@@ -218,15 +307,23 @@ main section:nth-of-type(4)
 p {
  top:2rem;
  padding:1.5rem;
- background-color:#d1f6cf;
+ background-color:#D0F7E4;
+   text-transform: uppercase;
+  font-size: 0.9rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
+  font-style: normal;
+    letter-spacing: 0.05rem;
+
  
 }
 
 
 /* SECTION 5 + heading */
 main section:nth-of-type(5),
-h3 {
-  background-color: lightyellow;
+h3, h4 {
+  background-color: #FFFAEB;
   max-width: 100%;
   display: grid;
   grid-auto-columns: auto;
@@ -234,19 +331,49 @@ h3 {
   padding: 1rem;
 
 }
+
+main section:nth-of-type(5)
+h3 {
+ font-family: "Titan One",serif;
+  -webkit-text-stroke: 1.3rem #381033;
+  paint-order: stroke fill;
+  font-size: 3rem;
+  color:#CDAEFF;
+  background-color:#FFFAEB;
+  margin-bottom:0;
+
+}
+
+/*at claire*/
+main section:nth-of-type(5)
+h4 {
+ font-size: 2.5rem; 
+ margin-top:0;
+ padding:0;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  color:#381033;
+}
+
+
+
+
 /* SECTION 5 + p */
 main section:nth-of-type(5) p {
-  font-size: 1rem;
   padding: 0.5rem;
   max-width: 100%;
-  background-color:lightyellow;
+  background-color: #FFFAEB;
+   font-family: "Manrope";
+  font-size:1.2rem;
+  font-weight:600;
 
 }
 
 /* SECTION 6 */
 main section:nth-of-type(6),
 h3 {
-  background-color: lightyellow;
+  background-color:  #FFFAEB;
   max-width: 100%;
   display: grid;
   grid-auto-columns: auto;
@@ -255,34 +382,55 @@ h3 {
 }
 
 main section:nth-of-type(6) p {
-  background-color:#E4C5E4;
+  background-color:#CDAEFF;
   max-width: 100%;
   display: grid;
   grid-auto-columns: auto;
   place-content: center;
   padding: 1rem;
-  font-size: 1rem;
+     text-transform: uppercase;
+  font-size: 0.9rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
+  font-style: normal;
+    letter-spacing: 0.05rem;
+
 }
 
 
 /* SECTION 7 + heading  */
-main section:nth-of-type(7),
-h2 {
-  background-color: #F0E0F0;
+main section:nth-of-type(7), h2  {
+  background-color:#EDE2FF;
   max-width: 100%;
   display: grid;
   grid-auto-columns: auto;
   place-content: center;
   padding: 1rem;
-
 }
+
+main section:nth-of-type(7) h2  {
+   font-family: "Playfair Display", serif;
+    font-size:2.9rem;
+    margin:3rem;
+   padding: 1rem;
+}
+
+
+
 
 /* SECTION 7 + p */
 main section:nth-of-type(7) p {
   font-size: 1rem;
-  padding: 2.5rem;
+  padding: 1rem;
   max-width: 100%;
-
+margin-left:3rem;
+margin-right:3rem;
+font-family: "Manrope";
+  font-size: 1.1rem;
+  font-weight:700;
+  line-height: 2rem;
+  letter-spacing:0.01rem;
 
 }
 
@@ -300,23 +448,22 @@ main section:nth-of-type(8) {
 /* SECTION 8   */
 
 main section:nth-of-type(8) p {
-  font-size: 1rem;
   padding: 0.5rem;
   max-width: 100%;
   padding:1rem;
-  background-color: #d1f6cf;
+  background-color:#D0F7E4;
+   font-family: "Manrope";
+  font-size:1.2rem;
+  font-weight:600;
 
 
 }
 
 /* FOOTER */
 
-footer {
-  background-color: #F0E0F0;
+footer,h3  {
+  background-color: #EEE2FF;
   list-style: none;
-  font-family: sans-serif;
-  font-weight: 600;
- 
 }
 
 footer>details {
@@ -327,16 +474,25 @@ footer>details {
 footer>ul {
   list-style: none;
   line-height: 1.9rem;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+footer>h3 {
+  display:flex;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  padding: 2rem;
+  font-family: "Manrope";
+  font-weight:900;
 }
 
 footer>h4 {
-  font-size: 2rem;
-  padding: 2rem;
-}
-
-footer>h5 {
-  padding: 2rem;
-  color: purple;
+  padding: 1.5rem;
+  font-size:0.8rem;
+  color:#512C91;
+  font-family: "Manrope";
+background-color:#EEE2FF;
 }
 
   footer,a {
