@@ -129,8 +129,6 @@ header nav:nth-of-type(2) a {
   padding: 1rem;
   margin:3rem;
   width:13rem;
-  position: relative;
-  bottom:13rem;
   align-self: center;
   text-transform: uppercase;
   font-size: 1rem;
@@ -149,7 +147,8 @@ header nav:nth-of-type(2) a {
   font-size: 1rem;
   border-radius: 2rem;
   padding: 1rem;
-  margin:2rem;
+  margin-top:2rem;
+  margin-bottom:0;
   width:9rem;
     text-transform: uppercase;
   font-size: 1rem;
@@ -210,12 +209,11 @@ section button:nth-of-type(1)  {
 
  /* SECTION 1 without picture  */
 main section:nth-of-type(1) h1 {
-  font-size: 2rem;
-  padding:1.4rem;
+  padding:0.8rem;
   font-family: "Titan One",serif;
   -webkit-text-stroke: 1.3rem black;
   paint-order: stroke fill;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color:white;
   border-style:solid;
   border-width:7px;
@@ -224,7 +222,7 @@ main section:nth-of-type(1) h1 {
 
  /* SECTION 1 + p */
 main section:nth-of-type(1) p {
-font-size:1.6rem;
+font-size:1.3rem;
 font-family: "Manrope";
 border-style:solid;
 border-width:7px;
@@ -277,20 +275,20 @@ p{
 /* SECTION 3 h2*/
 main section:nth-of-type(3) h2{
   position: absolute;
-  top:55em;
+  top:23.5em;
   left:1rem;
   right:1rem;
   font-family: "Playfair Display", serif;
-    font-size:1.5rem;
+    font-size:3rem;
     background-color: #EDE1FF;
     
 }
 /* SECTION 3 h4*/
 main section:nth-of-type(3) p{
   position: absolute;
-  top:90em;
-  left:3rem;
-   right:3rem;
+  top:84em;
+  margin-left:3rem;
+   margin-right:3rem;
   font-family: "Manrope";
   font-size: 1rem;
 }
@@ -298,8 +296,8 @@ main section:nth-of-type(3) p{
 /* SECTION 3 button*/
 main section:nth-of-type(3) button{
   position: absolute;
-  top:100em;
-  left:6rem;
+  top:86em;
+  left:2rem;
 }
 
 /* SECTION 4 + p */
@@ -354,6 +352,9 @@ h4 {
   font-optical-sizing: auto;
   font-weight: 800;
   color:#381033;
+    margin-bottom:1rem;
+  
+
 }
 
 
@@ -364,8 +365,8 @@ main section:nth-of-type(5) p {
   padding: 0.5rem;
   max-width: 100%;
   background-color: #FFFAEB;
-   font-family: "Manrope";
-  font-size:1.2rem;
+  font-family: "Manrope";
+  font-size: 1rem;
   font-weight:600;
 
 }
@@ -424,8 +425,8 @@ main section:nth-of-type(7) p {
   font-size: 1rem;
   padding: 1rem;
   max-width: 100%;
-margin-left:3rem;
-margin-right:3rem;
+margin-left:1rem;
+margin-right:1em;
 font-family: "Manrope";
   font-size: 1.1rem;
   font-weight:700;
