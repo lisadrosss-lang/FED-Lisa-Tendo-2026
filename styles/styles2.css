@@ -117,30 +117,67 @@ header nav:nth-of-type(2) a {
 
 
 
-/* button second   */
+/* button second, submit  */
 .button1 {
-  background-color: #d1f6cf;
-  border: 0.1rem solid black;
+  background-color: #EEE2FF;
+  border: 0.1rem solid grey;
   font-size: 1rem;
   border-radius: 2rem;
   padding: 1rem;
-  margin:4rem;
-  width:10rem;
+  margin:0rem;
+  width:8rem;
+  color:grey;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
+  letter-spacing: 0.019rem;
+  font-style: normal;
 
 }
 
 
 /* button third   */
 .button2 {
-  background-color: lightyellow;
+  background-color: white;
   border: 0.1rem solid black;
   font-size: 1rem;
   border-radius: 2rem;
   padding: 1rem;
   margin:2rem;
-  width:10rem;
+  width:13rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
+  letter-spacing: 0.019rem;
+  font-style: normal;
+  margin-top:0;
+  margin-left:1.5rem;
 
 }
+
+.button3 {
+  background-color: white;
+  border: 0.1rem solid black;
+  font-size: 1rem;
+  border-radius: 2rem;
+  padding:1rem;
+  margin:2rem;
+  width:9rem;
+   text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
+  letter-spacing: 0.019rem;
+  font-style: normal;
+  margin-top:1.3rem;
+  margin-left:1.5rem;
+}
+
 
 .button4 {
   background-color: white;
@@ -148,8 +185,18 @@ header nav:nth-of-type(2) a {
   font-size: 1rem;
   border-radius: 2rem;
   padding:1rem;
-  margin:4rem;
+  margin:1rem;
   width:10rem;
+   text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
+  letter-spacing: 0.019rem;
+  font-style: normal;
+  margin-top:1.3rem;
+  margin-left:1rem;
+  margin-bottom:2rem;
 }
 
 /*https://chatgpt.com/c/6ad75519-25cc-83eb-9fd1-77d17716712b8*/
@@ -192,18 +239,29 @@ position:relative;
 top:2rem;
 }
 
+  /* section 2*/
+
+/*don't miss out background*/
+main section:nth-of-type(2) {
+background-color: #EEE2FF;
+  
+}
+
+
+
 /*don't miss out*/
 main section:nth-of-type(2) h2{
 padding:1rem;
 font-family: "Manrope",sans-serif;
 font-size: 2.5rem;
+font-weight:500;
 display:flex;
 justify-content: center;
 border-style: solid;
 margin-bottom:1rem;
   
 }
-
+/*don't miss out +p*/
 main section:nth-of-type(2) h3{
 padding:1rem;
 font-family: "Manrope",sans-serif;
@@ -214,12 +272,13 @@ justify-content: center;
 margin-top:0rem;
 margin-left:1.5rem;
 margin-right:1.5rem;
+margin-bottom:0;
 border-style: solid;
 }
 
 main section:nth-of-type(2) label{
   display: flex;
-  margin:1rem;
+  margin:0.5rem;
   flex-direction: column;
 }
 
@@ -229,4 +288,398 @@ main section:nth-of-type(2) label,input{
   border-radius:0.5rem;
 
 }
+
+/*coming soon slide*/
+main section:nth-of-type(2) p{
+  background-color:#C7A9FF;
+  padding:1.4rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
+  letter-spacing: 0.2rem;
+  font-style: normal;
+  margin-bottom:2rem;
+
+}
+
+ /* section 3*/
+ main section:nth-of-type(3) h2{
+ margin:1rem;
+ padding:1rem; 
+ display:flex;
+ font-size: 2.8rem;
+ justify-content: flex-start;
+ }
+
+  /* section 3-h3*/
+main section:nth-of-type(3) h3{
+ margin:1rem;
+ padding:1rem;
+ display:flex;
+ justify-content: start;
+ font-size: 1.8rem;
+ font-family: "Manrope",sans-serif;
+ font-size: 1rem;
+ letter-spacing: 0.1rem;
+ font-weight: 500;
+ }
+
+ main section:nth-of-type(3) p{
+ margin:1rem;
+ padding:1rem;
+ display:flex;
+ justify-content: start;
+ font-size: 1.8rem;
+ font-family: "Manrope",sans-serif;
+ font-size: 1rem;
+ letter-spacing: 0.1rem;
+ font-weight: 500;
+ }
+
+   /* section 4*/
+  main section:nth-of-type(4) {
+  background-color:#D0F7E4;
+ }
+
+    main section:nth-of-type(4) h3 {
+  padding:2rem;
+  padding-bottom:0.8rem;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  border-style:solid;
+  text-transform: uppercase;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
+  letter-spacing: 0.019rem;
+  font-style: normal;
+ }
+
+   main section:nth-of-type(4) h4 {
+  font-size: 4rem;
+  padding:1rem;
+  padding-top:0;
+  margin-top:0;
+  margin-right:7rem;
+  margin-right:2rem;
+  border-style: solid;
+  
+ }
+
+
+ main section:nth-of-type(4) p {
+  margin:1rem;
+  padding:0.5rem;
+text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
+  letter-spacing: 0.019rem;
+  font-style: normal;
+
+ }
+
+    /* section 5*/
+ main section:nth-of-type(5)img {
+  background-color: #D0F7E4;
+ }
+
+ /* section 6 slide allergin */
+    main section:nth-of-type(6) p {
+      background-color:#D0F7E4;
+      padding:1.4rem;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight:800;
+      letter-spacing: 0.2rem;
+      font-style: normal;
+      margin-bottom:0rem;
+    }
+
+ /* section 7*/
+     main section:nth-of-type(7) h3 {
+  padding:1rem;
+  padding-bottom:0.8rem;
+  font-size:2em;
+  margin-top:0;
+  margin-bottom: 0;
+  border-style:solid;
+  text-transform: uppercase;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
+  letter-spacing: 0.019rem;
+  font-style: normal;
+ }
+
+   main section:nth-of-type(7) h4 {
+  font-size: 1rem;
+  padding:1rem;
+  padding-top:0;
+  margin-top:0;
+  margin-right:2rem;
+  border-style: solid;
+    font-size: 1.8rem;
+ font-family: "Manrope",sans-serif;
+ font-size: 1rem;
+ line-height: 1.5rem;
+ font-weight: 500;
+  
+ }
+ main section:nth-of-type(7) p {
+  margin:1rem;
+  padding:0.5rem;
+  font-size: 1.3rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:500;
+  letter-spacing: 0.019rem;
+  font-style: normal;
+
+ }
+
+ main section:nth-of-type(7)  {
+  background-color: #FFFAEB;
+ }
+
+  /* section 8*/
+     main section:nth-of-type(8) h3 {
+  padding:1rem;
+  padding-bottom:0.8rem;
+  font-size:2em;
+  margin-top:0;
+  margin-bottom: 0;
+  border-style:solid;
+  text-transform: uppercase;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:800;
+  letter-spacing: 0.019rem;
+  font-style: normal;
+ }
+
+   main section:nth-of-type(8) h4 {
+  font-size: 1rem;
+  padding:1rem;
+  padding-top:0;
+  margin-top:0;
+  margin-right:2rem;
+  border-style: solid;
+    font-size: 1.8rem;
+ font-family: "Manrope",sans-serif;
+ font-size: 1rem;
+ line-height: 1.5rem;
+ font-weight: 500;
+  
+ }
+ main section:nth-of-type(8) p,h5 {
+  margin:1rem;
+  padding:0.5rem;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:500;
+  letter-spacing: 0.019rem;
+  font-style: normal;
+
+ }
+
+ main section:nth-of-type(8)  {
+  background-color: white;
+ }
+
+
+  /* section 9 slide allergin paars */
+    main section:nth-of-type(9) p {
+      background-color:#C7A9FF;
+      padding:1.4rem;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight:800;
+      letter-spacing: 0.2rem;
+      font-style: normal;
+    }
+ 
+
+
+ /* section 10*/
+
+  main section:nth-of-type(10) img {
+    padding:1rem;
+    margin-top:3rem;
+    height:7em;
+    width:10rem;
+  }
+
+     main section:nth-of-type(10) h3 {
+  padding:1rem;
+  font-size:2em;
+  margin-top:1rem;
+  margin-bottom:2rem;
+  border-style:solid;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:500;
+  letter-spacing: 0.019rem;
+  font-style: normal;
+ }
+
+ 
+
+ main section:nth-of-type(10) p {
+  margin:1rem;
+  padding:0.5rem;
+  font-size: 0.9rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:600;
+  letter-spacing: 0.019rem;
+  font-style: normal;
+
+ }
+
+ main section:nth-of-type(10)  {
+  background-color:white;
+ }
+
+ /* FOOTER */
+
+footer,h3  {
+  background-color: #EEE2FF;
+  list-style: none;
+
+}
+
+footer>h3 {
+  margin-top: 0rem;
+   margin-bottom: 0rem;
+  padding: 2rem;
+  border-style: solid;
+  text-transform: uppercase;
+  letter-spacing:0.11rem;
+}
+
+
+footer ul:nth-of-type(1) {
+display:flex;
+justify-content:start;
+list-style: none;
+border-style:solid;
+padding:1rem;
+
+}
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_circles*/
+footer ul:nth-of-type(1) li{
+  margin:0.4rem;
+  background-color:#CDAEFF;
+  border-radius:50%;
+  width:4.9rem;
+  height:5rem;
+  padding: 1.3rem;
+  
+
+}
+
+
+
+
+
+
+footer ul:nth-of-type(2) {
+  list-style: none;
+  line-height: 1.9rem;
+  font-family: sans-serif;
+  font-weight: 600;
+   
+}
+
+footer>h2 {
+  font-size:1rem;
+font-family: "Manrope";
+border-style:solid;
+border-width:7px;
+border-color:black;
+margin:0.5rem;
+}
+
+footer >label {
+  display: flex;
+  justify-self: center;
+  margin:0rem;
+  height:4.5rem;
+  
+}
+
+footer >label> input{
+  padding:1rem;
+    border-radius:3rem;
+      width:28rem;
+      border-style: black;
+      
+
+
+}
+ footer> label> button {
+  padding:1rem;
+   border-radius:3rem;
+  height:4.5rem;
+  width: 4.7rem;
+  position: absolute;
+  left:24.8rem;
+  background-color:#C7A9FF;
+  border-style: none;
+ }
+
+
+ footer> label>input {
+  font-size: 1.1em;
+ }
+
+
+
+footer>h3 {
+  display:flex;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  font-family: "Manrope";
+  font-weight:900;
+}
+
+footer>h4 {
+  padding: 1.5rem;
+  font-size:0.8rem;
+  color:#512C91;
+  font-family: "Manrope";
+background-color:#EEE2FF;
+}
+
+  footer,a {
+     text-decoration: none;
+}
+
+  footer,a:link {
+    color:black;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
