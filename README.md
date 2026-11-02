@@ -560,8 +560,31 @@ ik heb geleerd dat het checken van je code via https://codeshack.io/html-validat
 
   ### Agenda voor meeting
   samen met je groepje opstellen
+  
+  Lisa 
+  1. Hoe centreer je tekst in eht midden?
+  Door text align te gebruiken
 
-  | student 1      | student 2          | student 3    | student 4        |
+  2.Hoe kan je de font overnemen van een website? 
+  Door @fontface te gebruiken en in devs de lettertype te kunnen uploaden. Ga eerst naar netwerk en probeer de font te zoeken en dan kan je er dubbel op klikken om hem te downloaden. 
+ <img src="readme-images/typografie2.png" alt="screenshot-instructie-font">
+
+
+  3. Hoe kan je tekst zetten op een achtergrond? 
+    door display: flex te gebruiken, image op background te zetten,
+    en je items een direction te geven die in die section staan.
+
+  4.Hoe kan ik de deze foto ook zo krijgen net als de echte pagina? 
+  Je kan hem in figma in principe editen.
+
+  Ik heb geleerd dat het gebruiken van position, relative een tijdeljk oploassing kan zijn voor het verplaatsen kan zijn voor sommige elementen. 
+  Maar het kan best vervelend zijn als je steeds elementen meot aanspassen je dan ook die elemementen moet aanpassen waarbij je dat het toegepast.
+
+  flex is the savior. 
+
+
+
+  | Samya 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
@@ -571,7 +594,7 @@ ik heb geleerd dat het checken van je code via https://codeshack.io/html-validat
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
+  - 
   - punt 2
   - nog een punt
   - ...
@@ -642,6 +665,13 @@ ik heb geleerd dat het checken van je code via https://codeshack.io/html-validat
    -https://www.w3schools.com/css/css_z-index.asp
 
     5. bron 5
+  <!--https://docs.fontawesome.com/web/style/basics*/-->
+
+   6. bron 6
+                https://chatgpt.com/share/6ae84e7d-1988-83eb-a82b-9b08d2098062
+   
+
+
 
 
 </details>
