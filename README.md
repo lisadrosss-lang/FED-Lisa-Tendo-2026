@@ -616,6 +616,19 @@ ik heb geleerd dat het checken van je code via https://codeshack.io/html-validat
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
+-Structuur van html was goed opgesteld 
+-proces bijgehouden 
+
+ -dat icons van font i classes niet hadnig zijn om te gebruiken, vooral als het gaat om toegankelijkheid. 
+ -Dat je meerdere elementen kan selecteren vanuit css, zonder teveel van dezelfde code te gebruiken. 
+
+ -Dat je bij de code dat je iets hebt gebruikt kwa bron ook erbij kan zetten of een verwijzing kan zetten dat je bijvoorbeeld dat de code naar bron 4 wordt verwijst.
+
+ -Als een link op een button lijkt je het moet vormgeven als een button en niet button in html gebruiken. 
+
+ 
+
+
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
@@ -623,8 +636,37 @@ ik heb geleerd dat het checken van je code via https://codeshack.io/html-validat
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
+
+  Nog niet gedaan:
+  -het maken van de hamburger menu 
+  -het maken van in een micro interactie met javacript 
+  -de claire-site responsive maken
+  -carusels maken pagina 1 en 3
+  -het maken van een dropdown bij pagina 2 als er op de + wordt geklikt.
+
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
+
+
+dingen die ik nog moet verbeteren
+-beschrijving toevoegen bij alt foto
+-toevoegen van root kleuren 
+-veranderen van icons in navbar naar svg 
+-javascript interactie toevoegen 
+-animatie slider maken 
+-carusels maken pagina 1&2 
+-kijk hoe je de arrow bij de email ook kan flexen 
+
+
+
+zelf wilde ik nog kijken of ik meer selectoren kan gebruiken zoals first-type-of-child enz. 
+
+wat ik al heb gedaan na het gesprek: 
+1.toevoegen van alt beschrijvingen bij elke foto 
+
+2.bepaalde elementen van de section bij elkaar zetten zodat elke section een h1,h2 heeft en niet los staat. ik had eerst 9 sections op pagina 1 en nu heb ik er 5 
+
+op pagina 2 zijn de sections niet veranderd. 
 
 
 

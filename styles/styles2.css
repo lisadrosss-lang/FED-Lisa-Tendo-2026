@@ -595,7 +595,7 @@ main section:nth-of-type(3) h3{
   margin:1rem;
  }
 
-  /* section 9 slide allergin paars */
+  /* section 8 slide allergin paars */
     main section:nth-of-type(8) p {
       background-color:#C7A9FF;
       padding:1.4rem;
@@ -610,16 +610,16 @@ main section:nth-of-type(3) h3{
  
 
 
- /* section 10*/
+ /* section 8*/
 
-  main section:nth-of-type(9) img {
+  main section:nth-of-type(8) img:nth-of-type(2) {
     padding:1rem;
     margin-top:3rem;
     height:7em;
     width:10rem;
   }
 
-     main section:nth-of-type(9) h3 {
+     main section:nth-of-type(8) h3 {
   padding:1rem;
   font-size:2em;
   margin-top:1rem;
@@ -634,7 +634,7 @@ main section:nth-of-type(3) h3{
 
  
 
- main section:nth-of-type(9) p {
+ main section:nth-of-type(8) p {
   margin:1rem;
   padding:0.5rem;
   font-size: 0.9rem;
@@ -643,20 +643,21 @@ main section:nth-of-type(3) h3{
   font-weight:600;
   letter-spacing: 0.019rem;
   font-style: normal;
-
  }
 
- main section:nth-of-type(9)  {
+ 
+ main section:nth-of-type(8)  {
   background-color:white;
  }
 
-/* FOOTER */
 
+
+
+
+/* FOOTER */
 footer,h3  {
   background-color: #EEE2FF;
   list-style: none;
-  
-
 }
 
 footer>h3 {
