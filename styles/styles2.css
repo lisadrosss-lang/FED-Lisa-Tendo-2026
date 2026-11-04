@@ -70,6 +70,12 @@ nav details>ul>li>a {
   text-decoration: none;
 }
 
+header nav:nth-of-type(1) img {
+ height:3rem;
+ width:3rem;
+}
+
+
 header nav:nth-of-type(2) {
   background-color: pink;
 }
@@ -331,7 +337,7 @@ main section:nth-of-type(2) p{
 
  /* SECTION 3 Carusel   */
  
- main section:nth-of-type(3) ul {
+ main section:nth-of-type(3) ul:nth-of-type(1){
    display:flex;
    overflow: scroll;
    gap:4em;
@@ -342,13 +348,31 @@ main section:nth-of-type(2) p{
 }
 
 /* SECTION 3 controls the height of the images   */
- main section:nth-of-type(3) ul>li {
+ main section:nth-of-type(3) ul:nth-of-type(1) li{
    flex-basis:100%;
    flex-shrink:0;
    height:20rem;
    list-style:none;
    scroll-snap-align: start;
 }
+
+ main section:nth-of-type(3)  ul:nth-of-type(2) {
+  display:flex;
+ justify-content:center;
+  gap:1rem;
+ }
+
+ main section:nth-of-type(3)  ul:nth-of-type(2) li {
+  flex-direction: row;
+  height:1rem;
+  width:1rem;
+  list-style: none;
+  background-color: pink;
+  border-radius: 50%;
+ }
+
+
+
  main section:nth-of-type(3) h2{
  margin:1rem;
  padding:1rem; 
