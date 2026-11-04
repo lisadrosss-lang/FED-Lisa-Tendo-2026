@@ -458,25 +458,24 @@ main section:nth-of-type(5) p {
 
 
 /* SECTION 5 Carusel   */
-.carousel {
-  display:flex;
-  max-width:100%;
-  border:1rem solid pink;
+ 
+ main section:nth-of-type(5) ul {
+   display:flex;
+   overflow: scroll;
+   gap:1em;
+   scroll-behavior:smooth;
+   scroll-snap-type:mandatory x;
+   overscroll-behavior-x: contain;
+
 }
 
-.group {
- display:flex;
- flex-direction:row;
-  
- }
-.picture1{
-   padding:1rem;
-   background:red;
-}
-
-
-main section:nth-of-type(5) p>img {
-  max-height:100%;
+/* SECTION 5 controls the height of the images   */
+ main section:nth-of-type(5) ul>li {
+   flex-basis:100%;
+   flex-shrink: 0;
+   height:20rem;
+   list-style:none;
+   scroll-snap-align: start;
 }
 
 
