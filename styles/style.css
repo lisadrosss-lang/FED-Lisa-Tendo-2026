@@ -180,7 +180,7 @@ header nav:nth-of-type(2) a {
 
 
 /* SECTION 1 without picture */
-main section:nth-of-type(1) {
+main section:first-of-type {
   background-color:#FFE6E5 ;
   max-width: 100%;
   display: grid;
@@ -203,7 +203,7 @@ section button:nth-of-type(1)  {
   /*https://chatgpt.com/c/6ad11093-27e4-83ed-9be9-bd3b90983083*/
 
  /* SECTION 1 without picture H1  */
-main section:nth-of-type(1) h1 {
+main section:first-of-type h1 {
   padding:0.8rem;
   font-family: "Titan One",serif;
   -webkit-text-stroke: 1.3rem black;
@@ -217,7 +217,7 @@ main section:nth-of-type(1) h1 {
 }
 
  /* SECTION 1 + p */
-main section:nth-of-type(1) h2  {
+main section:first-of-type h2  {
 font-size:1.3rem;
 font-family: "Manrope";
 border-style:solid;
@@ -229,7 +229,7 @@ border-color:black;
 }
 
 
-main section:nth-of-type(1) p {
+main section:first-of-type p {
 font-size:1.3rem;
 font-family: "Manrope";
 border-style:solid;
@@ -445,7 +445,7 @@ main section:nth-of-type(4) a {
 
 
 /* SECTION 5 + p */
-main section:nth-of-type(5) {
+main section:last-of-type(5) {
   max-width: 100%;
   display: grid;
   grid-auto-columns: auto;
@@ -455,7 +455,7 @@ main section:nth-of-type(5) {
 }
 
 /* SECTION 5   */
-main section:nth-of-type(5) p {
+main section:last-of-type p {
   padding: 0.5rem;
   max-width: 100%;
   padding:1rem;
@@ -470,7 +470,7 @@ main section:nth-of-type(5) p {
 
 /* SECTION 5 Carusel   */
  
- main section:nth-of-type(5) ul {
+ main section:last-of-type ul {
    display:flex;
    overflow: scroll;
    gap:1em;
@@ -481,7 +481,7 @@ main section:nth-of-type(5) p {
 }
 
 /* SECTION 5 controls the height of the images   */
- main section:nth-of-type(5) ul>li {
+ main section:last-of-type ul>li {
    flex-basis:100%;
    flex-shrink: 0;
    height:20rem;
