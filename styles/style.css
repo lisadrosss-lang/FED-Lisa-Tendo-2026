@@ -1,312 +1,316 @@
-/**************/
-/* CSS REMEDY */
-/**************/
+/*************************/
+/* 1. CSS REMEDY / RESET */
+/*************************/
+
 *,
 *::after,
 *::before {
   box-sizing: border-box;
 }
 
-
-
-   p {
+body, main, section {
   margin: 0;
 }
 
-/* IMAGES STYLING */
-
-
-
-
-/* IMAGES */
-img {
-   max-width: 100%;
-   height: auto;
-  
-}
-/* IMAGES STYLING */
-section:nth-of-type(6) img{
-padding:2.5rem;
+p {
+  margin: 0;
 }
 
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
+
+/*************************/
+/* 2. CUSTOM PROPERTIES */
+/*************************/
+
 :root {
-  /* startje */
+  /* Startje */
   --color-text: #111;
   --color-background: #eee;
 }
 
 
+/*************************/
+/* 3. IMAGES */
+/*************************/
 
-body, main, section {
-  margin: 0;
+/* General image styling */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-/****************/
-/* JOUW STYLING */
+/* Section 6 images */
+section:nth-of-type(6) img {
+  padding: 2.5rem;
+}
 
-/* NAVAGIATION */
 
+/*************************/
+/* 4. NAVIGATION */
+/*************************/
 
-
+/* Header */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1em;
   background-color: white;
-  position:sticky;
+  position: sticky;
   top: 0;
-
 }
 
-nav details>ul {
-  list-style: none;
+/* Logo */
+.logoclaire {
+  height: 1.5rem;
 }
 
-nav details>ul>li {
-  background-color: red;
-}
-
-nav details>ul>li>a {
-  text-decoration: none;
-}
-
-header nav:nth-of-type(1) img {
- height:3rem;
- width:3rem;
-}
-
+/* Navigation - first nav */
 header nav:nth-of-type(1) {
   background-color: green;
 }
 
+/* Logo image */
+header nav:nth-of-type(1) img {
+  height: 3rem;
+  width: 3rem;
+}
+
+/* Navigation - second nav */
 header nav:nth-of-type(2) {
   background-color: pink;
 }
 
+/* Second nav - unordered list */
 header nav:nth-of-type(2) ul {
   list-style: none;
   display: flex;
 }
 
+/* Second nav - list items */
 header nav:nth-of-type(2) li {
   background-color: blue;
   min-width: 2rem;
   flex-grow: 1;
 }
 
-
+/* Second nav - links */
 header nav:nth-of-type(2) a {
   background-color: yellow;
   gap: 3rem;
   line-height: 1.5rem;
 }
 
-.logoclaire{
-  height: 1.5rem;
-
+/* Details navigation - unordered list */
+nav details>ul {
+  list-style: none;
 }
 
-/* button first  */
+/* Details navigation - list items */
+nav details>ul>li {
+  background-color: red;
+}
+
+/* Details navigation - links */
+nav details>ul>li>a {
+  text-decoration: none;
+}
+
+
+/*************************/
+/* 5. BUTTONS */
+/*************************/
+
+/* Button 1 */
 .button {
-  background-color:#FFFAEB;
+  background-color: #FFFAEB;
   border: 0.1rem solid black;
   font-size: 1rem;
   border-radius: 3rem;
   padding: 0.9rem;
-  margin:3rem;
-  width:14rem;
+  margin: 3rem;
+  width: 14rem;
   text-transform: uppercase;
   font-size: 1rem;
   font-family: "Plus Jakarta Sans", sans-serif;
-   font-optical-sizing: auto;
-  font-weight:800;
+  font-optical-sizing: auto;
+  font-weight: 800;
   font-style: normal;
-    letter-spacing: 0.019rem;
-
-  
+  letter-spacing: 0.019rem;
 }
 
-
-/* button second   */
+/* Button 2 */
 .button1 {
   background-color: #D0F7E4;
   border: 0.1rem solid black;
   font-size: 1rem;
   border-radius: 2rem;
   padding: 1rem;
-  margin:3rem;
-  width:13rem;
+  margin: 3rem;
+  width: 13rem;
   align-self: center;
   text-transform: uppercase;
   font-size: 1rem;
   font-family: "Plus Jakarta Sans", sans-serif;
-   font-optical-sizing: auto;
-  font-weight:800;
+  font-optical-sizing: auto;
+  font-weight: 800;
   letter-spacing: 0.019rem;
   font-style: normal;
 }
 
-
-/* button third   */
+/* Button 3 */
 .button2 {
   background-color: lightyellow;
   border: 0.1rem solid black;
   font-size: 1rem;
   border-radius: 2rem;
   padding: 1rem;
-  margin-top:2rem;
-  margin-bottom:0;
-  width:9rem;
-    text-transform: uppercase;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  width: 9rem;
+  text-transform: uppercase;
   font-size: 1rem;
   font-family: "Plus Jakarta Sans", sans-serif;
-   font-optical-sizing: auto;
-  font-weight:800;
+  font-optical-sizing: auto;
+  font-weight: 800;
   font-style: normal;
-    letter-spacing: 0.04rem;
-
-
+  letter-spacing: 0.04rem;
 }
 
 
+/*************************/
+/* 6. SECTION 1 */
+/*************************/
 
-
-
-
-
-
-/* SECTION 1 without picture */
+/* Section 1 - Main container */
 main section:first-of-type {
-  background-color:#FFE6E5 ;
+  background-color: #FFE6E5;
   display: grid;
   grid-auto-columns: auto;
   place-content: center;
   padding: 1.5rem;
   font-size: 1rem;
-  border-style:solid;
-  border-width:7px;
-  border-color:red;
-
-
+  border-style: solid;
+  border-width: 7px;
+  border-color: red;
 }
 
- /* SECTION 1 button  */
-section button:nth-of-type(1)  {
-  justify-self:center;
-
+/* Section 1 - Button */
+section button:nth-of-type(1) {
+  justify-self: center;
 }
-  /*https://chatgpt.com/c/6ad11093-27e4-83ed-9be9-bd3b90983083*/
 
- /* SECTION 1 without picture H1  */
+/* Section 1 - Heading H1 */
 main section:first-of-type h1 {
-  padding:0.8rem;
-  font-family: "Titan One",serif;
+  padding: 0.8rem;
+  font-family: "Titan One", serif;
   -webkit-text-stroke: 1.3rem black;
   paint-order: stroke fill;
   font-size: 2.5rem;
-  color:white;
-  border-style:solid;
-  border-width:7px;
-  border-color:red;
+  color: white;
+  border-style: solid;
+  border-width: 7px;
+  border-color: red;
   text-align: center;
 }
 
- /* SECTION 1 + p */
-main section:first-of-type h2  {
-font-size:1.3rem;
-font-weight: 500;
-font-family:sans-serif;
-border-style:solid;
-border-width:7px;
-border-color:black;
- text-align: center;
- max-width: 100%;
-
-}
-
-
-main p:nth-of-type(1), p:nth-of-type(2), p:nth-of-type(3), p:nth-of-type(4){
-font-size:1rem;
-padding:0.8rem;
-font-family: sans-serif;
-text-transform: uppercase;
-border-style:solid;
-border-width:7px;
-border-color:black;
- text-align: center;
- background-color:#FFE6E5;
-}
-
-
-
-
-/* SECTION 2 + heading */
-main section:nth-of-type(2) {
- background-image:url("../images/background-purple.png");
- background-repeat:no-repeat;
- background-size:cover;
- max-width:100%;
- min-height: 100vh;
- margin:0;
- display:flex;
-   flex-direction: column;
-}
-
-
-main section:nth-of-type(2) h2 {
-  font-size:3rem;
+/* Section 1 - Heading H2 */
+main section:first-of-type h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: sans-serif;
+  border-style: solid;
+  border-width: 7px;
+  border-color: black;
+  text-align: center;
   max-width: 100%;
- margin-left:2rem;
- margin-right:2rem;
- text-align: center;
-  height:9rem;
-  border-color:solid;
- font-family: "Manrope";
- margin-top:15rem;
-
 }
 
+/* Section 1 - Paragraphs */
+main p:nth-of-type(1), p:nth-of-type(2), p:nth-of-type(3), p:nth-of-type(4) {
+  font-size: 1rem;
+  padding: 0.8rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-style: solid;
+  border-width: 7px;
+  border-color: black;
+  text-align: center;
+  background-color: #FFE6E5;
+}
+
+/* Reference */
+/* https://chatgpt.com/c/6ad11093-27e4-83ed-9be9-bd3b90983083 */
+
+
+/*************************/
+/* 7. SECTION 2 */
+/*************************/
+
+/* Section 2 - Main container */
+main section:nth-of-type(2) {
+  background-image: url("../images/background-purple.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Section 2 - Heading */
+main section:nth-of-type(2) h2 {
+  font-size: 3rem;
+  max-width: 100%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: center;
+  height: 9rem;
+  border-color: solid;
+  font-family: "Manrope";
+  margin-top: 15rem;
+}
+
+/* Section 2 - First paragraph */
 main section:nth-of-type(2) p:nth-of-type(1) {
- padding:1rem;
-text-align: center;
-font-size:1.3rem;
- font-family: "Manrope";
- background-color: blue;
- text-transform:none;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "Manrope";
+  background-color: blue;
+  text-transform: none;
 }
 
+/* Section 2 - Second paragraph */
 main section:nth-of-type(2) p:nth-of-type(2) {
- padding:0.8rem;
-text-align: center;
-font-size:1rem;
- font-family: sans-serif;
- background-color: green;
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 1rem;
+  font-family: sans-serif;
+  background-color: green;
 }
 
 
+/*************************/
+/* 8. SECTION 3 */
+/*************************/
 
-
-/* SECTION 3 + slide mode on */
+/* Section 3 - Sliding text */
 main section:nth-of-type(3)
 p {
- top:2rem;
- padding:1.5rem;
- background-color:#D0F7E4;
-   text-transform: uppercase;
+  top: 2rem;
+  padding: 1.5rem;
+  background-color: #D0F7E4;
+  text-transform: uppercase;
   font-size: 0.9rem;
   font-family: "Plus Jakarta Sans", sans-serif;
-   font-optical-sizing: auto;
-  font-weight:800;
+  font-optical-sizing: auto;
+  font-weight: 800;
   font-style: normal;
-    letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
 }
 
-
-/* SECTION 3 + heading */
+/* Section 3 - Main container and headings */
 main section:nth-of-type(3),
 h3, h4 {
   background-color: #FFFAEB;
@@ -315,41 +319,35 @@ h3, h4 {
   grid-auto-columns: auto;
   place-content: center;
   padding: 1rem;
-   text-align: center;
-
+  text-align: center;
 }
 
+/* Section 3 - Heading H3 */
 main section:nth-of-type(3)
 h3 {
- font-family: "Titan One",serif;
+  font-family: "Titan One", serif;
   -webkit-text-stroke: 1.3rem #381033;
   paint-order: stroke fill;
   font-size: 3rem;
-  color:#CDAEFF;
-  background-color:#FFFAEB;
-  margin-bottom:0;
-
+  color: #CDAEFF;
+  background-color: #FFFAEB;
+  margin-bottom: 0;
 }
 
-/*at claire*/
+/* Section 3 - Heading H4 */
 main section:nth-of-type(3)
 h4 {
- font-size: 2.5rem; 
- margin-top:0;
- padding:0;
+  font-size: 2.5rem;
+  margin-top: 0;
+  padding: 0;
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
-  color:#381033;
-    margin-bottom:1rem;
-  
-
+  color: #381033;
+  margin-bottom: 1rem;
 }
 
-
-
-
-/* SECTION 3 + p */
+/* Section 3 - Paragraphs */
 main section:nth-of-type(3) p {
   padding: 0.5rem;
   max-width: 100%;
@@ -357,43 +355,44 @@ main section:nth-of-type(3) p {
   font-family: sans-serif;
   text-transform: none;
   font-size: 1.2rem;
-  font-weight:500;
-
+  font-weight: 500;
 }
 
-/* SECTION 4 */
 
+/*************************/
+/* 9. SECTION 4 */
+/*************************/
+
+/* Section 4 - Main container */
 main section:nth-of-type(4),
 h3 {
-  background-color:  #FFFAEB;
+  background-color: #FFFAEB;
   max-width: 100%;
   display: grid;
   grid-auto-columns: auto;
   place-content: center;
   font-size: 1.5rem;
-
 }
 
+/* Section 4 - Paragraphs */
 main section:nth-of-type(4) p {
-  background-color:#CDAEFF;
+  background-color: #CDAEFF;
   max-width: 100%;
   grid-auto-columns: auto;
   place-content: center;
   padding: 1rem;
-     text-transform: uppercase;
+  text-transform: uppercase;
   font-size: 0.9rem;
   font-family: "Plus Jakarta Sans", sans-serif;
-   font-optical-sizing: auto;
-  font-weight:800;
+  font-optical-sizing: auto;
+  font-weight: 800;
   font-style: normal;
-    letter-spacing: 0.05rem;
-
+  letter-spacing: 0.05rem;
 }
 
-
-/* SECTION 4 + heading  */
-main section:nth-of-type(4), h2  {
-  background-color:#EDE2FF;
+/* Section 4 - Background and heading styling */
+main section:nth-of-type(4), h2 {
+  background-color: #EDE2FF;
   max-width: 100%;
   display: grid;
   grid-auto-columns: auto;
@@ -401,234 +400,214 @@ main section:nth-of-type(4), h2  {
   padding: 1rem;
 }
 
-main section:nth-of-type(4) h2  {
-   font-family: "Playfair Display", serif;
-    font-size:2.9rem;
-    margin:2rem;
-   padding: 1rem;
-     text-align: center;
+/* Section 4 - Heading H2 */
+main section:nth-of-type(4) h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.9rem;
+  margin: 2rem;
+  padding: 1rem;
+  text-align: center;
 }
 
-
-
-
-/* SECTION 4 + p */
+/* Section 4 - Paragraph styling */
 main section:nth-of-type(4) p {
   font-size: 1rem;
   padding: 1rem;
   max-width: 100%;
-font-family: "Manrope";
+  font-family: "Manrope";
   font-size: 1.2rem;
-  font-weight:500;
+  font-weight: 500;
   line-height: 2rem;
-  letter-spacing:0.01rem;
-       text-align: center;
-       text-transform: none;
-
-
+  letter-spacing: 0.01rem;
+  text-align: center;
+  text-transform: none;
 }
 
-/*button aftercare guide*/
+/* Section 4 - Aftercare guide button */
 main section:nth-of-type(4) a {
   justify-self: center;
-  background-color:#FFFAEB;
+  background-color: #FFFAEB;
   border: 0.1rem solid black;
   font-size: 1rem;
   border-radius: 2rem;
-  padding:1rem;
-  margin-top:2rem;
-  margin-bottom:3rem;
-  width:12rem;
-     text-transform: uppercase;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  width: 12rem;
+  text-transform: uppercase;
   font-size: 1rem;
   font-family: "Plus Jakarta Sans", sans-serif;
-   font-optical-sizing: auto;
-  font-weight:800;
+  font-optical-sizing: auto;
+  font-weight: 800;
   font-style: normal;
-    letter-spacing: 0.04rem;
-    text-align: center;
-
+  letter-spacing: 0.04rem;
+  text-align: center;
 }
 
 
-/* SECTION 5 + p */
+/*************************/
+/* 10. SECTION 5 */
+/*************************/
+
+/* Section 5 - Main container */
 main section:last-of-type(5) {
   max-width: 100%;
   display: grid;
   grid-auto-columns: auto;
   place-content: center;
-
-
 }
 
-/* SECTION 5   */
+/* Section 5 - Paragraphs */
 main section:last-of-type p {
   padding: 0.5rem;
   max-width: 100%;
-  padding:1rem;
-  background-color:#D0F7E4;
-   font-family: "Manrope";
-  font-size:1.2rem;
-  font-weight:600;
+  padding: 1rem;
+  background-color: #D0F7E4;
+  font-family: "Manrope";
+  font-size: 1.2rem;
+  font-weight: 600;
+}
 
+/* Section 5 - Carousel list */
+main section:last-of-type ul {
+  display: flex;
+  overflow: scroll;
+  gap: 1em;
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory x;
+  overscroll-behavior-x: contain;
+}
 
+/* Section 5 - Carousel list items and image height */
+main section:last-of-type ul>li {
+  flex-basis: 100%;
+  flex-shrink: 0;
+  height: 20rem;
+  list-style: none;
+  scroll-snap-align: start;
 }
 
 
-/* SECTION 5 Carusel   */
- 
- main section:last-of-type ul {
-   display:flex;
-   overflow: scroll;
-   gap:1em;
-   scroll-behavior:smooth;
-   scroll-snap-type:mandatory x;
-   overscroll-behavior-x: contain;
+/*************************/
+/* 11. FOOTER */
+/*************************/
 
-}
-
-/* SECTION 5 controls the height of the images   */
- main section:last-of-type ul>li {
-   flex-basis:100%;
-   flex-shrink: 0;
-   height:20rem;
-   list-style:none;
-   scroll-snap-align: start;
-}
-
-
-/* FOOTER */
-
-footer,h3  {
+/* Footer - Main background */
+footer, h3 {
   background-color: #EEE2FF;
   list-style: none;
-  
-
 }
 
+/* Footer - Heading H2 */
+footer>h2 {
+  font-size: 1rem;
+  font-family: "Manrope";
+  border-style: solid;
+  border-width: 7px;
+  border-color: black;
+  margin: 0.5rem;
+}
+
+/* Footer - Heading H3 */
 footer>h3 {
   margin-top: 0rem;
-   margin-bottom: 0rem;
+  margin-bottom: 0rem;
   padding: 2rem;
   border-style: solid;
   text-transform: uppercase;
-  letter-spacing:0.11rem;
+  letter-spacing: 0.11rem;
 }
 
-/*ul 1de*/
+/* Footer - Heading H3 layout */
+footer>h3 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  font-family: "Manrope";
+  font-weight: 900;
+}
+
+/* Footer - Heading H4 */
+footer>h4 {
+  padding: 1.5rem;
+  font-size: 0.8rem;
+  color: #512C91;
+  font-family: "Manrope";
+  background-color: #EEE2FF;
+  margin-bottom: 0;
+}
+
+/* Footer - First unordered list */
 footer ul:nth-of-type(1) {
-display:flex;
-justify-content:start;
-list-style: none;
-border-style:solid;
-padding:0em;
- margin: 1rem;
-
+  display: flex;
+  justify-content: start;
+  list-style: none;
+  border-style: solid;
+  padding: 0em;
+  margin: 1rem;
 }
-/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_circles*/
-/*ul 1de*/
-footer ul:nth-of-type(1) li{
-  margin:0.3rem;
-  background-color:#CDAEFF;
-  border-radius:50%;
+
+/* Reference */
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_circles */
+
+/* Footer - First unordered list items */
+footer ul:nth-of-type(1) li {
+  margin: 0.3rem;
+  background-color: #CDAEFF;
+  border-radius: 50%;
   padding: 0.6rem;
   padding-bottom: 0.8rem;
 }
 
-
-
-/*ul 2de*/
+/* Footer - Second unordered list */
 footer ul:nth-of-type(2) {
   list-style: none;
   line-height: 1.9rem;
   font-family: sans-serif;
   font-weight: 600;
-   
 }
 
-footer>h2 {
-  font-size:1rem;
-font-family: "Manrope";
-border-style:solid;
-border-width:7px;
-border-color:black;
-margin:0.5rem;
-}
-
+/* Footer - Label */
 footer >label {
   display: flex;
-  margin-top:1em;
-  margin-bottom:1em;
-   margin-right:3em;
-  margin-left:3em;
-  height:3.8rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 3em;
+  margin-left: 3em;
+  height: 3.8rem;
   flex-grow: 1;
- 
-  
 }
 
-footer >label> input{
-  padding:1rem;
-    border-radius:3rem;
-      border-style: black;
-      flex-grow: 1;
-      
-
-
+/* Footer - Input */
+footer >label> input {
+  padding: 1rem;
+  border-radius: 3rem;
+  border-style: black;
+  flex-grow: 1;
 }
- footer> label> button {
-  padding:1rem;
-   border-radius:3rem;
-  height:3.8rem;
-  width: 3.7rem;
-  background-color:#C7A9FF;
-  border-style: none;
-  margin-left:-3rem;
- }
 
-
- footer> label>input {
+/* Footer - Input font size */
+footer> label>input {
   font-size: 1.1em;
- }
-
-
-
-footer>h3 {
-  display:flex;
-  justify-content: flex-start;
-  font-size: 1.5rem;
-  font-family: "Manrope";
-  font-weight:900;
 }
 
-footer>h4 {
-  padding: 1.5rem;
-  font-size:0.8rem;
-  color:#512C91;
-  font-family: "Manrope";
-  background-color:#EEE2FF;
-  margin-bottom:0;
+/* Footer - Button */
+footer> label> button {
+  padding: 1rem;
+  border-radius: 3rem;
+  height: 3.8rem;
+  width: 3.7rem;
+  background-color: #C7A9FF;
+  border-style: none;
+  margin-left: -3rem;
 }
 
-  footer,a {
-     text-decoration: none;
+/* Footer - Links */
+footer, a {
+  text-decoration: none;
 }
 
-  footer,a:link {
-    color:black;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Footer - Link color */
+footer, a:link {
+  color: black;
+}
