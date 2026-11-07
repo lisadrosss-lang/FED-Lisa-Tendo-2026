@@ -133,6 +133,7 @@ header nav:nth-of-type(2) a {
   font-size: 1rem;
   border-radius: 2rem;
   padding: 1rem;
+  margin-left:0.6rem;
   width:8rem;
   color:grey;
   text-transform: uppercase;
@@ -238,7 +239,7 @@ line-height: 4rem;
 main section:nth-of-type(1) p{
   margin:1rem;
 font-size:1.1rem;
-font-family: "Manrope",sans-serif;
+font-family: sans-serif;
 letter-spacing:0.03rem;
 line-height: 1.5rem;
 border-style:solid;
@@ -285,10 +286,16 @@ border-style: solid;
 }
 
 
-.email-adres {
+.email-adres{
  display: flex;
  flex-direction: column;
  margin-bottom:0;
+}
+
+.zipcode{
+  display: flex;
+  margin:6rem;
+
 }
 
 
@@ -296,6 +303,7 @@ main section:nth-of-type(2) label,input{
   padding:1rem;
   margin:0;
   border-radius:0.5rem;
+  flex-grow:1;
 
 }
 
@@ -314,7 +322,7 @@ main section:nth-of-type(2) p{
 
 }
 
-main section:nth-of-type(2) p{
+main p:nth-of-type(2) p{
   background-color:#C7A9FF;
   padding:1.4rem;
   text-transform: uppercase;
@@ -394,6 +402,8 @@ main section:nth-of-type(3) h3{
  font-weight: 500;
  }
 
+
+
  main section:nth-of-type(3) p{
  margin:1rem;
  padding:1rem;
@@ -435,21 +445,37 @@ main section:nth-of-type(3) h3{
   
      }
 
-
+/*Free piercing always*/
+/*section 4*/
    main section:nth-of-type(4) h4 {
   font-size: 4rem;
   padding:1rem;
   padding-top:0;
   border-style: solid;
   
+ }    
+
+/*section 5 book now*/
+
+   main section:nth-of-type(5) {
+  font-size: 4rem;
+  padding:1rem;
+  padding-top:0;
+  border-style: solid;
+  background-color: #D0F7E4;
+  
  }
 
  
+/*Prices */
 
- main section:nth-of-type(4) ul  {
-  padding:1rem;
+ main section:nth-of-type(5) ul {
+  margin:0;
+    display: flex;
+  flex-direction: column;
+   background-color: #D0F7E4;
+    padding:1rem;
   text-transform: uppercase;
-  font-size: 1rem;
   font-family: "Plus Jakarta Sans", sans-serif;
    font-optical-sizing: auto;
   font-weight:800;
@@ -459,34 +485,44 @@ main section:nth-of-type(3) h3{
   text-decoration: none;
     border-style:solid;
     font-size: 1rem;
-  
  }
- main section:nth-of-type(4) ul>li {
+
+
+
+ main section:nth-of-type(5) ul>li {
  display: flex;
- justify-content: start;
+ flex-direction:row;
  padding:0rem;
  margin:0.5rem;
- }
+ font-size: 1rem;
+ justify-content: space-between;
 
  
-   main section:nth-of-type(4) ul>span {
- display: flex;
- justify-content: end;
-  margin:0.5rem;
- font-weight: 400;
  }
 
-  main section:nth-of-type(4) ul>li>hr {
+
+
+ /*https://chatgpt.com/share/6aef5c7a-45a8-83eb-8e4a-6d0e87f9c2bd*/
+   main section:nth-of-type(5) ul>li>h6 {
+    margin:0.5rem;
+   font-weight: 400;
+   font-size: 0.9rem;
+   text-transform: none;
+   background-color:pink;
+
+ }
+
+  main section:nth-of-type(5) ul>li>hr {
   width:15rem;
  }
 
 
   
     /* section 6 text background */
- main section:nth-of-type(5) {
+ main section:nth-of-type(6) {
   background-image: url("../images/cl-studio-room_2880x.webp");
   background-repeat: no-repeat;
-  min-height: 50rem;
+  min-height: 45rem;
   max-width: 100%;
   display:flex;
   flex-direction: column;
@@ -495,25 +531,29 @@ main section:nth-of-type(3) h3{
 
  }
 
- main section:nth-of-type(5) h3 {
+ main section:nth-of-type(6) h3 {
  margin:2.5rem;
  margin-top:13rem;
  font-size:3.5rem;
  text-align: center;
  }
 
-  main section:nth-of-type(5) h4 {
+  main section:nth-of-type(6) h4 {
  font-size:1.3rem;
-  margin:1.8rem;
+  margin-left:1.8rem;
+    margin-right:1.8rem;
  margin-top:0em;
+ border-style: solid;
  text-align: center;
  }
 
 
- /* section 5 slide allergin */
-    main section:nth-of-type(5) p {
-      background-color:#D0F7E4;
+
+
+  main section:nth-of-type(6) p {
+       background-color:#D0F7E4;
       padding:1.4rem;
+      border-style: solid;
       text-transform: uppercase;
       font-size: 0.9rem;
       font-family: "Plus Jakarta Sans", sans-serif;
@@ -524,15 +564,16 @@ main section:nth-of-type(3) h3{
       margin-bottom:0rem;
       margin-top:5rem;
     }
+    
 
- /* section 6*/
+ /* section 7*/
 
- main section:nth-of-type(6), h3 {
+ main section:nth-of-type(7), h3 {
     background-color: #FFFAEB;
 
 
  }
-     main section:nth-of-type(6) h3 {    
+     main section:nth-of-type(7) h3 {    
           background-color: #FFFAEB;
       padding-bottom:0.8rem;
     font-size:2em;
@@ -548,7 +589,7 @@ main section:nth-of-type(3) h3{
   font-style: normal;
  }
 
-   main section:nth-of-type(6) h4 {
+   main section:nth-of-type(7) h4 {
   font-size: 1rem;
   padding:1rem;
   padding-top:0;
@@ -562,7 +603,7 @@ main section:nth-of-type(3) h3{
  font-weight: 500;
   
  }
- main section:nth-of-type(6) p {
+ main section:nth-of-type(7) p {
   margin:1rem;
   padding:0.5rem;
   font-size: 1.3rem;
@@ -578,7 +619,7 @@ main section:nth-of-type(3) h3{
 
 
    
-  main section:nth-of-type(7) li {
+  main section:nth-of-type(8) li {
      display:flex;
      flex-direction: row;
      justify-content:start;
@@ -587,7 +628,7 @@ main section:nth-of-type(3) h3{
      
   }
   /* section 7 better experience*/
-     main section:nth-of-type(7) h3 {
+     main section:nth-of-type(8) h3 {
   padding:1rem;
   background-color: white;
   padding-bottom:0.8rem;
@@ -603,7 +644,7 @@ main section:nth-of-type(3) h3{
   font-style: normal;
  }
 
-   main section:nth-of-type(7) h4 {
+   main section:nth-of-type(8) h4 {
   font-size: 1rem;
   padding:1rem;
   padding-top:0;
@@ -616,7 +657,7 @@ main section:nth-of-type(3) h3{
  font-weight: 500;
   
  }
- main section:nth-of-type(7) p,h5 {
+ main section:nth-of-type(8) p,h5 {
   margin:0.5rem;
   padding:0.5rem;
   font-size: 1rem;
@@ -629,22 +670,22 @@ main section:nth-of-type(3) h3{
  }
 
 
-  main section:nth-of-type(7) li>h3 {
+  main section:nth-of-type(8) li>h3 {
     font-size: 6rem;
     padding:1rem;
   }
- main section:nth-of-type(7)  {
+ main section:nth-of-type(8)  {
   background-color: white;
  }
 
- main section:nth-of-type(7)> hr {
+ main section:nth-of-type(8)> hr {
   margin:1rem;
  }
 
-  /* section 8 slide allergin paars */
-    main section:nth-of-type(8) p {
+  /* section 9 slide allergin paars */
+    main p:nth-of-type(2) {
       background-color:#C7A9FF;
-      padding:1.4rem;
+      padding:1rem;
       text-transform: uppercase;
       font-size: 0.9rem;
       font-family: "Plus Jakarta Sans", sans-serif;
@@ -652,20 +693,21 @@ main section:nth-of-type(3) h3{
       font-weight:800;
       letter-spacing: 0.2rem;
       font-style: normal;
+  
     }
  
 
 
- /* section 8*/
+ /* section 9 smiley bling bling*/
 
-  main section:nth-of-type(8) img:nth-of-type(2) {
+  main section:nth-of-type(9) img:nth-of-type(1) {
     padding:1rem;
     margin-top:3rem;
     height:7em;
     width:10rem;
   }
 
-     main section:nth-of-type(8) h3 {
+     main section:nth-of-type(9) h3 {
   padding:1rem;
   font-size:2em;
   margin-top:1rem;
@@ -676,14 +718,30 @@ main section:nth-of-type(3) h3{
   font-weight:500;
   letter-spacing: 0.019rem;
   font-style: normal;
+  background-color: white;
  }
 
- 
+     main section:nth-of-type(10) h3 {
+  padding:0.5rem;
+    font-size: 0.9rem;
+  margin-top:1rem;
+  margin-bottom:1rem;
+  border-style:solid;
+  font-family: "Plus Jakarta Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight:600;
+  letter-spacing: 0.019rem;
+  font-style: normal;
+  background-color: white;
+ }
 
- main section:nth-of-type(8) p {
+
+
+ main section:nth-of-type(10) p {
   margin:1rem;
   padding:0.5rem;
   font-size: 0.9rem;
+  background-color: white;
   font-family: "Plus Jakarta Sans", sans-serif;
    font-optical-sizing: auto;
   font-weight:600;
@@ -692,18 +750,41 @@ main section:nth-of-type(3) h3{
  }
 
 
- main section:nth-of-type(8)  {
+ main section:nth-of-type(10)  {
   background-color:white;
+  margin-right:0.8rem;
+ }
+
+ main section:nth-of-type(10) ul {
+  display: flex;
+  flex-direction: column;
+  margin:1rem;
+ }
+
+  main section:nth-of-type(10) li,p,img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  list-style: none;
+  border-style:solid;
+ }
+
+  main section:nth-of-type(10) li>img {
+  width:2rem;
+  height:2rem;
+  align-self: center;
  }
 
 
 
 
-
 /* FOOTER */
+
 footer,h3  {
   background-color: #EEE2FF;
   list-style: none;
+  
+
 }
 
 footer>h3 {
@@ -733,12 +814,7 @@ footer ul:nth-of-type(1) li{
   border-radius:50%;
   padding: 0.6rem;
   padding-bottom: 0.8rem;
- 
-  
-
 }
-
-
 
 
 
@@ -762,16 +838,21 @@ margin:0.5rem;
 
 footer >label {
   display: flex;
-  margin:1.3em;
+  margin-top:1em;
+  margin-bottom:1em;
+   margin-right:3em;
+  margin-left:3em;
   height:3.8rem;
+  flex-grow: 1;
+ 
   
 }
 
 footer >label> input{
   padding:1rem;
     border-radius:3rem;
-      width:20rem;
       border-style: black;
+      flex-grow: 1;
       
 
 
@@ -781,10 +862,9 @@ footer >label> input{
    border-radius:3rem;
   height:3.8rem;
   width: 3.7rem;
-  position: absolute;
-  left: 17.5rem;
   background-color:#C7A9FF;
   border-style: none;
+  margin-left:-3rem;
  }
 
 

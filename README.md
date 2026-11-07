@@ -711,6 +711,9 @@ op pagina 2 zijn de sections niet veranderd.
 
    6. bron 6
                 https://chatgpt.com/share/6ae84e7d-1988-83eb-a82b-9b08d2098062
+
+    7.https://www.youtube.com/watch?v=vvuH6qS2M5Q
+    svg uploaden
    
 
 
