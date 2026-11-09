@@ -532,7 +532,7 @@ main section:last-of-type ul>li {
 
 /* Footer - Main background */
 footer, h3 {
-  background-color:var(--background-color-footer);
+  background-color:var(--background-color-lightpurple);
   list-style: none;
 }
 
@@ -542,7 +542,7 @@ footer>h2 {
   font-family: "Manrope";
   border-style: solid;
   border-width: 7px;
-  border:solid var(--border-guide-line);
+  border:solid var(--border-guideline-black);
   margin: 0.5rem;
 }
 
@@ -569,9 +569,9 @@ footer>h3 {
 footer>h4 {
   padding: 1.5rem;
   font-size: 0.8rem;
-  color:var(--button-color);
+  color:var(--letter-color-dark-purple);
   font-family: "Manrope";
-  background-color:var(--background-color-footer);
+  background-color:var(--background-color-lightpurple);
   margin-bottom: 0;
 }
 
@@ -585,16 +585,21 @@ footer ul:nth-of-type(1) {
   margin: 1rem;
 }
 
+footer img {
+  height:2rem;
+  width:2rem;
+}
+
 /* Reference */
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_circles */
 
 /* Footer - First unordered list items */
 footer ul:nth-of-type(1) li {
   margin: 0.3rem;
-  background-color:var(--claire-home-color);
+  background-color:var(--claire-home-color-purple);
   border-radius: 50%;
   padding: 0.6rem;
-  padding-bottom: 0.8rem;
+  padding-bottom: 0.6rem;
 }
 
 /* Footer - Second unordered list */
@@ -635,7 +640,7 @@ footer> label> button {
   border-radius: 3rem;
   height: 3.8rem;
   width: 3.7rem;
-  background-color:var(--claire-home-color);
+  background-color:var(--claire-home-color-purple);
   border-style: none;
   margin-left: -3rem;
 }
@@ -647,5 +652,5 @@ footer, a {
 
 /* Footer - Link color */
 footer, a:link {
-  color:var(--color-text);
+  color:var(--color-text-black);
 }
