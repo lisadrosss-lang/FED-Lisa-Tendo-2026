@@ -104,6 +104,7 @@ header {
 
 
 
+
 /* Navigation - first nav */
 header > nav:nth-of-type(1) > ul:nth-of-type(1) li {
 padding-top:1rem;
@@ -147,6 +148,12 @@ header nav:nth-of-type(2) li {
   background-color:var(--background-color-blue);
   min-width: 2rem;
   flex-grow: 1;
+}
+
+header nav:nth-of-type(2) img {
+  height:1.3rem;
+  width:1.3rem;
+
 }
 
 /* Second nav - links */
