@@ -102,16 +102,34 @@ header {
   height: 1.5rem;
 }
 
+
+
 /* Navigation - first nav */
-header nav:nth-of-type(1) {
-  background-color:var(--background-color-green);
+header > nav:nth-of-type(1) > ul:nth-of-type(1) li {
+padding-top:1rem;
+margin-left:0;
+display:flex;
+flex-direction: column;
+list-style: none;
+gap:1rem;
+font-size:1.5em;
+  border-style: solid;
+  align-items: center;
+
 }
 
+
 /* Logo image */
-header nav:nth-of-type(1) img {
+.hamburger img,button {
   height: 3rem;
   width: 3rem;
+  border-style:none;
+  background-color: var(--background-white);
 }
+
+
+
+
 
 /* Navigation - second nav */
 header nav:nth-of-type(2) {
@@ -138,20 +156,72 @@ header nav:nth-of-type(2) a {
   line-height: 1.5rem;
 }
 
-/* Details navigation - unordered list */
-nav details>ul {
+
+.ham {
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+}
+
+.ham.toonMenu {
+    transform: translateX(0);
+}
+
+
+
+/* hamburger menu navigation - links */
+.ham {
+  position: fixed;
+  background-color:var(--claire-home-color-purple);
+  top: 4rem;
+  left:-1.7rem;
+  bottom:-5rem;
+  width:85%;
+  translate: 0% 0%;
+    border-style: solid;
+
+}
+
+/* hamburger menu navigation socials  - links */
+ .ham > ul  {
   list-style: none;
+    border-style: solid;
+
+  
 }
 
-/* Details navigation - list items */
-nav details>ul>li {
-  background-color:var(--background-color-red);
+.ham > div {
+  display:flex;
+  flex-direction: row;
+  gap:0.4rem;
+  border-style: solid;
+
+
 }
 
-/* Details navigation - links */
-nav details>ul>li>a {
-  text-decoration: none;
+
+/* hamburger menu navigation socials 
+https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
+ - links- creating mobile navbar slide show */
+
+.ham > div img {
+  height:1.4rem;
+  width:1.4rem;
+  gap:0.9rem;
+  border-style: solid;
+   border-radius:50%;
+   object-fit: contain;
+
 }
+
+
+
+  
+
+
+
+
+
+
 
 
 /*************************/
@@ -159,6 +229,28 @@ nav details>ul>li>a {
 /*************************/
 
 /* Button 1 */
+.buttonbar {
+  background-color:var(--color-text-black);
+  border: 0.1rem solid var(--border-guideline-black);
+  color:var(--background-white);
+  font-size: 1rem;
+  border-radius: 3rem;
+  padding: 1rem;
+  width: 12rem;
+  margin-top:5rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: 0.019rem;
+
+  
+}
+
+
+
 .button {
   background-color:var(--button-color-beige);
   border: 0.1rem solid var(--border-guideline-black);
