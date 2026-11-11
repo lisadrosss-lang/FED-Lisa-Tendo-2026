@@ -361,18 +361,62 @@ main section:first-of-type h2 {
   text-align: center;
   max-width: 100%;
 }
-
-/* Section 1 - Paragraphs */
-main p:nth-of-type(1), p:nth-of-type(2), p:nth-of-type(3), p:nth-of-type(4) {
+ /*https://chatgpt.com/share/6af4e649-fc38-83ed-b7ee-61cdf9a7a8fe*/
+/* Section 1 - slider 1  */
+ .p-box, .p-box2, .p-box3, .p-box4{
   font-size: 1rem;
   padding: 0.8rem;
+  height:3rem;
   font-family: sans-serif;
   text-transform: uppercase;
-  border-style: solid;
-  border-width: 7px;
-  border-color: var(--border-guideline-black);
   text-align: center;
-  background-color: #FFE6E5;
+  overflow: hidden;
+}
+
+ .p-box {
+    background-color: var(--background-color-lightpurple);
+  }
+  .p-box2 {
+    background-color: var(--background-color-lightgreen);
+  }
+
+  .p-box3 {
+    background-color: var(--background-color-lightpink);
+  }
+
+  .p-box4 {
+    background-color: var(--background-color-lightyellow2);
+  }
+  
+
+
+
+/*https://chatgpt.com/share/6af480db-ec7c-83eb-bcae-847d699ac6b5*/
+.p-text, .p-text2, .p-text3, .p-text4 {
+animation-name: moveP;
+  animation-duration:19s;
+  animation-delay:0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  white-space: nowrap;
+  width: max-content;
+  border-style: none;
+  display: flex;
+}
+
+
+
+
+
+@keyframes moveP {
+  from{
+    transform: translate(0%);
+
+  }
+  to{
+    transform: translate(-50%);
+
+  }
 }
 
 /* Reference */
@@ -418,13 +462,13 @@ main section:nth-of-type(2) p:nth-of-type(1) {
   text-transform: none;
 }
 
-/* Section 2 - Second paragraph */
-main section:nth-of-type(2) p:nth-of-type(2) {
+/* Section 2 - Second paragraph */ pp slider 
+main section:nth-of-type(2) {
   padding: 0.8rem;
   text-align: center;
   font-size: 1rem;
   font-family: sans-serif;
-  background-color:var(--background-color-green);
+  background-color:var(--background--green);
 }
 
 

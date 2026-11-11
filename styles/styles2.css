@@ -297,7 +297,7 @@ border-color:var(--border-guideline-black);
 /*don't miss out background*/
 main section:nth-of-type(2) {
 background-color: var(--background-color-lightpurple);
-display:flex;
+   display:flex;
   flex-direction: column;
   justify-content: center;
 }
@@ -351,20 +351,60 @@ main section:nth-of-type(2) label,input{
 
 }
 
-/*coming soon slide*/
-main p:nth-of-type(1) {
-  background-color:var(--background-color-purple-strip);
-  padding:1.4rem;
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
-   font-optical-sizing: auto;
-  font-weight:800;
-  letter-spacing: 0.2rem;
-  font-style: normal;
-  margin-bottom:2rem;
 
+/*https://chatgpt.com/share/6af4e649-fc38-83ed-b7ee-61cdf9a7a8fe*/
+/* Section 1 - slider 1  */
+.p-box, .p-box2, .p-box3, .p-box4{
+  font-size: 1rem;
+  padding: 0.8rem;
+  height:3rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
 }
+
+ .p-box {
+    background-color: var(--background-color-lightpurple);
+  }
+  .p-box2 {
+    background-color: var(--background-color-lightgreen);
+  }
+
+  .p-box3 {
+    background-color: var(--background-color-lightpink);
+  }
+
+  .p-box4 {
+    background-color: var(--background-color-lightyellow2);
+  }
+  
+  @keyframes moveP {
+  from{
+    transform: translate(0%);
+
+  }
+  to{
+    transform: translate(-50%);
+
+  }
+}
+
+
+
+/*https://chatgpt.com/share/6af480db-ec7c-83eb-bcae-847d699ac6b5*/
+.p-text, .p-text2, .p-text3, .p-text4 {
+animation-name: moveP;
+  animation-duration:19s;
+  animation-delay:0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  white-space: nowrap;
+  width: max-content;
+  border-style: none;
+  display: flex;
+}
+
 
 
 
