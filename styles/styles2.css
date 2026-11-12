@@ -15,8 +15,9 @@
 img {
    max-width: 100%;
    height: auto;
-  
 }
+
+
 /* IMAGES STYLING */
 section:nth-of-type(6) img{
 padding:2.5rem;
@@ -106,29 +107,32 @@ nav details>ul>li>a {
   text-decoration: none;
 }
 
+/*navigation balk */
 header nav:nth-of-type(1) img {
  height:3rem;
  width:3rem;
 }
 
 
-
+/*navigation balk */
 header nav:nth-of-type(2) {
   background-color: var(--background-color-pink);
 }
 
+/*navigation balk */
 header nav:nth-of-type(2) ul {
   list-style: none;
   display: flex;
 }
 
+/*navigation balk */
 header nav:nth-of-type(2) li {
   background-color: var(--background-color-blue);
   min-width: 2rem;
   flex-grow: 1;
 }
 
-
+/*navigation balk */
 header nav:nth-of-type(2) a {
   background-color: var(--background-color-yellow);
   gap: 3rem;
@@ -140,12 +144,124 @@ header nav:nth-of-type(2) a {
 
 }
 
+/*navigation slider */
+header > nav:nth-of-type(1) > ul:nth-of-type(1) li {
+padding-top:1rem;
+margin-left:0;
+display:flex;
+flex-direction: column;
+list-style: none;
+gap:1rem;
+font-size:1.5em;
+  border-style: solid;
+  align-items: center;
+
+}
+
+
+/*navigation slider */
+header > nav:nth-of-type(1) > ul:nth-of-type(1) li {
+  padding-top: 1rem;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Logo image */
+.hamburger img,button {
+  height: 3rem;
+  width: 3rem;
+  border-style:none;
+  background-color: var(--background-white);
+}
+
+
+
+.ham {
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+}
+
+.ham.toonMenu {
+    transform: translateX(0);
+}
+
+
+
+/* hamburger menu navigation - links */
+.ham {
+  position: fixed;
+  background-color:var(--claire-home-color-purple);
+  top: 4rem;
+  left:-1.7rem;
+  bottom:-5rem;
+  width:85%;
+  translate: 0% 0%;
+    border-style: solid;
+
+}
+
+/* hamburger menu navigation socials  - links */
+ .ham > li {
+  list-style: none;
+    border-style: solid;
+
+  
+}
+
+.ham > div {
+  display:flex;
+  flex-direction: row;
+  gap:0.4rem;
+  border-style: solid;
+
+
+}
+
+
+/* hamburger menu navigation socials 
+https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
+ - links- creating mobile navbar slide show */
+
+.ham > div img {
+  height:1.4rem;
+  width:1.4rem;
+  gap:0.9rem;
+  border-style: solid;
+   border-radius:50%;
+   object-fit: contain;
+
+}
+
+
+
+/*icons */
 header nav:nth-of-type(2) img {
   height:1.3rem;
   width:1.3rem;
 
 }
 
+.buttonbar {
+  background-color:var(--color-text-black);
+  border: 0.1rem solid var(--border-guideline-black);
+  color:var(--background-white);
+  font-size: 1rem;
+  border-radius: 3rem;
+  padding: 1rem;
+  width: 12rem;
+  margin-top:5rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: 0.019rem;
+
+  
+}
 
 /* button first  */
 .button {
