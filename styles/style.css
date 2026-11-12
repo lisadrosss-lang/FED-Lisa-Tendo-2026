@@ -650,23 +650,69 @@ main p:last-of-type {
 }
 
 /* Section 5 - Carousel list */
-main section:last-of-type ul {
+main section:last-of-type  ul:nth-of-type(1)  {
   display: flex;
   overflow: scroll;
-  gap: 1em;
+  gap: 0.5em;
   scroll-behavior: smooth;
-  scroll-snap-type: mandatory x;
   overscroll-behavior-x: contain;
+  margin: 0;
 }
 
 /* Section 5 - Carousel list items and image height */
-main section:last-of-type ul>li {
+main section:last-of-type ul:nth-of-type(1) li {
   flex-basis: 100%;
   flex-shrink: 0;
-  height: 20rem;
+  height: 15rem;
   list-style: none;
   scroll-snap-align: start;
+  
 }
+
+
+.buttons {
+display: flex;
+list-style: none;
+background-color: transparent;
+gap:15rem;
+padding:1rem;
+}
+
+
+
+.left-arrow {
+background-color:rgba(255, 255,255, .5); 
+border-radius: 50%;
+width:4rem;
+height:4rem;
+background-image: url("../images/arrow-left-long-solid.svg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+z-index: 2;
+
+}
+
+.right-arrow {
+background-color:rgba(255, 255,255, .5); 
+border-radius: 50%;
+width:4rem;
+height:4rem;
+background-image:url("../images/arrow-right-long-solid.svg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+
+.right-arrow:hover,.left-arrow:hover {
+  color:white;
+  background-color:rgba(255, 255,255, .5);
+}
+
+
+
+
 
 
 /*************************/
