@@ -482,8 +482,7 @@ animation-name: moveP;
   text-transform: none;
 }
 
-/* Section 2 - Second paragraph */  
-main section:nth-of-type(2) {
+.p-box2 {
   padding: 0.8rem;
   text-align: center;
   font-size: 1rem;
@@ -564,23 +563,26 @@ p {
 /*************************/
 
 /* Section 4 - Main container */
-main section:nth-of-type(4),
-h3 {
-  background-color:var(--background-color-light-yellow2);
+.pact5  {
+  background-color:var(--background-color-lightpurple);
   max-width: 100%;
-  display: grid;
-  grid-auto-columns: auto;
-  place-content: center;
+  min-height: 70vh;
   font-size: 1.5rem;
+  text-align: center;
+  padding-top: 6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+
 }
 
+
 /* Section 4 - Paragraphs */
-main section:nth-of-type(4) p {
-  background-color:var(--claire-home-color-purple);
+.pact5 p {
   max-width: 100%;
   grid-auto-columns: auto;
   place-content: center;
-  padding: 1rem;
+  padding: 3rem;
   text-transform: uppercase;
   font-size: 0.9rem;
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -588,29 +590,28 @@ main section:nth-of-type(4) p {
   font-weight: 800;
   font-style: normal;
   letter-spacing: 0.05rem;
+
 }
 
 /* Section 4 - Background and heading styling */
-main section:nth-of-type(4), h2 {
-  background-color:var(--background-color-lightpurple);
+.pact5 h2 {
   max-width: 100%;
   display: grid;
   grid-auto-columns: auto;
   place-content: center;
-  padding: 1rem;
 }
 
 /* Section 4 - Heading H2 */
-main section:nth-of-type(4) h2 {
+.pact5 h2 {
   font-family: "Playfair Display", serif;
   font-size: 2.9rem;
-  margin: 2rem;
+  
   padding: 1rem;
   text-align: center;
 }
 
 /* Section 4 - Paragraph styling */
-main section:nth-of-type(4) p {
+.pact5 p {
   font-size: 1rem;
   padding: 1rem;
   max-width: 100%;
@@ -621,18 +622,17 @@ main section:nth-of-type(4) p {
   letter-spacing: 0.01rem;
   text-align: center;
   text-transform: none;
+  margin-bottom:2rem;
 }
 
 /* Section 4 - Aftercare guide button */
-main section:nth-of-type(4) a {
+.pact5 a {
   justify-self: center;
   background-color:var(--background-color-lightyellow2);
   border: 0.1rem solid var(--border-guideline-black);
   font-size: 1rem;
   border-radius: 2rem;
   padding: 1rem;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
   width: 12rem;
   text-transform: uppercase;
   font-size: 1rem;
@@ -734,7 +734,7 @@ footer, h3 {
 }
 
 /* Footer - Heading H2 */
-footer>h2 {
+.footpact1 {
   font-size: 1rem;
   font-family: "Manrope";
   border-style: solid;
@@ -744,7 +744,7 @@ footer>h2 {
 }
 
 /* Footer - Heading H3 */
-footer>h3 {
+.footpact1 h3 {
   margin-top: 0rem;
   margin-bottom: 0rem;
   padding: 2rem;
@@ -754,7 +754,7 @@ footer>h3 {
 }
 
 /* Footer - Heading H3 layout */
-footer>h3 {
+.footpact1 h3 {
   display: flex;
   justify-content: flex-start;
   font-size: 1.5rem;
@@ -763,7 +763,7 @@ footer>h3 {
 }
 
 /* Footer - Heading H4 */
-footer>h4 {
+.footpact > h4 {
   padding: 1.5rem;
   font-size: 0.8rem;
   color:var(--letter-color-dark-purple);
@@ -773,13 +773,14 @@ footer>h4 {
 }
 
 /* Footer - First unordered list */
-footer ul:nth-of-type(1) {
+.footpact1 {
   display: flex;
   justify-content: start;
   list-style: none;
   border-style: solid;
   padding: 0em;
   margin: 1rem;
+
 }
 
 footer img {
@@ -791,7 +792,7 @@ footer img {
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_circles */
 
 /* Footer - First unordered list items */
-footer ul:nth-of-type(1) li {
+.footpact1 ul > li {
   margin: 0.3rem;
   background-color:var(--claire-home-color-purple);
   border-radius: 50%;
@@ -800,11 +801,12 @@ footer ul:nth-of-type(1) li {
 }
 
 /* Footer - Second unordered list */
-footer ul:nth-of-type(2) {
+.footpact > ul {
   list-style: none;
   line-height: 1.9rem;
   font-family: sans-serif;
   font-weight: 600;
+    border-style: solid;
 }
 
 /* Footer - Label */
@@ -855,7 +857,7 @@ footer, a:link {
 
 /* Desktop */
 @media (min-width:1000px) {
-main section:nth-of-type(2) h2 {
+ .pact2 h2 {
   padding:0.5em;
   margin-top:9rem;
 }
@@ -921,8 +923,27 @@ main section:nth-of-type(3),h3,h4 {
   align-self: center;
 }
 
+/* Footer - Second unordered list */
+footer ul:nth-of-type(2) {
+  list-style: none;
+  line-height: 1.9rem;
+  font-family: sans-serif;
+  font-weight: 600;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 
+.pact7 {
+  display: flex;
+
+}
+
+.pact5{
+  min-height:50vh;
+  min-width: 40%;
+}
 
 
 
