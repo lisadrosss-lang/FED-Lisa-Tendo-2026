@@ -650,7 +650,7 @@ p {
 /*************************/
 
 /* Section 5 - Main container */
-main section:last-of-type(5) {
+.caru {
   max-width: 100%;
   display: grid;
   grid-auto-columns: auto;
@@ -658,7 +658,7 @@ main section:last-of-type(5) {
 }
 
 /* Section 5 - Carousel list */
-main section:last-of-type  ul:nth-of-type(1)  {
+.caru ul:nth-of-type(1)  {
   display: flex;
   overflow: scroll;
   gap: 0.5em;
@@ -668,7 +668,7 @@ main section:last-of-type  ul:nth-of-type(1)  {
 }
 
 /* Section 5 - Carousel list items and image height */
-main section:last-of-type ul:nth-of-type(1) li {
+.caru ul:nth-of-type(1) li {
   flex-basis: 100%;
   flex-shrink: 0;
   height: 15rem;
@@ -944,6 +944,39 @@ footer ul:nth-of-type(2) {
   min-height:50vh;
   min-width: 40%;
 }
+
+/* Section 5 - Carousel list */
+.caru ul:nth-of-type(1)  {
+  display: flex;
+  height: 40vh;
+    gap: 0.3em;
+  margin-left:0;
+ 
+
+}
+
+
+.caru > ul img:nth-of-type(1) {
+    height: 40vh;
+    margin-left:0;
+    object-fit:cover;
+}
+
+
+.caru > ul:nth-of-type(1) li   {
+   gap:0;
+   flex-basis: 50%;
+   max-width: 25%;
+   
+}
+
+.buttons,.right-arrow,.left-arrow  {
+  background-color:var(--background-color-lightpurple);
+}
+
+
+
+
 
 
 
