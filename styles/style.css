@@ -282,6 +282,7 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
   border-radius: 2rem;
   padding: 1rem;
   margin: 3rem;
+  margin-top:2rem;
   width: 13rem;
   align-self: center;
   text-transform: uppercase;
@@ -318,25 +319,22 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
 /*************************/
 
 /* Section 1 - Main container */
-main section:first-of-type {
+.pact1 {
   background-color:var(--background-color-lightpink);
   display: grid;
   grid-auto-columns: auto;
   place-content: center;
-  padding: 1.5rem;
+  padding: 0rem;
   font-size: 1rem;
-  border-style: solid;
   border-width: 7px;
-  border-color:var(--background-color-red);
+    text-align: center;
+
 }
 
-/* Section 1 - Button */
-section button:nth-of-type(1) {
-  justify-self: center;
-}
+
 
 /* Section 1 - Heading H1 */
-main section:first-of-type h1 {
+.pact1 h1 {
   padding: 0.8rem;
   font-family: "Titan One", serif;
   -webkit-text-stroke: 1.3rem var(--border-guideline-black);
@@ -347,10 +345,14 @@ main section:first-of-type h1 {
   border-width: 7px;
   border-color:var(--background-color-red);
   text-align: center;
+  margin-left:6rem;
+   margin-top:4rem;
+    margin-right:6rem;
+
 }
 
 /* Section 1 - Heading H2 */
-main section:first-of-type h2 {
+.pact1 h2 {
   font-size: 1.3rem;
   font-weight: 500;
   font-family: sans-serif;
@@ -377,6 +379,10 @@ main section:first-of-type h2 {
   }
   .p-box2 {
     background-color: var(--background-color-lightgreen);
+    height:5rem;
+  
+
+  
   }
 
   .p-box3 {
@@ -407,6 +413,9 @@ animation-name: moveP;
 
 
 
+
+
+
 @keyframes moveP {
   from{
     transform: translate(0%);
@@ -427,19 +436,18 @@ animation-name: moveP;
 /*************************/
 
 /* Section 2 - Main container */
-main section:nth-of-type(2) {
+.pact2 {
   background-image: url("../images/background-purple.png");
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 100%;
-  min-height: 100vh;
-  margin: 0;
+  width: 100%;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
 }
 
 /* Section 2 - Heading */
-main section:nth-of-type(2) h2 {
+.pact2 h2 {
   font-size: 3rem;
   max-width: 100%;
   margin-left: 2rem;
@@ -448,20 +456,33 @@ main section:nth-of-type(2) h2 {
   height: 9rem;
   border-color: solid;
   font-family: "Manrope";
-  margin-top: 15rem;
+  margin-top: 18rem;
+  background-color: transparent;
 }
 
 /* Section 2 - First paragraph */
-main section:nth-of-type(2) p:nth-of-type(1) {
+.pact2 p {
   padding: 1rem;
   text-align: center;
   font-size: 1.3rem;
   font-family: "Manrope";
-  background-color:var(--background-color-blue);
+  background-color:var(--background-color-lightgreen);
   text-transform: none;
 }
 
-/* Section 2 - Second paragraph */ pp slider 
+.pact2 h3 {
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "Manrope";
+  background-color:transparent;
+  margin-left:2rem;
+  margin-right:2rem;
+  margin-top:0rem;
+  text-transform: none;
+}
+
+/* Section 2 - Second paragraph */  
 main section:nth-of-type(2) {
   padding: 0.8rem;
   text-align: center;
@@ -490,9 +511,11 @@ p {
   letter-spacing: 0.05rem;
 }
 
+
+
+
 /* Section 3 - Main container and headings girlies  */
-main section:nth-of-type(3),
-h3, h4 {
+.pact {
   background-color:var(--background-color-lightyellow2);
   max-width: 100%;
   display: grid;
@@ -503,8 +526,7 @@ h3, h4 {
 }
 
 /* Section 3 - Heading H3 */
-main section:nth-of-type(3)
-h3 {
+.pact h3 {
   font-family: "Titan One", serif;
   -webkit-text-stroke: 1.3rem var(--letter-color-dark-purple);
   paint-order: stroke fill;
@@ -515,8 +537,7 @@ h3 {
 }
 
 /* Section 3 - Heading H4 at claires */
-main section:nth-of-type(3)
-h4 {
+.pact  h4 {
   font-size: 2.5rem;
   margin-top: 0;
   padding: 0;
@@ -528,8 +549,7 @@ h4 {
 }
 
 /* Section 3 - Paragraphs */
-main section:nth-of-type(3) p {
-  padding: 0.5rem;
+.pact p {
   max-width: 100%;
   background-color:var(--background-color-light-yellow2);
   font-family: sans-serif;
@@ -635,17 +655,6 @@ main section:last-of-type(5) {
   display: grid;
   grid-auto-columns: auto;
   place-content: center;
-}
-
-/* Section 5 - Paragraphs */
-main p:last-of-type {
-  padding: 0.5rem;
-  max-width: 100%;
-  padding: 1rem;
-  background-color:var(--background-color-lightgreen);
-  font-family: "Manrope";
-  font-size: 1.2rem;
-  font-weight: 600;
 }
 
 /* Section 5 - Carousel list */
@@ -841,4 +850,85 @@ footer, a {
 /* Footer - Link color */
 footer, a:link {
   color:var(--color-text-black);
+}
+
+
+/* Desktop */
+@media (min-width:1000px) {
+main section:nth-of-type(2) h2 {
+  padding:0.5em;
+  margin-top:9rem;
+}
+
+
+/* Desktop section 3 */
+.groupie{
+ display: flex;
+  min-height: 40vh;
+  max-width: 40%;
+  flex-direction: row;
+  border-style: solid;
+
+}
+/* Desktop section 3 */
+main section:nth-of-type(3),h3,h4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   border-style: solid;
+   padding:3rem;
+   width:40rem;
+
+}
+  
+/* Desktop section 3 */
+ .pact {
+  display:flex;
+  max-width: 100%;
+  gap:3rem;
+  
+
+}
+
+/* Desktop section 1 */
+
+.pact11 {
+   width:40rem;
+   height:30rem;
+   padding:1rem;
+
+}
+
+/* Desktop section 1 */
+
+.pact1 {
+  display:flex;
+  max-width: 100%;
+  gap:2rem;
+ 
+
+
+}
+/* Desktop section 1 */
+.groupie2 > img {
+  min-height:40vh;
+  max-width:100%;
+   margin-right:0;
+   margin-bottom:0;
+}
+
+.pact2 h3 {
+  align-self: center;
+}
+
+
+
+
+
+}
+
+
+/* Phones */
+@media (max-width:600px) {
+
 }
