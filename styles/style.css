@@ -856,7 +856,7 @@ footer, a:link {
 
 
 /* Desktop */
-@media (min-width:1000px) {
+@media (min-width:500px) {
  .pact2 h2 {
   padding:0.5em;
   margin-top:9rem;
