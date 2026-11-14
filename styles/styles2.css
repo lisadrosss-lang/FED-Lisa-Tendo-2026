@@ -371,7 +371,7 @@ header nav:nth-of-type(2) img {
 
 /*https://chatgpt.com/c/6ad75519-25cc-83eb-9fd1-77d17716712b8*/
 /*section 1 with background picture*/
-main section:nth-of-type(1) {
+main > section:nth-of-type(1) {
   background-image:url("../images/Frame\ 4-8.png");
   background-repeat: no-repeat;
   max-width: 100%;
@@ -383,7 +383,7 @@ main section:nth-of-type(1) {
 }
 
 /*title */
-main section:nth-of-type(1) h1{
+main > section:nth-of-type(1) h1{
 font-size:4rem;
 color:var(--letter-color-black);
 padding:1rem;
@@ -398,7 +398,7 @@ line-height: 4rem;
 
 
 /*p of  we're getting a glow up*/
-main section:nth-of-type(1) p{
+main > section:nth-of-type(1) p{
   margin:1rem;
 font-size:1.1rem;
 font-family: sans-serif;
@@ -413,7 +413,7 @@ border-color:var(--border-guideline-black);
   /* section 2*/
 
 /*don't miss out background*/
-main section:nth-of-type(2) {
+main > section:nth-of-type(2) {
 background-color: var(--background-color-lightpurple);
    display:flex;
   flex-direction: column;
@@ -423,7 +423,7 @@ background-color: var(--background-color-lightpurple);
 
 
 /*don't miss out*/
-main section:nth-of-type(2) h2{
+main > section:nth-of-type(2) h2{
 padding:1rem;
 text-align: center;
 font-family: "Manrope",sans-serif;
@@ -434,7 +434,7 @@ margin-bottom:1rem;
   
 }
 /*don't miss out +p*/
- main section:nth-of-type(2)h3{
+ main > section:nth-of-type(2)h3{
 padding:1rem;
 text-align: center;
 font-family: "Manrope",sans-serif;
@@ -533,7 +533,7 @@ animation-name: moveP;
 
  /* SECTION 3 Carusel   */
  
- main section:nth-of-type(3) ul:nth-of-type(1){
+ main > section:nth-of-type(3) ul:nth-of-type(1){
    display:flex;
    overflow: scroll;
    gap:4em;
@@ -544,7 +544,7 @@ animation-name: moveP;
 }
 
 /* SECTION 3 controls the height of the images   */
- main section:nth-of-type(3) ul:nth-of-type(1) li{
+ main > section:nth-of-type(3) ul:nth-of-type(1) li{
    flex-basis:100%;
    flex-shrink:0;
    height:20rem;
@@ -552,13 +552,13 @@ animation-name: moveP;
    scroll-snap-align: start;
 }
 
- main section:nth-of-type(3)  ul:nth-of-type(2) {
+ main >  section:nth-of-type(3)  ul:nth-of-type(2) {
   display:flex;
  justify-content:center;
   gap:1rem;
  }
 
- main section:nth-of-type(3)  ul:nth-of-type(2) li {
+ main > section:nth-of-type(3)  ul:nth-of-type(2) li {
   flex-direction: row;
   height:1rem;
   width:1rem;
@@ -569,7 +569,7 @@ animation-name: moveP;
 
 
 
- main section:nth-of-type(3) h2{
+ main  > section:nth-of-type(3) h2{
  margin:1rem;
  padding:1rem; 
  display:flex;
@@ -578,7 +578,7 @@ animation-name: moveP;
  }
 
   /* section 3-h3*/
-main section:nth-of-type(3) h3{
+main > section:nth-of-type(3) h3{
  margin:1rem;
  padding:1rem;
  display:flex;
@@ -593,7 +593,7 @@ main section:nth-of-type(3) h3{
 
 
 
- main section:nth-of-type(3) p{
+ main > section:nth-of-type(3) p{
  margin:1rem;
  padding:1rem;
  display:flex;
@@ -608,13 +608,13 @@ main section:nth-of-type(3) h3{
  }
 
    /* section 4*/
-  main section:nth-of-type(4) {
+  main >  section:nth-of-type(4) {
   background-color:var(--background-color-lightgreen);
   display:flex;
   flex-direction: column;
  }
 
-    main section:nth-of-type(4) h3 {
+    main > section:nth-of-type(4) h3 {
         background-color:var(--background-color-lightgreen);
   padding:2rem;
   padding-bottom:0.8rem;
@@ -630,7 +630,7 @@ main section:nth-of-type(3) h3{
   font-style: normal;
  }
 
-     main section:nth-of-type(4) hr {
+     main > section:nth-of-type(4) hr {
       width:22rem;
       margin:1rem;
   
@@ -638,7 +638,7 @@ main section:nth-of-type(3) h3{
 
 /*Free piercing always*/
 /*section 4*/
-   main section:nth-of-type(4) h4 {
+   main > section:nth-of-type(4) h4 {
   font-size: 4rem;
   padding:1rem;
   padding-top:0;
@@ -648,7 +648,7 @@ main section:nth-of-type(3) h3{
 
 /*section 5 book now*/
 
-   main section:nth-of-type(5) {
+   main > section:nth-of-type(5) {
   font-size: 4rem;
   padding:1rem;
   padding-top:0;
@@ -661,7 +661,7 @@ main section:nth-of-type(3) h3{
  
 /*Prices */
 
- main section:nth-of-type(5) ul {
+ main >  section:nth-of-type(5) ul {
   margin:0;
     display: flex;
   flex-direction: column;
@@ -681,7 +681,7 @@ main section:nth-of-type(3) h3{
 
 
 
- main section:nth-of-type(5) ul>li {
+ main > section:nth-of-type(5) ul>li {
  display: flex;
  flex-direction:row;
  padding:0rem;
@@ -694,7 +694,7 @@ main section:nth-of-type(3) h3{
 
 
  /*https://chatgpt.com/share/6aef5c7a-45a8-83eb-8e4a-6d0e87f9c2bd*/
-   main section:nth-of-type(5) ul>li>h6 {
+   main >  section:nth-of-type(5) ul>li>h6 {
     margin:0.5rem;
    font-weight: 400;
    font-size: 0.9rem;
@@ -703,14 +703,14 @@ main section:nth-of-type(3) h3{
 
  }
 
-  main section:nth-of-type(5) ul>li>hr {
+  main > section:nth-of-type(5) ul>li>hr {
   width:15rem;
  }
 
 
   
     /* section 6 text background */
- main section:nth-of-type(6) {
+ main > section:nth-of-type(6) {
   background-image: url("../images/cl-studio-room_2880x.webp");
   background-repeat: no-repeat;
   min-height: 45rem;
@@ -722,14 +722,14 @@ main section:nth-of-type(3) h3{
 
  }
 
- main section:nth-of-type(6) h3 {
+ main > section:nth-of-type(6) h3 {
  margin:2.5rem;
  margin-top:13rem;
  font-size:3.5rem;
  text-align: center;
  }
 
-  main section:nth-of-type(6) h4 {
+  main > section:nth-of-type(6) h4 {
  font-size:1.3rem;
   margin-left:1.8rem;
     margin-right:1.8rem;
@@ -741,7 +741,7 @@ main section:nth-of-type(3) h3{
 
 
 
-  main section:nth-of-type(6) p {
+  main > section:nth-of-type(6) p {
        background-color:var(--background-color-lightgreen);
       padding:1.4rem;
       border-style: solid;
@@ -758,13 +758,12 @@ main section:nth-of-type(3) h3{
     
 
  /* section 7*/
-
- main section:nth-of-type(7), h3 {
+.section7pac, .section7pac > h3 {
     background-color: var(--background-color-lightyellow2);
 
 
  }
-     main section:nth-of-type(7) h3 {    
+    .section7pac h3 {    
           background-color: var(--background-color-lightyellow2);
       padding-bottom:0.8rem;
     font-size:2em;
@@ -780,7 +779,7 @@ main section:nth-of-type(3) h3{
   font-style: normal;
  }
 
-   main section:nth-of-type(7) h4 {
+  .section7pac h4 {
   font-size: 1rem;
   padding:1rem;
   padding-top:0;
@@ -794,7 +793,7 @@ main section:nth-of-type(3) h3{
  font-weight: 500;
   
  }
- main section:nth-of-type(7) p {
+ .section7pac p {
   margin:1rem;
   padding:0.5rem;
   font-size: 1.3rem;
@@ -811,7 +810,7 @@ main section:nth-of-type(3) h3{
 
 
    
-  main section:nth-of-type(8) li {
+  .section8pact li {
      display:flex;
      flex-direction: row;
      justify-content:start;
@@ -819,8 +818,8 @@ main section:nth-of-type(3) h3{
      margin:0;
      
   }
-  /* section 7 better experience*/
-     main section:nth-of-type(8) h3 {
+  /* section 8 better experience*/
+  .section8pact h3 {
   padding:1rem;
   background-color: var(--background-white);
   padding-bottom:0.8rem;
@@ -836,7 +835,7 @@ main section:nth-of-type(3) h3{
   font-style: normal;
  }
 
-   main section:nth-of-type(8) h4 {
+  .section8pact h4 {
   font-size: 1rem;
   padding:1rem;
   padding-top:0;
@@ -849,7 +848,7 @@ main section:nth-of-type(3) h3{
  font-weight: 500;
   
  }
- main section:nth-of-type(8) p,h5 {
+ .section8pact p,h5 {
   margin:0.5rem;
   padding:0.5rem;
   font-size: 1rem;
@@ -864,20 +863,21 @@ main section:nth-of-type(3) h3{
  }
 
 
-  main section:nth-of-type(8) li>h3 {
+  .section8pact > ul > li > h3 {
     font-size: 6rem;
     padding:1rem;
   }
- main section:nth-of-type(8)  {
+
+ main > section:nth-of-type(8)  {
   background-color: var(--background-white);
  }
 
- main section:nth-of-type(8)> hr {
+ .section8pact >  hr {
   margin:1rem;
  }
 
   /* section 9 slide allergin paars */
-    main p:nth-of-type(2) {
+    .p-box4 {
       background-color:var(--background-color-purple-strip);
       padding:1rem;
       text-transform: uppercase;
@@ -894,14 +894,14 @@ main section:nth-of-type(3) h3{
 
  /* section 9 smiley bling bling*/
 
-  main section:nth-of-type(9) img:nth-of-type(1) {
+  .piercing > img:nth-of-type(1) {
     padding:1rem;
     margin-top:3rem;
     height:7em;
     width:10rem;
   }
 
-     main section:nth-of-type(9) h3 {
+     .piercing >  h3 {
   padding:1rem;
   font-size:2em;
   margin-top:1rem;
@@ -915,7 +915,7 @@ main section:nth-of-type(3) h3{
   background-color: var(--background-white);
  }
 
-     main section:nth-of-type(10) h3 {
+    .section10pact > h3 {
   padding:0.5rem;
     font-size: 0.9rem;
   margin-top:1rem;
@@ -931,7 +931,7 @@ main section:nth-of-type(3) h3{
 
 
 
- main section:nth-of-type(10) p {
+ .section10pact > p {
   margin:1rem;
   padding:0.5rem;
   font-size: 0.9rem;
@@ -944,161 +944,168 @@ main section:nth-of-type(3) h3{
  }
 
 
- main section:nth-of-type(10)  {
+ .section10pact {
   background-color:var(--background-white);
   margin-right:0.8rem;
  }
 
- main section:nth-of-type(10) ul {
+ .section10pact > ul {
   display: flex;
   flex-direction: column;
   margin:1rem;
+  padding: 1rem;
  }
 
-  main section:nth-of-type(10) li,p,img {
+  .section10pact > ul >  li ,p ,img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  list-style: none;
-  border-style:solid;
+   list-style: none;
+   border-style:solid;
  }
 
-  main section:nth-of-type(10) li>img {
-  width:2rem;
-  height:2rem;
-  align-self: center;
+  .section10pact > ul > li > img {
+   height:3rem;
+   width: 3rem;
+
+ }
+ .section10pact > ul > li  {
+   padding: 1rem;
+
  }
 
+ 
 
+/*************************/
+/* 11. FOOTER */
+/*************************/
 
-
-/* FOOTER */
-
-footer,h3  {
-  background-color: var(--background-color-lightpurple);
+/* Footer - Main background */
+footer, h3 {
+  background-color:var(--background-color-lightpurple);
   list-style: none;
-  
-
 }
 
-footer>h3 {
+/* Footer - Heading H2 */
+.footpact1 {
+  font-size: 1rem;
+  font-family: "Manrope";
+  border-style: solid;
+  border-width: 7px;
+  border:solid var(--border-guideline-black);
+  margin: 0.5rem;
+}
+
+/* Footer - Heading H3 */
+.footpact1 h3 {
   margin-top: 0rem;
-   margin-bottom: 0rem;
+  margin-bottom: 0rem;
   padding: 2rem;
   border-style: solid;
   text-transform: uppercase;
-  letter-spacing:0.11rem;
+  letter-spacing: 0.11rem;
 }
 
-/*ul 1de*/
-footer ul:nth-of-type(1) {
-display:flex;
-justify-content:start;
-list-style: none;
-border-style:solid;
-padding:0em;
- margin: 1rem;
-
-}
-/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_circles*/
-/*ul 1de*/
-footer ul:nth-of-type(1) li{
-  margin:0.3rem;
-  background-color:var(--claire-home-color-purple);
-  border-radius:50%;
-  padding: 0.6rem;
-  padding-bottom: 0.6rem;
+/* Footer - Heading H3 layout */
+.footpact1 > h3 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  font-family: "Manrope";
+  font-weight: 900;
 }
 
+/* Footer - Heading H4 */
+.footpact > h4 {
+  padding: 1.5rem;
+  font-size: 0.8rem;
+  color:var(--letter-color-dark-purple);
+  font-family: "Manrope";
+  background-color:var(--background-color-lightpurple);
+  margin-bottom: 0;
+}
+
+/* Footer - First unordered list */
+.footpact1 {
+  display: flex;
+  justify-content: start;
+  list-style: none;
+  border-style: solid;
+  padding: 0em;
+  margin: 1rem;
+
+}
 
 footer img {
   height:2rem;
   width:2rem;
 }
 
+/* Reference */
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_circles */
 
+/* Footer - First unordered list items */
+.footpact1 ul > li {
+  margin: 0.3rem;
+  background-color:var(--claire-home-color-purple);
+  border-radius: 50%;
+  padding: 0.6rem;
+  padding-bottom: 0.6rem;
+}
 
-
-/*ul 2de*/
-footer ul:nth-of-type(2) {
+/* Footer - Second unordered list */
+.footpact > ul {
   list-style: none;
   line-height: 1.9rem;
   font-family: sans-serif;
   font-weight: 600;
-   
+    border-style: solid;
 }
 
-footer>h2 {
-  font-size:1rem;
-font-family: "Manrope";
-border-style:solid;
-border-width:7px;
-border-color:var(--border-guideline-black);
-margin:0.5rem;
-}
-
+/* Footer - Label */
 footer >label {
   display: flex;
-  margin-top:1em;
-  margin-bottom:1em;
-   margin-right:3em;
-  margin-left:3em;
-  height:3.8rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 3em;
+  margin-left: 3em;
+  height: 3.8rem;
   flex-grow: 1;
- 
-  
 }
 
-footer >label> input{
-  padding:1rem;
-    border-radius:3rem;
-      border-style: black;
-      flex-grow: 1;
-      
-
-
+/* Footer - Input */
+footer >label> input {
+  padding: 1rem;
+  border-radius: 3rem;
+  border:solid var(--border-guide-line);
+  flex-grow: 1;
 }
- footer> label> button {
-  padding:1rem;
-   border-radius:3rem;
-  height:3.8rem;
-  width: 3.7rem;
-  background-color:var(--background-color-purple-strip);
-  border-style: none;
-  margin-left:-3rem;
- }
 
-
- footer> label>input {
+/* Footer - Input font size */
+footer> label>input {
   font-size: 1.1em;
- }
-
-
-
-footer>h3 {
-  display:flex;
-  justify-content: flex-start;
-  font-size: 1.5rem;
-  font-family: "Manrope";
-  font-weight:900;
 }
 
-footer>h4 {
-  padding: 1.5rem;
-  font-size:0.8rem;
-  color:var(--button-colo-purple);
-  font-family: "Manrope";
-  background-color:var(--background-color-lightpurple);
-  margin-bottom:0;
+/* Footer - Button */
+footer> label> button {
+  padding: 1rem;
+  border-radius: 3rem;
+  height: 3.8rem;
+  width: 3.7rem;
+  background-color:var(--claire-home-color-purple);
+  border-style: none;
+  margin-left: -3rem;
 }
 
-  footer,a {
-     text-decoration: none;
+/* Footer - Links */
+footer, a {
+  text-decoration: none;
 }
 
-  footer,a:link {
-    color:var(--letter-color-black);
-  }
+/* Footer - Link color */
+footer, a:link {
+  color:var(--color-text-black);
+}
 
 
   /* Desktop */
@@ -1133,25 +1140,120 @@ main > section:nth-of-type(5) {
 }
 
 
-}
-
-main > section:nth-of-type(5) ul {
-   max-width: 100%;
-   
-
 
 
 
 .picture-collega > img {
   display:flex;
-  max-width:20%;
+
 
 
 }
 
-main > section:nth-of-type(7)  {
-  display: flex;
+
+ main section:nth-of-type(6) {
+  padding:3rem;
   
+
+ }
+
+
+ main section:nth-of-type(6) > h3 {
+  padding-left:10rem;
+    padding-right:10rem;
+    font-size: 5rem;
+    line-height: 4.5rem;
+      background-color: transparent;
+
+ }
+
+
+ main section:nth-of-type(6) > h4 {
+  padding-top:2rem;
+  padding-left:12rem;
+    padding-right:12rem;
+     font-size: 2rem;
+    line-height: 2.2rem;
+  
+
+ }
+
+.section7pac {
+ display:flex;
+ flex-direction: row;
+ background-color: var(--background-color-lightyellow2);
+ border:none;
+  
+}
+
+.section8pact {
+  display: flex;
+  max-width: 100%;
+
+}
+
+.section8pact h3,h4{
+  margin-left:4rem;
+  margin-right:4rem;
+  margin-top: 0;
+
+
+} 
+
+.section8pact ul {
+  
+  
+
+} 
+
+.section8pact > ul > li {
+  padding-left:0rem;
+
+} 
+
+.section8foto > img{
+  height:59em;
+   width:70rem;
+     margin-top:3rem;
+}
+
+.section8together  {
+  margin-top:3rem;
+
+}
+
+.piercing, h3 {
+  display: flex;
+ 
+  justify-content: center;
+  gap: 4rem;
+
+
+}
+
+.piercing > h3 {
+  align-self: start;
+  font-size: 7em;
+  margin-top: 4rem;
+
+}
+
+
+.piercing > img:nth-of-type(1) {
+  
+    height:10em;
+    width:15rem;
+     align-self: center;
+  }
+
+  .footpact {
+  list-style: none;
+  line-height: 1.9rem;
+  font-family: sans-serif;
+  font-weight: 600;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 
