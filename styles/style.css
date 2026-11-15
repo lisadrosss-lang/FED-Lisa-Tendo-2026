@@ -447,17 +447,18 @@ animation-name: moveP;
 }
 
 /* Section 2 - Heading */
-.pact2 h2 {
+ .pact2  h2 {
   font-size: 3rem;
   max-width: 100%;
   margin-left: 2rem;
   margin-right: 2rem;
   text-align: center;
-  height: 9rem;
+
   border-color: solid;
   font-family: "Manrope";
   margin-top: 18rem;
   background-color: transparent;
+
 }
 
 /* Section 2 - First paragraph */
@@ -566,10 +567,10 @@ p {
 .pact5  {
   background-color:var(--background-color-lightpurple);
   max-width: 100%;
-  min-height: 70vh;
+  min-height: 75vh;
   font-size: 1.5rem;
   text-align: center;
-  padding-top: 6rem;
+  padding-top: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
   
@@ -855,6 +856,47 @@ footer, a:link {
 }
 
 
+
+
+/* Tablet */
+@media (min-width:600px) {
+  /* Section 2 - Heading */
+.pact2  {
+  height:30rem;
+}
+
+  /* Section 2 - Heading */
+ .pact2 > h3 {
+  padding:0;
+   margin:0rem;
+}
+  /* Section 2 - Heading */
+ .pact2 >h2 {
+   margin-top:10rem;
+    margin-bottom:0rem;
+    padding:1rem;
+}
+
+  /* Section 3 - img */
+.groupie > img {
+  height:30rem;
+  padding:2rem;
+}
+
+
+
+  /* Section 1 - button */
+  .pact1 > .pact11 > .button {
+  margin-top: 1rem;
+    margin-bottom: 3rem;
+      margin-left: 3rem;
+        margin-right: 3rem;
+}
+
+}
+
+
+
 /* Desktop */
 @media (min-width:1000px) {
  .pact2 h2 {
@@ -911,13 +953,14 @@ main section:nth-of-type(3),h3,h4 {
 
 
 }
-/* Desktop section 1 */
+/* Desktop section 3 */
 .groupie2 > img {
   min-height:40vh;
   max-width:100%;
    margin-right:0;
    margin-bottom:0;
 }
+
 
 .pact2 h3 {
   align-self: center;
