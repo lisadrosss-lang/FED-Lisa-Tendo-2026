@@ -372,7 +372,7 @@ header nav:nth-of-type(2) img {
 /*https://chatgpt.com/c/6ad75519-25cc-83eb-9fd1-77d17716712b8*/
 /*section 1 with background picture*/
 main > section:nth-of-type(1) {
-  background-image:url("../images//2026.png") ;
+  background-image:url("../images/2026.png") ;
   background-repeat: no-repeat;
   max-width: 100%;
   min-height: 5rem;
@@ -433,8 +433,9 @@ border-style: solid;
 margin-bottom:1rem;
   
 }
+
 /*don't miss out +p*/
- main > section:nth-of-type(2)h3{
+ main > section:nth-of-type(2) h3{
 padding:1rem;
 text-align: center;
 font-family: "Manrope",sans-serif;
@@ -444,7 +445,7 @@ margin-top:0rem;
 margin-left:1.5rem;
 margin-right:1.5rem;
 margin-bottom:0;
-border-style: solid;
+
 }
 
 
@@ -532,24 +533,32 @@ animation-name: moveP;
 
 
  /* SECTION 3 Carusel   */
+
  
+
+
+
+   
+ /*height of section did not know https://chatgpt.com/share/6afaf750-8f00-83eb-9ab5-d998a40d8d54*/
  main > section:nth-of-type(3) ul:nth-of-type(1){
    display:flex;
-   overflow: scroll;
-   gap:4em;
-   scroll-behavior:smooth;
-   scroll-snap-type:mandatory x;
-   overscroll-behavior-x: contain;
+   gap:1.5em;
+   margin: 0rem;
+   padding-left:1.5rem;
+     overflow-y: hidden;
+   overflow: auto;
+    min-height:38rem;
 
 }
 
 /* SECTION 3 controls the height of the images   */
  main > section:nth-of-type(3) ul:nth-of-type(1) li{
-   flex-basis:100%;
+   flex-basis:70%;
    flex-shrink:0;
    height:20rem;
    list-style:none;
    scroll-snap-align: start;
+
 }
 
  main >  section:nth-of-type(3)  ul:nth-of-type(2) {
@@ -558,14 +567,6 @@ animation-name: moveP;
   gap:1rem;
  }
 
- main > section:nth-of-type(3)  ul:nth-of-type(2) li {
-  flex-direction: row;
-  height:1rem;
-  width:1rem;
-  list-style: none;
-  background-color: var(--background-color-pink);
-  border-radius: 50%;
- }
 
 
 
@@ -1127,30 +1128,52 @@ footer, a:link {
 }
 
 
+
+@media (min-width:500px) {
+/* SECTION 3 controls the height of the images   */
+
+}
 /*Phone*/
 
-@media (min-width:650px) {
-  main > section:nth-of-type(6) h3 {
-   margin-top:10rem;
-   padding-right:6rem;
-   padding-left:6rem;
-   height:10rem;
-
- }
 
 
- @media (max-width:650px) {
-  main > section:nth-of-type(6) h3 {
-  background-image: url("../images/cl-endtoend-3_550.\ claires.webp");
-   max-width: 100%;
+
+
+@media (min-width:625px) {
+ main > section:nth-of-type(3) ul:nth-of-type(1) li{
+   flex-basis:50%;
+   flex-shrink:0;
+   height:20rem;
+   list-style:none;
+   scroll-snap-align: start;
+
 }
 
+ main > section:nth-of-type(3) ul:nth-of-type(1){
+   display:flex;
+   gap:1.5em;
+   margin: 0rem;
+   padding-left:1.5rem;
+     overflow-y: hidden;
+   overflow: auto;
+    min-height:38rem;
+}
+
+}
+
+
+@media (min-width:650px) {
 
 
 .section8foto {
   background-image: none;
 }
+ 
+
+
  }
+
+
 
   /* Tablet */
 @media (min-width:725px) {
@@ -1175,22 +1198,35 @@ main > section:nth-of-type(5) {
 grid-template-columns: 1fr 1fr;
 min-height: 30rem;
   
-  
 }
  /*code voor grid https://chatgpt.com/c/6af9efae-7518-83eb-8542-6eff24a5e925*/
 
-main > section:nth-of-type(5) img {
+main > section:nth-of-type(5)>  img {
 min-height: 40rem;
 width:100%;
   
 }
 
- main > section:nth-of-type(6) img {
-  background-image: url("../images/image-6.png");
-   max-width: 100%;
-   
+   main > section:nth-of-type(6) > h3 {
+  background-color: transparent;
 }
- }
+
+  /* this is valubale code contain!!*/
+main > section:nth-of-type(6) {
+  background-image: url("../images/cl-studio-room_2880x.webp");
+  background-repeat: no-repeat;
+  background-size:cover;
+  min-height: 20rem;
+  max-width: 100%;
+  
+}
+
+main > section:nth-of-type(6) h3 {
+ background-color:transparent;
+
+ 
+
+}
 
 
  .section7pac{
@@ -1208,6 +1244,13 @@ width: 100%;
 
 .section8foto {
   background-image: url("../images/image-7-section8.png");
+  
+  }
+
+  .section8pact {
+     display: grid;
+ grid-template-columns: 1fr 1fr;
+    width: 100%;
   
   }
 
@@ -1242,10 +1285,86 @@ width: 100%;
    margin-right:3rem;
 
 }
+
+
+
+
 }
 
-  /* Desktop */
+
+@media (min-width:750px) {
+ main > section:nth-of-type(3) ul:nth-of-type(1) li{
+   flex-basis:40%;
+   flex-shrink:0;
+   height:20rem;
+   list-style:none;
+   scroll-snap-align: start;
+
+}
+
+ main > section:nth-of-type(3) ul:nth-of-type(1){
+   display:flex;
+   gap:1.5em;
+   margin: 0rem;
+   padding-left:1.5rem;
+     overflow-y: hidden;
+   overflow: auto;
+    min-height:38rem;
+}
+
+}
+
+
 @media (min-width:1000px) {
+ main > section:nth-of-type(3) ul:nth-of-type(1) li{
+   flex-basis:30%;
+   flex-shrink:0;
+   height:20rem;
+   list-style:none;
+   scroll-snap-align: start;
+
+}
+
+ main > section:nth-of-type(3) ul:nth-of-type(1){
+   display:flex;
+   gap:1.5em;
+   margin: 0rem;
+   padding-left:1.5rem;
+     overflow-y: hidden;
+   overflow: auto;
+    min-height:40rem;
+}
+
+main > section:nth-of-type(6) {
+  background-image: url("../images/cl-studio-room_2880x.webp");
+  background-repeat: no-repeat;
+  background-size:cover;
+  min-height: 20rem;
+  max-width: 100%;
+  
+}
+
+main > section:nth-of-type(6) > h3 {
+  background-color:transparent;
+  
+}
+
+
+}
+
+
+  /* Desktop */
+@media (min-width:1000px){
+  main > section:nth-of-type(1) {
+  background-image:url("../images/2026.png") ;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-height: 5rem;
+ 
+  
+}
+
+
 main section:nth-of-type(2){
   display:flex;
   flex-direction: row;
@@ -1256,64 +1375,11 @@ main section:nth-of-type(2){
   align-self:center;
 }
 
-main section:nth-of-type(3) ul:nth-of-type(1) li {
-height: 70vh; 
-flex-basis: 50%;
- max-width: 25%;
- overflow-y: 0;
- overflow-x: 0;
-}
-
-
-main section:nth-of-type(3) ul:nth-of-type(1) {
- gap:2rem;
- margin-left:0;
-}
-
 
     main > section:nth-of-type(4) h3, h4 {
     justify-content: start;
-    
-  
- }
-
-
-
-
-
-
-
-
-
-
- main section:nth-of-type(6) {
-  padding:3rem;
-  
 
  }
-
-
- main section:nth-of-type(6) > h3 {
-  padding-left:10rem;
-    padding-right:10rem;
-    font-size: 5rem;
-    line-height: 4.5rem;
-      background-color: transparent;
-
- }
-
-
- main section:nth-of-type(6) > h4 {
-  padding-top:2rem;
-  padding-left:12rem;
-    padding-right:12rem;
-     font-size: 2rem;
-    line-height: 2.2rem;
-  
-
- }
-
-
 
 
 
@@ -1341,6 +1407,9 @@ main section:nth-of-type(3) ul:nth-of-type(1) {
     width:15rem;
      align-self: center;
   }
+
+
+
 
   .footpact {
   list-style: none;
