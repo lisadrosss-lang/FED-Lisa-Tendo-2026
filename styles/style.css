@@ -338,7 +338,7 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
 
 /* Section 1 - Heading H1 */
 .pact1 h1 {
-  padding: 0.8rem;
+  padding: 1rem;
   font-family: "Titan One", serif;
   -webkit-text-stroke: 1.3rem var(--border-guideline-black);
   paint-order: stroke fill;
@@ -348,9 +348,10 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
   border-width: 7px;
   border-color:var(--background-color-red);
   text-align: center;
-  margin-left:6rem;
-   margin-top:4rem;
-    margin-right:6rem;
+  margin-left:3rem;
+   margin-top:6rem;
+    margin-right:3rem;
+    margin-bottom: 0;
 
 }
 
@@ -453,10 +454,9 @@ animation-name: moveP;
  .pact2  h2 {
   font-size: 3rem;
   max-width: 100%;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 4rem;
+  margin-right: 4em;
   text-align: center;
-
   border-color: solid;
   font-family: "Manrope";
   margin-top: 18rem;
@@ -773,7 +773,9 @@ footer img {
   background-color:var(--claire-home-color-purple);
   border-radius: 50%;
   padding: 1rem;
-  padding-bottom: 1rem;
+  width: 4rem;
+  height: 3.5rem;
+  padding-bottom: 3rem;
   
 }
 
@@ -1040,10 +1042,17 @@ footer, a:link {
 }
 
 /* Desktop */
-@media (min-width:1000px)
+@media (min-width:1000px){
+  /*section 1 h1*/
+.pact1 h1 {
+  padding: 3rem;
+  margin-left:1rem;
+  margin-right:1rem;
+  margin-top:1rem;
 
+}
 
-{
+ /*section 1 h2*/
  .pact2 h2 {
   padding:0.5em;
   margin-top:9rem;
@@ -1100,7 +1109,7 @@ main section:nth-of-type(3),h3,h4 {
 }
 /* Desktop section 3 */
 .groupie2 > img {
-  min-height:40vh;
+  min-height:80vh;
   max-width:100%;
    margin-right:0;
    margin-bottom:0;
@@ -1156,7 +1165,16 @@ footer {
 }
 
 
-/* Phones */
-@media (max-width:600px) {
 
+
+@font-face {
+  font-family: "SeasonMix";
+  src: url("fonts1/SeasonMix-Regular(2).woff2");
+  font-weight: 100;
+  font-style:normal;
+}
+
+h2 {
+  font-family: "SeasonMix";
+  font-weight: 100;
 }
