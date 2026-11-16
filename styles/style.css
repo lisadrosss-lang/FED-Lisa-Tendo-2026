@@ -87,6 +87,8 @@ section:nth-of-type(6) img {
 /*************************/
 
 /* Header */
+/* https://chatgpt.com/share/6afb5cba-02c0-83eb-a3ca-0299046cfd2f*/
+/*z-index to keep items under navbar*/
 header {
   display: flex;
   justify-content: space-between;
@@ -95,6 +97,7 @@ header {
   background-color:var(--background-white);
   position: sticky;
   top: 0;
+  z-index:100;
 }
 
 /* Logo */
@@ -649,33 +652,37 @@ p {
 /*************************/
 /* 10. SECTION 5 */
 /*************************/
-
-/* Section 5 - Main container */
-.caru {
-  max-width: 100%;
-  min-height: 30rem;
+ /*height of section did not know https://chatgpt.com/share/6afaf750-8f00-83eb-9ab5-d998a40d8d54*/
+.caru ul:nth-of-type(1) {
+   display:flex;
+    flex-direction: row;
+   gap: 0.6em;
+   margin: 0rem;
+   padding-left:0rem;
+    min-height:30rem;
+   overflow-y:0;
+   overflow: auto;
+   margin-bottom: 0;
+   padding-bottom:0;
 
 }
 
-/* Section 5 - Carousel list */
-.caru ul:nth-of-type(1)  {
-  display: flex;
-  overflow: scroll;
-  gap: 0.5em;
-  scroll-behavior: smooth;
-  overscroll-behavior-x: contain;
-  margin: 0;
+
+
+
+/* SECTION 3 controls the height of the images   */
+ .caru ul:nth-of-type(1) li{
+   flex-basis:70%;
+   flex-shrink:0;
+   height:30rem;
+   padding-bottom:0;
+   margin-bottom:0;
+   list-style:none;
+   scroll-snap-align: start;
+
 }
 
-/* Section 5 - Carousel list items and image height */
-.caru ul:nth-of-type(1) li {
-  flex-basis: 50%;
-  flex-shrink: 0;
-  height: 15rem;
-  list-style: none;
-  scroll-snap-align: start;
-  
-}
+
 
 
 .buttons {
@@ -685,35 +692,8 @@ background-color: transparent;
 
 
 
-.left-arrow {
-background-color:rgba(255, 255,255, .5); 
-border-radius: 50%;
-width:4rem;
-height:4rem;
-background-image: url("../images/arrow-left-long-solid.svg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: contain;
-z-index: 2;
 
-}
 
-.right-arrow {
-background-color:rgba(255, 255,255, .5); 
-border-radius: 50%;
-width:4rem;
-height:4rem;
-background-image:url("../images/arrow-right-long-solid.svg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: contain;
-
-}
-
-.right-arrow:hover,.left-arrow:hover {
-  color:white;
-  background-color:rgba(255, 255,255, .5);
-}
 
 
 
@@ -822,20 +802,22 @@ footer >label {
   margin-bottom: 1em;
   margin-right: 3em;
   margin-left: 0;
-  height: 3.8rem;
+  height: 5rem;
   flex-grow: 1;
+  
 }
 
 /* Footer - Input */
-footer >label> input {
+footer > label > input {
   padding: 1rem;
   border-radius: 3rem;
-  border:solid var(--border-guide-line);
   flex-grow: 1;
+
+  
 }
 
 /* Footer - Input font size */
-footer> label>input {
+footer > label > input {
   font-size: 1.1em;
 }
 
@@ -928,6 +910,39 @@ footer, a:link {
 }
 
 
+@media (min-width:300px){
+
+.caru ul:nth-of-type(1)  {
+  display: flex;
+    gap: 0.3em;
+  margin-left:0;
+ 
+
+}
+
+
+.caru ul:nth-of-type(1)  {
+  display: flex;
+  gap: 0.5em;
+  margin: 0;
+  overflow:auto;
+  overflow-y:hidden;
+  padding: 0;
+  min-height: 29rem;
+}
+
+/* Section 5 - Carousel list items and image height */
+.caru ul:nth-of-type(1) li {
+  flex-basis: 80%;
+  flex-shrink: 0;
+  list-style: none;
+  height: 29rem;
+
+  
+  
+}
+}
+
 
 
 /* Tablet */
@@ -977,28 +992,52 @@ footer, a:link {
     grid-template-columns: 1fr 1fr;
 }
 
+
+
+}
+
+
+
+
+
+
 /* Section 5 - Carousel list */
+
+@media (min-width:725px){
+.caru {
+  min-height: 0;
+}
+
+.caru ul:nth-of-type(1)  {
+  display: flex;
+  height: 40vh;
+    gap: 0.3em;
+  margin-left:0;
+ 
+
+}
+
+
 .caru ul:nth-of-type(1)  {
   display: flex;
   gap: 0.5em;
   margin: 0;
   overflow: hidden;
   padding: 0;
+  min-height: 10rem;
 }
 
 /* Section 5 - Carousel list items and image height */
 .caru ul:nth-of-type(1) li {
-  flex-basis: 60%;
+  flex-basis: 25%;
   flex-shrink: 0;
   list-style: none;
-  height: 30rem;
+  height: 10rem;
 
   
   
 }
 }
-
-
 
 /* Desktop */
 @media (min-width:1000px)
@@ -1087,40 +1126,6 @@ main section:nth-of-type(3),h3,h4 {
 
 
 
-/* Section 5 - Carousel list */
-
-.caru {
-  min-height: 0;
-}
-
-.caru ul:nth-of-type(1)  {
-  display: flex;
-  height: 40vh;
-    gap: 0.3em;
-  margin-left:0;
- 
-
-}
-
-
-.caru ul:nth-of-type(1)  {
-  display: flex;
-  gap: 0.5em;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-}
-
-/* Section 5 - Carousel list items and image height */
-.caru ul:nth-of-type(1) li {
-  flex-basis: 25%;
-  flex-shrink: 0;
-  list-style: none;
-  height: 30rem;
-
-  
-  
-}
 
 .buttons,.right-arrow,.left-arrow  {
   background-color:var(--background-color-lightpurple);

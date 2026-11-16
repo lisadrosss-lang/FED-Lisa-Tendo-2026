@@ -89,10 +89,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
-  background-color: var(--background-white);
+  background-color:var(--background-white);
   position: sticky;
   top: 0;
-
+  z-index:100;
 }
 
 nav details>ul {
@@ -448,27 +448,61 @@ margin-bottom:0;
 
 }
 
-
+/*`controls email vakje */
 .email-adres{
  display: flex;
  flex-direction: column;
- margin-bottom:0;
+ height:3.5rem;
+ padding:2rem;
+ width: 20rem;
+   
+
+
 }
 
-.zipcode{
+.secondinput{
   display: flex;
-  margin:6rem;
+  flex-direction: column;
+  gap:1rem;
+
 
 }
 
+.together1 > h2 {
+  width:100%;
+}
 
-.together1 label,input{
+
+.together1 {
+  display:flex;
+  flex-direction: row;
+}
+
+ /*email sizes*/
+.together1 input, label {
+ padding:1rem;
+ flex-grow: 1;
+ border-radius:0.5rem;
+ color: grey;
+}
+
+
+
+
+
+.together1 > .email-adres, .secondinput {
   padding:1rem;
-  margin:0;
-  border-radius:0.5rem;
-  flex-grow:1;
+  
+  
+  
 
 }
+
+
+
+
+
+ 
 
 
 /*https://chatgpt.com/share/6af4e649-fc38-83ed-b7ee-61cdf9a7a8fe*/
@@ -832,7 +866,7 @@ main > section:nth-of-type(3) h3{
   padding:1rem;
   background-color: var(--background-white);
   padding-bottom:0.8rem;
-  font-size:2em;
+  font-size:3em;
   margin-top:0;
   margin-bottom: 0;
   border-style:solid;
@@ -1009,6 +1043,9 @@ footer h3 {
     margin-bottom: 0;
 
 
+footer > label > input {
+  height:3.5rem;
+}
 
   
 }
@@ -1060,7 +1097,9 @@ footer img {
   background-color:var(--claire-home-color-purple);
   border-radius: 50%;
   padding: 1rem;
-  padding-bottom: 1rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  padding-bottom: 3rem;
   
 }
 
@@ -1089,8 +1128,10 @@ footer >label {
   margin-bottom: 1em;
   margin-right: 3em;
   margin-left: 0;
-  height: 3.8rem;
+  height: 5.7rem;
   flex-grow: 1;
+  
+
 }
 
 /* Footer - Input */
@@ -1129,11 +1170,7 @@ footer, a:link {
 
 
 
-@media (min-width:500px) {
-/* SECTION 3 controls the height of the images   */
 
-}
-/*Phone*/
 
 
 
@@ -1159,19 +1196,11 @@ footer, a:link {
     min-height:38rem;
 }
 
-}
-
-
-@media (min-width:650px) {
-
-
 .section8foto {
   background-image: none;
 }
- 
 
-
- }
+}
 
 
 
@@ -1224,9 +1253,19 @@ main > section:nth-of-type(6) {
 main > section:nth-of-type(6) h3 {
  background-color:transparent;
 
- 
-
 }
+
+/* Footer - Second unordered list */
+.footpact ul {
+  list-style: none;
+  line-height: 1.9rem;
+  font-family: sans-serif;
+  font-weight: 600;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 
 
  .section7pac{
@@ -1314,7 +1353,7 @@ width: 100%;
 
 }
 
-
+/*Desktop*/
 @media (min-width:1000px) {
  main > section:nth-of-type(3) ul:nth-of-type(1) li{
    flex-basis:30%;
@@ -1334,6 +1373,46 @@ width: 100%;
    overflow: auto;
     min-height:40rem;
 }
+
+
+/*don't miss out*/
+main > section:nth-of-type(2) h2 {
+text-align: start;
+font-family: "Manrope",sans-serif;
+font-size: 2.5rem;
+font-weight:500;
+border-style: solid;
+margin-bottom:1rem;
+width:100%;
+  
+}
+
+main > section:nth-of-type(2) h3 {
+text-align: start;
+  
+}
+
+
+.together1 > h2 {
+  width:100%;
+}
+
+
+.together1 {
+  display:flex;
+  flex-direction: row;
+}
+
+ /*email sizes*/
+.together1 input, label {
+ padding:1rem;
+}
+
+
+
+
+
+
 
 main > section:nth-of-type(6) {
   background-image: url("../images/cl-studio-room_2880x.webp");
@@ -1386,7 +1465,6 @@ main section:nth-of-type(2){
 
 .piercing, h3 {
   display: flex;
- 
   justify-content: center;
   gap: 4rem;
 
@@ -1402,7 +1480,6 @@ main section:nth-of-type(2){
 
 
 .piercing > img:nth-of-type(1) {
-  
     height:10em;
     width:15rem;
      align-self: center;
