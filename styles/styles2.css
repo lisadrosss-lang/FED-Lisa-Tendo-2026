@@ -988,43 +988,42 @@ main > section:nth-of-type(3) h3{
 /*************************/
 
 /* Footer - Main background */
-footer, h3 {
+
+
+
+footer, footer > h3 {
   background-color:var(--background-color-lightpurple);
   list-style: none;
+  padding: 1rem;
+    
 }
 
 /* Footer - Heading H2 */
-.footpact1 {
-  font-size: 1rem;
-  font-family: "Manrope";
-  border-style: solid;
-  border-width: 7px;
-  border:solid var(--border-guideline-black);
-  margin: 0.5rem;
-}
+footer h3 {
 
-/* Footer - Heading H3 */
-.footpact1 h3 {
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-  padding: 2rem;
-  border-style: solid;
-  text-transform: uppercase;
-  letter-spacing: 0.11rem;
+  font-family: "Manrope";;
+  font-size: 2rem;
+  padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+
+
+  
 }
 
 /* Footer - Heading H3 layout */
-.footpact1 > h3 {
+footer > h2 {
   display: flex;
   justify-content: flex-start;
-  font-size: 1.5rem;
+  font-size: 0.9rem;
   font-family: "Manrope";
   font-weight: 900;
 }
 
 /* Footer - Heading H4 */
 .footpact > h4 {
-  padding: 1.5rem;
+  padding: 1rem;
   font-size: 0.8rem;
   color:var(--letter-color-dark-purple);
   font-family: "Manrope";
@@ -1040,6 +1039,9 @@ footer, h3 {
   border-style: solid;
   padding: 0em;
   margin: 1rem;
+  margin-right: 0;
+  flex-direction: row;
+
 
 }
 
@@ -1052,12 +1054,17 @@ footer img {
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_circles */
 
 /* Footer - First unordered list items */
-.footpact1 ul > li {
+.footpact1 li {
   margin: 0.3rem;
   background-color:var(--claire-home-color-purple);
   border-radius: 50%;
-  padding: 0.6rem;
-  padding-bottom: 0.6rem;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  
+}
+
+.footpact {
+  padding-left: 1rem;
 }
 
 /* Footer - Second unordered list */
@@ -1067,6 +1074,11 @@ footer img {
   font-family: sans-serif;
   font-weight: 600;
     border-style: solid;
+    padding-top: 2rem;
+    padding-left: 0rem;
+    
+   
+   
 }
 
 /* Footer - Label */
@@ -1075,7 +1087,7 @@ footer >label {
   margin-top: 1em;
   margin-bottom: 1em;
   margin-right: 3em;
-  margin-left: 3em;
+  margin-left: 0;
   height: 3.8rem;
   flex-grow: 1;
 }
@@ -1127,10 +1139,21 @@ footer, a:link {
  }
 
 
+ @media (max-width:650px) {
+  main > section:nth-of-type(6) h3 {
+  background-image: url("../images/cl-endtoend-3_550.\ claires.webp");
+   max-width: 100%;
 }
 
+
+
+.section8foto {
+  background-image: none;
+}
+ }
+
   /* Tablet */
-@media (min-width:650px) {
+@media (min-width:725px) {
 .section7pac {
  display:flex;
  flex-direction: row;
@@ -1154,7 +1177,6 @@ min-height: 30rem;
   
   
 }
-
  /*code voor grid https://chatgpt.com/c/6af9efae-7518-83eb-8542-6eff24a5e925*/
 
 main > section:nth-of-type(5) img {
@@ -1163,16 +1185,64 @@ width:100%;
   
 }
 
- main > section:nth-of-type(6) {
-  background-image: url("../images/chair3.png");
-
+ main > section:nth-of-type(6) img {
+  background-image: url("../images/image-6.png");
+   max-width: 100%;
+   
+}
  }
 
 
+ .section7pac{
+ display: grid;
+grid-template-columns: 1fr 1fr;
+min-height: 45rem;
+width: 100%;
+  
+  
+}
+
+.together4 img {
+  min-height: 45rem;
+}
+
+.section8foto {
+  background-image: url("../images/image-7-section8.png");
+  
+  }
+
+  .piercing, .piercing > h3 {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
 
 
 }
 
+.piercing > h3 {
+  align-self: start;
+  font-size: 7em;
+  margin-top: 4rem;
+  font-size: 2rem;
+
+}
+
+
+.piercing > img:nth-of-type(1) {
+  
+    height:10em;
+    width:15rem;
+     align-self: center;
+  
+}
+
+
+.section10pact {
+  margin-left:3rem;
+   margin-right:3rem;
+
+}
+}
 
   /* Desktop */
 @media (min-width:1000px) {
@@ -1245,38 +1315,8 @@ main section:nth-of-type(3) ul:nth-of-type(1) {
 
 
 
-.section8pact {
-  display: flex;
-  max-width: 100%;
-
-}
-
-.section8pact h3,h4{
-  margin-left:4rem;
-  margin-right:4rem;
-  margin-top: 0;
-  
 
 
-} 
-
-
-
-.section8pact > ul > li {
-  padding-left:0rem;
-
-} 
-
-.section8foto > img{
-  height:59em;
-   width:70rem;
-     margin-top:3rem;
-}
-
-.section8together  {
-  margin-top:3rem;
-
-}
 
 .piercing, h3 {
   display: flex;

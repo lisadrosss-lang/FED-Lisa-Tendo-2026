@@ -721,51 +721,47 @@ background-size: contain;
 
 
 
-
-
-
 /*************************/
 /* 11. FOOTER */
 /*************************/
 
 /* Footer - Main background */
-footer, h3 {
+
+
+
+footer, footer > h3 {
   background-color:var(--background-color-lightpurple);
   list-style: none;
+  padding: 1rem;
+    
 }
 
 /* Footer - Heading H2 */
-.footpact1 {
-  font-size: 1rem;
-  font-family: "Manrope";
-  border-style: solid;
-  border-width: 7px;
-  border:solid var(--border-guideline-black);
-  margin: 0.5rem;
-}
+footer h3 {
 
-/* Footer - Heading H3 */
-.footpact1 h3 {
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-  padding: 2rem;
-  border-style: solid;
-  text-transform: uppercase;
-  letter-spacing: 0.11rem;
+  font-family: "Manrope";;
+  font-size: 2rem;
+  padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+
+
+  
 }
 
 /* Footer - Heading H3 layout */
-.footpact1 h3 {
+footer > h2 {
   display: flex;
   justify-content: flex-start;
-  font-size: 1.5rem;
+  font-size: 0.9rem;
   font-family: "Manrope";
   font-weight: 900;
 }
 
 /* Footer - Heading H4 */
 .footpact > h4 {
-  padding: 1.5rem;
+  padding: 1rem;
   font-size: 0.8rem;
   color:var(--letter-color-dark-purple);
   font-family: "Manrope";
@@ -781,6 +777,9 @@ footer, h3 {
   border-style: solid;
   padding: 0em;
   margin: 1rem;
+  margin-right: 0;
+  flex-direction: row;
+
 
 }
 
@@ -788,6 +787,83 @@ footer img {
   height:2rem;
   width:2rem;
 }
+
+/* Reference */
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_circles */
+
+/* Footer - First unordered list items */
+.footpact1 li {
+  margin: 0.3rem;
+  background-color:var(--claire-home-color-purple);
+  border-radius: 50%;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  
+}
+
+.footpact {
+  padding-left: 1rem;
+}
+
+/* Footer - Second unordered list */
+.footpact > ul {
+  list-style: none;
+  line-height: 1.9rem;
+  font-family: sans-serif;
+  font-weight: 600;
+    border-style: solid;
+    padding-top: 2rem;
+    padding-left: 0rem;
+    
+   
+   
+}
+
+/* Footer - Label */
+footer >label {
+  display: flex;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 3em;
+  margin-left: 0;
+  height: 3.8rem;
+  flex-grow: 1;
+}
+
+/* Footer - Input */
+footer >label> input {
+  padding: 1rem;
+  border-radius: 3rem;
+  border:solid var(--border-guide-line);
+  flex-grow: 1;
+}
+
+/* Footer - Input font size */
+footer> label>input {
+  font-size: 1.1em;
+}
+
+/* Footer - Button */
+footer> label> button {
+  padding: 1rem;
+  border-radius: 3rem;
+  height: 3.8rem;
+  width: 3.7rem;
+  background-color:var(--claire-home-color-purple);
+  border-style: none;
+  margin-left: -3rem;
+}
+
+/* Footer - Links */
+footer, a {
+  text-decoration: none;
+}
+
+/* Footer - Link color */
+footer, a:link {
+  color:var(--color-text-black);
+}
+
 
 /* Reference */
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_circles */
@@ -893,6 +969,18 @@ footer, a:link {
         margin-right: 3rem;
 }
 
+
+/* Footer - Second unordered list */
+.footpact ul {
+  list-style: none;
+  line-height: 1.9rem;
+  font-family: sans-serif;
+  font-weight: 600;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 }
 
 
@@ -966,16 +1054,7 @@ main section:nth-of-type(3),h3,h4 {
   align-self: center;
 }
 
-/* Footer - Second unordered list */
-footer ul:nth-of-type(2) {
-  list-style: none;
-  line-height: 1.9rem;
-  font-family: sans-serif;
-  font-weight: 600;
-    border-style: solid;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 
 
 .pact7 {
@@ -1018,6 +1097,12 @@ footer ul:nth-of-type(2) {
 }
 
 
+
+footer {
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 
 
