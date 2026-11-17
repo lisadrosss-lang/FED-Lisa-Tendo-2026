@@ -267,6 +267,7 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
   padding: 0.9rem;
   margin: 3rem;
   width: 14rem;
+  border-style: solid;
   text-transform: uppercase;
   font-weight: 800;
   font-style: normal;
@@ -289,6 +290,7 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
   align-self: center;
   text-transform: uppercase;
   font-size: 1.1rem;
+  border-style: solid;
   font-family: "Paax-Heavy";
    font-weight:500;
   font-optical-sizing: auto;
@@ -307,6 +309,7 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
    padding-bottom:2.5rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
+  border-style: solid;
   width: 9rem;
   text-transform: uppercase;
   font-size: 1.1rem;
@@ -1151,7 +1154,7 @@ main section:nth-of-type(3),h3,h4 {
 
 /* Desktop section 3 */
 .groupie2 > img {
-  min-height:80vh;
+  min-height:90vh;
   max-width:100%;
    margin-right:0;
    margin-bottom:0;
@@ -1176,7 +1179,7 @@ main section:nth-of-type(3),h3,h4 {
 /*section 4 after guide picture */
 .pact5 {
   padding-top:7rem;
-  height:51rem;
+  height:47rem;
    max-width:55%;
   
 }
