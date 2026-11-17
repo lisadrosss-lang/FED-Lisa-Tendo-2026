@@ -102,7 +102,7 @@ header {
 
 /* Logo */
 .logoclaire {
-  height: 1.5rem;
+  height: 1.8rem;
 }
 
 
@@ -259,6 +259,7 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
 }
 
 
+/* Button 1 tk pop girlies get it  */
 
 .button {
   background-color:var(--button-color-beige);
@@ -277,43 +278,44 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
   letter-spacing: 0.019rem;
 }
 
-/* Button 2 */
+/* Button 2 we are getting a glow up */
 .button1 {
   background-color:var(--background-color-lightgreen);
   border: 0.1rem solid var(--border-guideline-black);
   font-size: 1rem;
-  border-radius: 2rem;
-  padding: 1rem;
+  border-radius:3rem;
+  padding: 1em;
+  padding-bottom:2.5rem;
   margin: 3rem;
   margin-top:2rem;
-  width: 13rem;
+  width: 11em;
   align-self: center;
   text-transform: uppercase;
-  font-size: 1rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.1rem;
+  font-family: "Paax-Heavy";
+   font-weight:500;
   font-optical-sizing: auto;
   font-weight: 800;
   letter-spacing: 0.019rem;
   font-style: normal;
 }
 
-/* Button 3 */
+/* Button 3 Girlies get it */
+
 .button2 {
   background-color:var(--background-white);
   border: 0.1rem solid var(--border-guideline-black);
   font-size: 1rem;
-  border-radius: 2rem;
+  border-radius: 3rem;
   padding: 1rem;
+   padding-bottom:2.5rem;
   margin-top: 2rem;
-  margin-bottom: 0;
+  margin-bottom: 3rem;
   width: 9rem;
   text-transform: uppercase;
-  font-size: 1rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  letter-spacing: 0.04rem;
+  font-size: 1.1rem;
+ font-family: "Paax-Heavy";
+   font-weight:500;  font-optical-sizing: auto;
 }
 
 
@@ -357,48 +359,57 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
 
 /* Section 1 - Heading H2 */
 .pact1 h2 {
-  font-size: 1.3rem;
-  font-weight: 500;
-  font-family: sans-serif;
-  border-style: solid;
-  border-width: 7px;
+  font-size: 1.5rem;
+  font-family:"Paax-Regular";
   border-color:var(--border-guideline-black);
   text-align: center;
   max-width: 100%;
+
 }
+
+
+/*************************/
+/*  slider animations */
+/*************************/
+
  /*https://chatgpt.com/share/6af4e649-fc38-83ed-b7ee-61cdf9a7a8fe*/
 /* Section 1 - slider 1  */
  .p-box, .p-box2, .p-box3, .p-box4{
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 0.8rem;
   height:3rem;
-  font-family: sans-serif;
+    font-family: "Paax-Bold";
+    font-weight: 300;
+    letter-spacing: 0.1rem;
   text-transform: uppercase;
   text-align: center;
   overflow: hidden;
 }
 
  .p-box {
-    background-color: var(--background-color-lightpurple);
+    background-color: var(--background-color-light-yellow);
+    height:4rem;
+    padding-top:1rem;
   }
   .p-box2 {
     background-color: var(--background-color-lightgreen);
-    height:5rem;
-  
-
-  
+    height:4rem;
+    padding-top:1rem;
+     
   }
 
   .p-box3 {
-    background-color: var(--background-color-lightpink);
+    background-color: var(--claire-home-color-purple);
+       height:4rem;
+    padding-top:1rem;
   }
 
   .p-box4 {
-    background-color: var(--background-color-lightyellow2);
+    background-color: var(--background-color-lightgreen);
+    height:4rem;
+    padding-top:1rem;
   }
   
-
-
 
 /*https://chatgpt.com/share/6af480db-ec7c-83eb-bcae-847d699ac6b5*/
 .p-text, .p-text2, .p-text3, .p-text4 {
@@ -417,8 +428,9 @@ animation-name: moveP;
 
 
 
-
-
+/*************************/
+/*slider function */
+/*************************/
 
 @keyframes moveP {
   from{
@@ -452,33 +464,35 @@ animation-name: moveP;
 
 /* Section 2 - Heading */
  .pact2  h2 {
-  font-size: 3rem;
+  font-size: 4.5em;
+  margin-left:3rem;
+   margin-right:3rem;
   max-width: 100%;
-  margin-left: 4rem;
-  margin-right: 4em;
   text-align: center;
   border-color: solid;
-  font-family: "Manrope";
+  font-family: "SeasonMix";
+  font-weight: 400;
   margin-top: 18rem;
   background-color: transparent;
 
 }
 
-/* Section 2 - First paragraph */
+/* Section 2 - slider animation second one  */
 .pact2 p {
-  padding: 1rem;
+  padding: 0rem;
   text-align: center;
-  font-size: 1.3rem;
-  font-family: "Manrope";
+  font-family: "Paax-Bold";
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+  text-transform: uppercase;
   background-color:var(--background-color-lightgreen);
-  text-transform: none;
 }
 
 .pact2 h3 {
   padding: 0.5rem;
   text-align: center;
   font-size: 1.3rem;
-  font-family: "Manrope";
+   font-family:"Paax-Regular";
   background-color:transparent;
   margin-left:2rem;
   margin-right:2rem;
@@ -486,13 +500,7 @@ animation-name: moveP;
   text-transform: none;
 }
 
-.p-box2 {
-  padding: 0.8rem;
-  text-align: center;
-  font-size: 1rem;
-  font-family: sans-serif;
-  background-color:var(--background--green);
-}
+
 
 
 /*************************/
@@ -523,8 +531,7 @@ p {
   max-width: 100%;
   display: grid;
   grid-auto-columns: auto;
-  place-content: center;
-  padding: 1rem;
+  place-content: center;;
   text-align: center;
 }
 
@@ -555,10 +562,14 @@ p {
 .pact p {
   max-width: 100%;
   background-color:var(--background-color-light-yellow2);
-  font-family: sans-serif;
+  font-family:"Paax-Regular";
   text-transform: none;
   font-size: 1.2rem;
   font-weight: 500;
+}
+
+.groupie > img {
+ padding:1rem;
 }
 
 
@@ -570,7 +581,7 @@ p {
 .pact5  {
   background-color:var(--background-color-lightpurple);
   max-width: 100%;
-  min-height: 75vh;
+  min-height: 90vh;
   font-size: 1.5rem;
   text-align: center;
   padding-top: 1rem;
@@ -589,9 +600,9 @@ p {
   padding: 3rem;
   text-transform: uppercase;
   font-size: 0.9rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family:"Paax-Regular";
+   font-weight: 800;
   font-optical-sizing: auto;
-  font-weight: 800;
   font-style: normal;
   letter-spacing: 0.05rem;
 
@@ -607,10 +618,11 @@ p {
 
 /* Section 4 - Heading H2 */
 .pact5 h2 {
-  font-family: "Playfair Display", serif;
-  font-size: 2.9rem;
-  
+  font-family: "SeasonMix";
+     font-weight: 500;
+  font-size: 3.2rem;
   padding: 1rem;
+  padding-bottom: 0;
   text-align: center;
 }
 
@@ -626,7 +638,7 @@ p {
   letter-spacing: 0.01rem;
   text-align: center;
   text-transform: none;
-  margin-bottom:2rem;
+  margin-bottom:1.5rem;
 }
 
 /* Section 4 - Aftercare guide button */
@@ -636,8 +648,9 @@ p {
   border: 0.1rem solid var(--border-guideline-black);
   font-size: 1rem;
   border-radius: 2rem;
-  padding: 1rem;
-  width: 12rem;
+  padding: 1.2rem;
+  padding-bottom:1rem;
+  width: 13rem;
   text-transform: uppercase;
   font-size: 1rem;
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -659,12 +672,16 @@ p {
    gap: 0.6em;
    margin: 0rem;
    padding-left:0rem;
-    min-height:30rem;
+    min-height:25rem;
    overflow-y:0;
    overflow: auto;
    margin-bottom: 0;
    padding-bottom:0;
 
+}
+.caru > ul >li > img{
+  
+object-fit:cover;
 }
 
 
@@ -672,23 +689,19 @@ p {
 
 /* SECTION 3 controls the height of the images   */
  .caru ul:nth-of-type(1) li{
-   flex-basis:70%;
+   flex-basis:25%;
    flex-shrink:0;
-   height:30rem;
+   height:20rem;
+   min-width: auto;
    padding-bottom:0;
    margin-bottom:0;
    list-style:none;
    scroll-snap-align: start;
+   
 
 }
 
 
-
-
-.buttons {
-list-style: none;
-background-color: transparent;
-}
 
 
 
@@ -750,8 +763,7 @@ footer > h2 {
   display: flex;
   justify-content: start;
   list-style: none;
-  border-style: solid;
-  padding: 0em;
+    padding: 0em;
   margin: 1rem;
   margin-right: 0;
   flex-direction: row;
@@ -912,47 +924,47 @@ footer, a:link {
 }
 
 
+
+/*Mobile */
+/*Mobile */
+/*Mobile */
+/*Mobile */
+
 @media (min-width:300px){
 
-.caru ul:nth-of-type(1)  {
-  display: flex;
-    gap: 0.3em;
-  margin-left:0;
- 
-
-}
 
 
 .caru ul:nth-of-type(1)  {
   display: flex;
   gap: 0.5em;
   margin: 0;
-  overflow:auto;
-  overflow-y:hidden;
+  overflow-x:auto;
+  overflow-y: hidden;
   padding: 0;
-  min-height: 29rem;
+  min-height: 25rem;
 }
 
 /* Section 5 - Carousel list items and image height */
 .caru ul:nth-of-type(1) li {
-  flex-basis: 80%;
+  flex-basis: 95%;
   flex-shrink: 0;
   list-style: none;
-  height: 29rem;
+  height: 10rem;
 
-  
-  
 }
 }
 
+
+/*Tablet*/
+/*Tablet*/
+/*Tablet*/
+/*Tablet*/
 
 
 /* Tablet */
 @media (min-width:600px) {
   /* Section 2 - Heading */
-.pact2  {
-  height:30rem;
-}
+
 
   /* Section 2 - Heading */
  .pact2 > h3 {
@@ -960,7 +972,7 @@ footer, a:link {
    margin:0rem;
 }
   /* Section 2 - Heading */
- .pact2 >h2 {
+ .pact2 > h2 {
    margin-top:10rem;
     margin-bottom:0rem;
     padding:1rem;
@@ -968,8 +980,7 @@ footer, a:link {
 
   /* Section 3 - img */
 .groupie > img {
-  height:30rem;
-  padding:2rem;
+  padding:1rem;
 }
 
 
@@ -1000,12 +1011,15 @@ footer, a:link {
 
 
 
-
+/*Tablet*/
+/*Tablet*/
+/*Tablet*/
+/*Tablet*/
 
 
 /* Section 5 - Carousel list */
 
-@media (min-width:725px){
+@media (min-width:725px) {
 .caru {
   min-height: 0;
 }
@@ -1024,24 +1038,53 @@ footer, a:link {
   display: flex;
   gap: 0.5em;
   margin: 0;
-  overflow: hidden;
+  overflow-x:auto;
+  overflow-y: hidden;
   padding: 0;
-  min-height: 10rem;
+  min-height: 18rem;
 }
 
 /* Section 5 - Carousel list items and image height */
 .caru ul:nth-of-type(1) li {
-  flex-basis: 25%;
+  flex-basis: 35%;
   flex-shrink: 0;
   list-style: none;
   height: 10rem;
 
-  
-  
 }
+  
+
+
+
+/* Desktop section 3 */
+.groupie2 > img {
+  min-height:70vh;
+  max-width:100%;
+  padding:0;
+   margin-right:0;
+   margin-bottom:0;
+}
+
+
+/*section 4 after guide picture */
+.pact4 {
+  display: flex;
+   min-height:40vh;
+
+}
+
+.sparkle {
+  padding:1rem;
+}
+
+
 }
 
 /* Desktop */
+/* Desktop */
+/* Desktop */
+/* Desktop */
+
 @media (min-width:1000px){
   /*section 1 h1*/
 .pact1 h1 {
@@ -1059,11 +1102,13 @@ footer, a:link {
 }
 
 
+
+
 /* Desktop section 3 */
 .groupie{
  display: flex;
-  min-height: 40vh;
-  max-width: 40%;
+  min-height: 50vh;
+  width: 80%;
   flex-direction: row;
   border-style: solid;
 
@@ -1082,8 +1127,7 @@ main section:nth-of-type(3),h3,h4 {
 /* Desktop section 3 */
  .pact {
   display:flex;
-  max-width: 100%;
-  gap:3rem;
+  max-width: 180%;
   
 
 }
@@ -1104,9 +1148,8 @@ main section:nth-of-type(3),h3,h4 {
   max-width: 100%;
   gap:2rem;
  
-
-
 }
+
 /* Desktop section 3 */
 .groupie2 > img {
   min-height:80vh;
@@ -1123,22 +1166,31 @@ main section:nth-of-type(3),h3,h4 {
 
 
 
-.pact7 {
+/*section 4 after guide picture */
+.pact4 {
   display: flex;
+  flex-direction: row;
+   
+   
 
 }
+/*section 4 after guide picture */
+.pact5 {
+  padding-top:7rem;
+  height:51rem;
+   max-width:55%;
+  
+}
+.pact5  h2{
+  font-size: 4rem;
+}
+/*picture section: 4 after guide picture */
 
-.pact5{
-  min-height:50vh;
-  min-width: 40%;
+.groupie3 {
+   max-width:49%;
 }
 
 
-
-
-.buttons,.right-arrow,.left-arrow  {
-  background-color:var(--background-color-lightpurple);
-}
 
 .footpact1 {
    display:block;
@@ -1159,22 +1211,96 @@ footer {
   grid-template-columns: 1fr 1fr;
 }
 
+.caru ul:nth-of-type(1)  {
+  display: flex;
+  gap: 0.5em;
+  margin: 0;
+  overflow-x:auto;
+  overflow-y: hidden;
+  padding: 0;
+  min-height: 18rem;
+}
 
+/* Section 5 - Carousel list items and image height */
+.caru ul:nth-of-type(1) li {
+  flex-basis: 25%;
+  flex-shrink: 0;
+  list-style: none;
+  height: 10rem;
+
+}
 
 
 }
 
+
+@media (min-width:1300px) {
+.caru ul:nth-of-type(1)  {
+  display: flex;
+  height: 52vh;
+    gap: 0.3em;
+  margin-left:0;
+}
+
+.pact5 {
+  height: 66rem;
+}
+
+
+}
 
 
 
 @font-face {
-  font-family: "SeasonMix";
-  src: url("fonts1/SeasonMix-Regular(2).woff2");
+  font-family: "Paax-Heavy";
+  src: url("/fonts/Plaax6Ney-56-Heavy\ \(1\).woff2")format(woff2);
+  font-weight: 700;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: "Paax-Bold";
+  src: url("/fonts/Plaax6Ney-46-Bold\ \(1\).woff2")format(woff2);
+  font-weight: 400;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: "Paax-Regular";
+    src: url("/fonts/Plaax6Ney-36-Regular\ \(1\).woff2")format(woff2);
   font-weight: 100;
   font-style:normal;
 }
 
-h2 {
-  font-family: "SeasonMix";
+@font-face {
+  font-family: "Paax-Light";
+  src: url("/fonts/Plaax6Ney-26-Light\ \(1\).woff2")format(woff2);
   font-weight: 100;
+  font-style:normal;
 }
+
+@font-face {
+  font-family: "Assitent-n4";
+  src: url("/fonts/assistant_n4.9120912a469cad1cc292572851508ca49d12e768.woff2")format(woff2);
+  font-weight: 100;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: "Assitent-n7";
+    src: url("/fonts/assistant_n7.bf44452348ec8b8efa3aa3068825305886b1c83c.woff2")format(woff2);
+  font-weight: 100;
+  font-style:normal;
+}
+
+
+@font-face {
+  font-family: "SeasonMix";
+  src: url("/fonts/SeasonMix-Regular\ \(2\).woff2");
+  font-weight: 100;
+  font-style:normal;
+}
+
+
+
+ 
