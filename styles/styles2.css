@@ -492,10 +492,6 @@ margin-bottom:0;
 
 .together1 > .email-adres, .secondinput {
   padding:1rem;
-  
-  
-  
-
 }
 
 
@@ -505,34 +501,44 @@ margin-bottom:0;
  
 
 
-/*https://chatgpt.com/share/6af4e649-fc38-83ed-b7ee-61cdf9a7a8fe*/
+ /*https://chatgpt.com/share/6af4e649-fc38-83ed-b7ee-61cdf9a7a8fe*/
 /* Section 1 - slider 1  */
-.p-box, .p-box2, .p-box3, .p-box4{
-  font-size: 1rem;
+ .p-box, .p-box2, .p-box3, .p-box4{
+  font-size: 0.9rem;
   padding: 0.8rem;
-  height:3rem;
-  font-family: sans-serif;
+  height:0rem;
+    font-family: "Paax-Bold";
+    font-weight: 300;
+    letter-spacing: 0.1rem;
   text-transform: uppercase;
   text-align: center;
   overflow: hidden;
-  max-width: 100%;
 }
 
  .p-box {
-    background-color: var(--background-color-lightpurple);
+    background-color: var(--background-color-light-yellow);
+    height:4rem;
+    padding-top:1rem;
   }
   .p-box2 {
     background-color: var(--background-color-lightgreen);
+    height:4rem;
+    padding-top:1rem;
+     
   }
 
   .p-box3 {
-    background-color: var(--background-color-lightpink);
+    background-color: var(--claire-home-color-purple);
+       height:4rem;
+    padding-top:1rem;
   }
 
   .p-box4 {
-    background-color: var(--background-color-lightyellow2);
+    background-color: var(--background-color-lightgreen);
+    height:4rem;
+    padding-top:1rem;
   }
-  
+
   @keyframes moveP {
   from{
     transform: translate(0%);
@@ -1328,6 +1334,8 @@ width: 100%;
 
 
 
+
+
 }
 
 
@@ -1501,4 +1509,58 @@ main section:nth-of-type(2){
 
 }
 
+
+
+
+
+
+@font-face {
+  font-family: "Paax-Heavy";
+  src: url("/fonts/Plaax6Ney-56-Heavy\ \(1\).woff2")format(woff2);
+  font-weight: 700;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: "Paax-Bold";
+  src: url("/fonts/Plaax6Ney-46-Bold\ \(1\).woff2")format(woff2);
+  font-weight: 400;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: "Paax-Regular";
+    src: url("/fonts/Plaax6Ney-36-Regular\ \(1\).woff2")format(woff2);
+  font-weight: 100;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: "Paax-Light";
+  src: url("/fonts/Plaax6Ney-26-Light\ \(1\).woff2")format(woff2);
+  font-weight: 100;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: "Assitent-n4";
+  src: url("/fonts/assistant_n4.9120912a469cad1cc292572851508ca49d12e768.woff2")format(woff2);
+  font-weight: 100;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: "Assitent-n7";
+    src: url("/fonts/assistant_n7.bf44452348ec8b8efa3aa3068825305886b1c83c.woff2")format(woff2);
+  font-weight: 100;
+  font-style:normal;
+}
+
+
+@font-face {
+  font-family: "SeasonMix";
+  src: url("/fonts/SeasonMix-Regular\ \(2\).woff2");
+  font-weight: 100;
+  font-style:normal;
+}
 
