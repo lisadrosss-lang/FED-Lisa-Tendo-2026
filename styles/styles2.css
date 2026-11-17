@@ -516,19 +516,14 @@ margin-bottom:0;
 }
 
  .p-box {
-    background-color: var(--background-color-light-yellow);
+    background-color: var(--claire-home-color-purple);
     height:4rem;
     padding-top:1rem;
   }
-  .p-box2 {
-    background-color: var(--background-color-lightgreen);
-    height:4rem;
-    padding-top:1rem;
-     
-  }
+ 
 
   .p-box3 {
-    background-color: var(--claire-home-color-purple);
+    background-color: var(--background-color-lightgreen);
        height:4rem;
     padding-top:1rem;
   }
@@ -820,8 +815,9 @@ main > section:nth-of-type(3) h3{
   padding:1rem;
   margin-bottom: 0;
   border-style:solid;
+   font-family: "SeasonMix";
+ font-weight: 500;
   text-transform: uppercase;
-  font-family: "Plus Jakarta Sans", sans-serif;
    font-optical-sizing: auto;
   font-weight:800;
   letter-spacing: 0.019rem;
@@ -836,7 +832,7 @@ main > section:nth-of-type(3) h3{
   margin-right:2rem;
   border-style: solid;
     font-size: 1.8rem;
- font-family: "Manrope",sans-serif;
+ font-family: "Paax-Regular";
  font-size: 1rem;
  line-height: 1.5rem;
  font-weight: 500;
@@ -846,8 +842,8 @@ main > section:nth-of-type(3) h3{
   margin:1rem;
   padding:0.5rem;
   font-size: 1.3rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
-   font-optical-sizing: auto;
+  font-family: "SeasonMix";
+  font-optical-sizing: auto;
   font-weight:500;
   letter-spacing: 0.019rem;
   font-style: normal;
@@ -859,30 +855,49 @@ main > section:nth-of-type(3) h3{
 
 
    
-  .section8pact li {
+  .section8together li {
      display:flex;
-     flex-direction: row;
-     justify-content:start;
+    flex-direction:column;
+    border-style: solid;
+     margin:0;
+     
+  }
+
+  .section8together li > h5,p {
+  
      border-style: solid;
      margin:0;
      
   }
+
+
+
+ 
   /* section 8 better experience*/
   .section8pact h3 {
   padding:1rem;
   background-color: var(--background-white);
   padding-bottom:0.8rem;
-  font-size:3em;
-  margin-top:0;
-  margin-bottom: 0;
+  font-size:2.5em;
+  margin: 2rem;
   border-style:solid;
-  text-transform: uppercase;
-  font-family: "Plus Jakarta Sans", sans-serif;
    font-optical-sizing: auto;
   font-weight:800;
   letter-spacing: 0.019rem;
   font-style: normal;
  }
+
+  .section8together ul:nth-of-type(1) h3{
+  font-size:4em;
+  justify-content: start;
+  
+ }
+
+  .section8together ul:nth-of-type(1) h5{
+   align-self: start;
+  
+ }
+
 
   .section8pact h4 {
   font-size: 1rem;
@@ -901,7 +916,6 @@ main > section:nth-of-type(3) h3{
   margin:0.5rem;
   padding:0.5rem;
   font-size: 1rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
    font-optical-sizing: auto;
   font-weight:500;
   letter-spacing: 0.019rem;
@@ -911,6 +925,19 @@ main > section:nth-of-type(3) h3{
 
  }
 
+  .section8pact p {
+  font-size: 1rem;
+ }
+
+ .section8pact h5 {
+  font-size: 1rem;
+  text-transform: uppercase;
+    font-family: "Paax-Heavy";
+    font-weight: 400;
+
+ }
+
+ 
 
   .section8pact > ul > li > h3 {
     font-size: 6rem;
@@ -956,7 +983,7 @@ main > section:nth-of-type(3) h3{
   margin-top:1rem;
   margin-bottom:2rem;
   border-style:solid;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "SeasonMix";
    font-optical-sizing: auto;
   font-weight:500;
   letter-spacing: 0.019rem;
@@ -964,9 +991,9 @@ main > section:nth-of-type(3) h3{
   background-color: var(--background-white);
  }
 
-    .section10pact > h3 {
+    .section10pact > p {
   padding:0.5rem;
-    font-size: 0.9rem;
+    font-size: 0.4rem;
   margin-top:1rem;
   margin-bottom:1rem;
   border-style:solid;
@@ -980,17 +1007,6 @@ main > section:nth-of-type(3) h3{
 
 
 
- .section10pact > p {
-  margin:1rem;
-  padding:0.5rem;
-  font-size: 0.9rem;
-  background-color: var(--background-white);
-  font-family: "Plus Jakarta Sans", sans-serif;
-   font-optical-sizing: auto;
-  font-weight:600;
-  letter-spacing: 0.019rem;
-  font-style: normal;
- }
 
 
  .section10pact {
@@ -1022,6 +1038,48 @@ main > section:nth-of-type(3) h3{
 
  }
 
+
+
+
+ /*************************/
+/* 10. SECTION 11 */
+/*************************/
+ /*height of section did not know https://chatgpt.com/share/6afaf750-8f00-83eb-9ab5-d998a40d8d54*/
+.caru ul:nth-of-type(1) {
+   display:flex;
+    flex-direction: row;
+   gap: 0.6em;
+   margin: 0rem;
+   padding-left:0rem;
+    min-height:25rem;
+   overflow-y:0;
+   overflow: auto;
+   margin-bottom: 0;
+   padding-bottom:0;
+
+}
+.caru > ul >li > img{
+  
+object-fit:cover;
+}
+
+
+
+
+/* SECTION 3 controls the height of the images   */
+ .caru ul:nth-of-type(1) li{
+   flex-basis:25%;
+   flex-shrink:0;
+   height:20rem;
+   min-width: auto;
+   padding-bottom:0;
+   margin-bottom:0;
+   list-style:none;
+   scroll-snap-align: start;
+   
+
+}
+
  
 
 /*************************/
@@ -1042,11 +1100,13 @@ footer, footer > h3 {
 /* Footer - Heading H2 */
 footer h3 {
 
-  font-family: "Manrope";;
-  font-size: 2rem;
+  font-family: "Paax-Heavy","sans-serif";
+  font-weight: 800;
+  font-size: 1.5rem;
   padding-top: 0;
-    padding-bottom: 0;
-    margin-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
 
 
 footer > label > input {
@@ -1061,16 +1121,16 @@ footer > h2 {
   display: flex;
   justify-content: flex-start;
   font-size: 0.9rem;
-  font-family: "Manrope";
+  font-family: "Paax-Regular";
   font-weight: 900;
 }
 
 /* Footer - Heading H4 */
 .footpact > h4 {
   padding: 1rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color:var(--letter-color-dark-purple);
-  font-family: "Manrope";
+  font-family: "Paax-light";
   background-color:var(--background-color-lightpurple);
   margin-bottom: 0;
 }
@@ -1080,7 +1140,6 @@ footer > h2 {
   display: flex;
   justify-content: start;
   list-style: none;
-  border-style: solid;
   padding: 0em;
   margin: 1rem;
   margin-right: 0;
@@ -1117,7 +1176,7 @@ footer img {
 .footpact > ul {
   list-style: none;
   line-height: 1.9rem;
-  font-family: sans-serif;
+    font-family: "Paax-Regular","sans-serif";
   font-weight: 600;
     border-style: solid;
     padding-top: 2rem;
@@ -1144,13 +1203,14 @@ footer >label {
 footer >label> input {
   padding: 1rem;
   border-radius: 3rem;
-  border:solid var(--border-guide-line);
   flex-grow: 1;
 }
 
 /* Footer - Input font size */
 footer> label>input {
   font-size: 1.1em;
+      font-family: "Paax-Regular","sans-serif";
+
 }
 
 /* Footer - Button */
@@ -1159,7 +1219,6 @@ footer> label> button {
   border-radius: 3rem;
   height: 3.8rem;
   width: 3.7rem;
-  background-color:var(--claire-home-color-purple);
   border-style: none;
   margin-left: -3rem;
 }
@@ -1177,7 +1236,84 @@ footer, a:link {
 
 
 
+/*Mobile */
+/*Mobile */
+/*Mobile */
+/*Mobile */
 
+/* Section 11 - Carousel list items and image height */
+@media (min-width:300px){
+.caru ul:nth-of-type(1)  {
+  display: flex;
+  gap: 0.5em;
+  margin: 0;
+  overflow-x:auto;
+  overflow-y: hidden;
+  padding: 0;
+  min-height: 27rem;
+}
+
+.caru ul:nth-of-type(1) li {
+  flex-basis: 95%;
+  flex-shrink: 0;
+  list-style: none;
+  height: 10rem;
+
+}
+}
+
+
+/*Tablet*/
+/*Tablet*/
+/*Tablet*/
+/*Tablet*/
+
+/* Section 11 - Carousel list */
+
+@media (min-width:725px) {
+.caru {
+  min-height: 0;
+}
+
+.caru ul:nth-of-type(1)  {
+  display: flex;
+  height: 40vh;
+    gap: 0.3em;
+  margin-left:0;
+ 
+
+}
+
+
+.caru ul:nth-of-type(1)  {
+  display: flex;
+  gap: 0.5em;
+  margin: 0;
+  overflow-x:auto;
+  overflow-y: hidden;
+  padding: 0;
+  min-height: 13rem;
+}
+
+/* Section 11 - Carousel list items and image height */
+.caru ul:nth-of-type(1) li {
+  flex-basis: 25%;
+  flex-shrink: 0;
+  list-style: none;
+  height: 10rem;
+
+}
+  
+}
+
+
+
+
+
+/*Tablet*/
+/*Tablet*/
+/*Tablet*/
+/*Tablet*/
 
 
 
@@ -1202,15 +1338,12 @@ footer, a:link {
     min-height:38rem;
 }
 
-.section8foto {
-  background-image: none;
-}
 
 }
 
 
 
-  /* Tablet */
+
 @media (min-width:725px) {
 .section7pac {
  display:flex;
@@ -1289,7 +1422,14 @@ width: 100%;
 
 .section8foto {
   background-image: url("../images/image-7-section8.png");
-  
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  }
+
+  .section8foto >img{
+  display: none;
+
   }
 
   .section8pact {
@@ -1309,9 +1449,8 @@ width: 100%;
 
 .piercing > h3 {
   align-self: start;
-  font-size: 7em;
+  font-size: 3.5em;
   margin-top: 4rem;
-  font-size: 2rem;
 
 }
 
@@ -1481,7 +1620,7 @@ main section:nth-of-type(2){
 
 .piercing > h3 {
   align-self: start;
-  font-size: 7em;
+  font-size: 4em;
   margin-top: 4rem;
 
 }
@@ -1494,6 +1633,26 @@ main section:nth-of-type(2){
   }
 
 
+
+.caru ul:nth-of-type(1)  {
+  display: flex;
+  gap: 0.5em;
+  margin: 0;
+  overflow-x:auto;
+  overflow-y: hidden;
+  padding: 0;
+  min-height: 18rem;
+}
+
+/* Section 11 - Carousel list items and image height */
+.caru ul:nth-of-type(1) li {
+  flex-basis: 25%;
+  flex-shrink: 0;
+  list-style: none;
+  height: 10rem;
+
+}
+ 
 
 
   .footpact {
@@ -1562,5 +1721,61 @@ main section:nth-of-type(2){
   src: url("/fonts/SeasonMix-Regular\ \(2\).woff2");
   font-weight: 100;
   font-style:normal;
+}
+
+
+main section:nth-child(1) > h1,
+ main section:nth-of-type(3)> h2,
+ main section:nth-of-type(4) > h4 ,
+   main section:nth-of-type(6) >  h3,
+   .section8together > h3 
+       {
+ 
+ font-family: "SeasonMix";
+ font-weight: 500;
+}
+
+main section:nth-child(1) >p ,
+.together > h3,
+ main section:nth-of-type(3)> h3,
+  main section:nth-of-type(3)> p,
+  main section:nth-of-type(5) > ul:nth-of-type(1)> li> h6,
+     main section:nth-of-type(6) >  h4,
+        .section8together > h4,p,h3
+
+       {
+ 
+  font-family:"Paax-Regular";
+  font-weight: 600;
+}
+ 
+   
+
+
+.button {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.019rem;
+  padding-bottom:2.5rem;
+  font-size: 1rem;
+  width: 17rem;
+  font-family: "Paax-Heavy";
+}
+
+.button2,.button3, .section8together > li > h5,
+.button4
+{
+ font-family: "Paax-Heavy";
+ padding-bottom:2.5rem;
+}
+
+main section:nth-of-type(4) > h3 {
+  color:grey;
+}
+
+main section:nth-of-type(5) > ul:nth-of-type(1)> li> h5 {
+ font-family: "Paax-Heavy";
+ text-transform: uppercase;
+   font-weight: 800;
 }
 

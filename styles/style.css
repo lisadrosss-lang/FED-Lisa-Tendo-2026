@@ -240,7 +240,6 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
 /* Button 1 */
 .buttonbar {
   background-color:var(--color-text-black);
-  border: 0.1rem solid var(--border-guideline-black);
   color:var(--background-white);
   font-size: 1rem;
   border-radius: 3rem;
@@ -263,25 +262,23 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
 
 .button {
   background-color:var(--button-color-beige);
-  border: 0.1rem solid var(--border-guideline-black);
   font-size: 1rem;
   border-radius: 3rem;
   padding: 0.9rem;
   margin: 3rem;
   width: 14rem;
   text-transform: uppercase;
-  font-size: 1rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
   letter-spacing: 0.019rem;
+  padding-bottom:2.5rem;
+  font-size: 1.1rem;
+  font-family: "Paax-Heavy";
 }
 
 /* Button 2 we are getting a glow up */
 .button1 {
   background-color:var(--background-color-lightgreen);
-  border: 0.1rem solid var(--border-guideline-black);
   font-size: 1rem;
   border-radius:3rem;
   padding: 1em;
@@ -304,7 +301,6 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
 
 .button2 {
   background-color:var(--background-white);
-  border: 0.1rem solid var(--border-guideline-black);
   font-size: 1rem;
   border-radius: 3rem;
   padding: 1rem;
@@ -728,11 +724,13 @@ footer, footer > h3 {
 /* Footer - Heading H2 */
 footer h3 {
 
-  font-family: "Manrope";;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
+     font-family: "Paax-Heavy","sans-serif";
+  font-weight: 800;
+  text-transform: uppercase;
 
 
 
@@ -744,16 +742,16 @@ footer > h2 {
   display: flex;
   justify-content: flex-start;
   font-size: 0.9rem;
-  font-family: "Manrope";
+    font-family: "Paax-Regular";
   font-weight: 900;
 }
 
 /* Footer - Heading H4 */
 .footpact > h4 {
   padding: 1rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color:var(--letter-color-dark-purple);
-  font-family: "Manrope";
+    font-family: "Paax-light";
   background-color:var(--background-color-lightpurple);
   margin-bottom: 0;
 }
@@ -799,7 +797,7 @@ footer img {
 .footpact > ul {
   list-style: none;
   line-height: 1.9rem;
-  font-family: sans-serif;
+    font-family: "Paax-Regular","sans-serif";
   font-weight: 600;
     border-style: solid;
     padding-top: 2rem;
@@ -833,6 +831,8 @@ footer > label > input {
 /* Footer - Input font size */
 footer > label > input {
   font-size: 1.1em;
+  font-family: "Paax-Regular","sans-serif";
+
 }
 
 /* Footer - Button */
@@ -841,7 +841,6 @@ footer> label> button {
   border-radius: 3rem;
   height: 3.8rem;
   width: 3.7rem;
-  background-color:var(--claire-home-color-purple);
   border-style: none;
   margin-left: -3rem;
 }
