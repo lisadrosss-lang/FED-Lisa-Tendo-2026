@@ -289,16 +289,17 @@ header nav:nth-of-type(2) img {
 /* button second, submit  */
 .button1 {
   background-color: var(--background-color-lightpurple);
-  border: 0.1rem solid var(--color-grey);
-  font-size: 1rem;
+  border-color: rgb (0,0,0,0.2);
   border-radius: 2rem;
   padding: 1rem;
+  padding-left:1.8rem;
+  padding-bottom:2.5rem;
   margin-left:0.6rem;
   width:8rem;
   color:var(--color-grey);
   text-transform: uppercase;
   font-size: 1rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Paax-Heavy", sans-serif;
    font-optical-sizing: auto;
   font-weight:800;
   letter-spacing: 0.019rem;
@@ -863,7 +864,8 @@ main > section:nth-of-type(3) h3{
      
   }
 
-  .section8together li > h5,p {
+  .section8together li > h5,
+   .section8together li > p {
   
      border-style: solid;
      margin:0;
@@ -895,6 +897,7 @@ main > section:nth-of-type(3) h3{
 
   .section8together ul:nth-of-type(1) h5{
    align-self: start;
+   text-transform: uppercase;
   
  }
 
@@ -912,7 +915,8 @@ main > section:nth-of-type(3) h3{
  font-weight: 500;
   
  }
- .section8pact p,h5 {
+ .section8pact li > p,
+  .section8pact li >h5 {
   margin:0.5rem;
   padding:0.5rem;
   font-size: 1rem;
@@ -925,8 +929,10 @@ main > section:nth-of-type(3) h3{
 
  }
 
-  .section8pact p {
+  .section8pact li > p {
   font-size: 1rem;
+  font-family: "Paax-Regular";
+
  }
 
  .section8pact h5 {
@@ -1021,23 +1027,22 @@ main > section:nth-of-type(3) h3{
   padding: 1rem;
  }
 
-  .section10pact > ul >  li ,p ,img {
+  .section10pact ul >  li  {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
    list-style: none;
+    padding: 1rem;
  }
 
+ /*understand now why my code jumps to claim other selectors because i did not select them well. */
+/*https://chatgpt.com/share/6afcfb75-9cbc-83ed-8c17-8e580aea556f*/
   .section10pact > ul > li > img {
    height:3rem;
    width: 3rem;
 
  }
- .section10pact > ul > li  {
-   padding: 1rem;
-
- }
-
+ 
 
 
 
@@ -1586,6 +1591,7 @@ main > section:nth-of-type(6) > h3 {
   background-repeat: no-repeat;
   max-width: 100%;
   min-height: 5rem;
+  background-size: cover;
  
   
 }
@@ -1625,7 +1631,9 @@ main section:nth-of-type(2){
 
 }
 
-
+.sparkle {
+  padding:0.5rem;
+}
 .piercing > img:nth-of-type(1) {
     height:10em;
     width:15rem;
@@ -1666,8 +1674,20 @@ main section:nth-of-type(2){
 }
 
 
+
+
+
+main section:nth-of-type(2) {
+ display:grid;
+ grid-template-columns: 1fr 2fr;
+ align-self: center;
 }
 
+}
+.together1,.button1,.secondinput {
+  display:flex;
+  flex-direction: row;
+}
 
 
 
@@ -1727,7 +1747,7 @@ main section:nth-of-type(2){
 main section:nth-child(1) > h1,
  main section:nth-of-type(3)> h2,
  main section:nth-of-type(4) > h4 ,
-   main section:nth-of-type(6) >  h3,
+   main section:nth-of-type(6) > h3,
    .section8together > h3 
        {
  
@@ -1735,14 +1755,14 @@ main section:nth-child(1) > h1,
  font-weight: 500;
 }
 
-main section:nth-child(1) >p ,
+main section:nth-child(1) > p,
 .together > h3,
  main section:nth-of-type(3)> h3,
   main section:nth-of-type(3)> p,
   main section:nth-of-type(5) > ul:nth-of-type(1)> li> h6,
      main section:nth-of-type(6) >  h4,
-        .section8together > h4,p,h3
-
+        .section8together > h4,
+         .section8together > p
        {
  
   font-family:"Paax-Regular";
@@ -1762,8 +1782,10 @@ main section:nth-child(1) >p ,
   font-family: "Paax-Heavy";
 }
 
-.button2,.button3, .section8together > li > h5,
+.button2,
+.button3,
 .button4
+
 {
  font-family: "Paax-Heavy";
  padding-bottom:2.5rem;
@@ -1773,7 +1795,8 @@ main section:nth-of-type(4) > h3 {
   color:grey;
 }
 
-main section:nth-of-type(5) > ul:nth-of-type(1)> li> h5 {
+main section:nth-of-type(5) > ul:nth-of-type(1)> li> h5 ,
+.section8pact > li > h5 {
  font-family: "Paax-Heavy";
  text-transform: uppercase;
    font-weight: 800;
