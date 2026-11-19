@@ -115,11 +115,6 @@ header nav:nth-of-type(1) img {
 
 
 /*navigation balk */
-header nav:nth-of-type(2) {
-  background-color: var(--background-color-pink);
-}
-
-/*navigation balk */
 header nav:nth-of-type(2) ul {
   list-style: none;
   display: flex;
@@ -127,14 +122,12 @@ header nav:nth-of-type(2) ul {
 
 /*navigation balk */
 header nav:nth-of-type(2) li {
-  background-color: var(--background-color-blue);
   min-width: 2rem;
   flex-grow: 1;
 }
 
 /*navigation balk */
 header nav:nth-of-type(2) a {
-  background-color: var(--background-color-yellow);
   gap: 3rem;
   line-height: 1.5rem;
 }
@@ -153,7 +146,6 @@ flex-direction: column;
 list-style: none;
 gap:1rem;
 font-size:1.5em;
-  border-style: solid;
   align-items: center;
 
 }
@@ -198,14 +190,14 @@ header > nav:nth-of-type(1) > ul:nth-of-type(1) li {
   bottom:-5rem;
   width:85%;
   translate: 0% 0%;
-    border-style: solid;
+   
 
 }
 
 /* hamburger menu navigation socials  - links */
  .ham > li {
   list-style: none;
-    border-style: solid;
+  
 
   
 }
@@ -214,7 +206,7 @@ header > nav:nth-of-type(1) > ul:nth-of-type(1) li {
   display:flex;
   flex-direction: row;
   gap:0.4rem;
-  border-style: solid;
+
 
 
 }
@@ -228,7 +220,6 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
   height:1.4rem;
   width:1.4rem;
   gap:0.9rem;
-  border-style: solid;
    border-radius:50%;
    object-fit: contain;
 
@@ -289,10 +280,11 @@ header nav:nth-of-type(2) img {
 /* button second, submit  */
 .button1 {
   background-color: var(--background-color-lightpurple);
-  border-color: rgb (0,0,0,0.2);
   border-radius: 2rem;
+  border-style:solid;
   padding: 1rem;
-  padding-left:1.8rem;
+  border-color: grey;
+  padding-left:1.4rem;
   padding-bottom:2.5rem;
   margin-left:0.6rem;
   width:8rem;
@@ -1113,13 +1105,14 @@ footer h3 {
   margin-bottom: 0;
   text-transform: uppercase;
 
+}
 
 footer > label > input {
   height:3.5rem;
 }
 
   
-}
+
 
 /* Footer - Heading H3 layout */
 footer > h2 {
@@ -1617,7 +1610,6 @@ main section:nth-of-type(2){
 
 
 .piercing, h3 {
-  display: flex;
   justify-content: center;
   gap: 4rem;
 
@@ -1670,7 +1662,6 @@ main section:nth-of-type(2){
   font-weight: 600;
     border-style: solid;
     display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 
 
@@ -1683,12 +1674,15 @@ main section:nth-of-type(2) {
  align-self: center;
 }
 
-}
+
 .together1,.button1,.secondinput {
   display:flex;
   flex-direction: row;
 }
 
+
+
+}
 
 
 
@@ -1802,3 +1796,247 @@ main section:nth-of-type(5) > ul:nth-of-type(1)> li> h5 ,
    font-weight: 800;
 }
 
+/************************/
+/* DARK MODE COLOURS */
+/************************/
+
+@media (prefers-color-scheme: dark) {
+
+  :root {
+
+    /* main colours */
+    --dark-color-text-black: #F8F3FF;
+    --dark-background-white: #211D29;
+
+    /* background colours */
+    --dark-background-color-lightpurple: #33283F;
+    --dark-claire-home-color-purple: #45334F;
+    --dark-button-colo-purple: #B99AE8;
+    --dark-background-color-lightgreen: #293D36;
+    --dark-background-color-light-yellow: #48402E;
+    --dark-background-color-pink: #49343D;
+    --dark-background-color-lightpink: #49343D;
+    --dark-background-color-lightyellow2: #48402E;
+    --dark-background-color-purple-strip: #45334F;
+
+    /* grey colours */
+    --dark-color-grey: #A99FB3;
+
+    /* button colours */
+    --dark-button-color-beige: #48402E;
+
+    /* guideline colours */
+    --dark-border-guideline-black: #756B80;
+
+    --dark-background-color-blue: #30415C;
+    --dark-background-color-yellow: #48402E;
+    --dark-background-color-red: #49343D;
+    --dark-background-color-green: #293D36;
+
+    /* letter colours */
+    --dark-letter-color-black: #F8F3FF;
+    --dark-letter-color-dark-purple: #E5C5F0;
+
+    /* heading and paragraph colours */
+    --dark-heading-color: #F8F3FF;
+    --dark-paragraph-color: #D8CFE2;
+    --dark-navbar-color: #E8E6EB;
+    --dark-navbar-a-color:#211D29;
+
+  }
+
+}
+
+/*creating dark mode*/
+/*https://chatgpt.com/share/6afe464f-2028-83ed-9315-c3e8c05d9a13*/
+@media (prefers-color-scheme: dark) {
+
+  /* HEADER */
+  header {
+    background-color: var(--dark-background-color-lightpurple);
+  }
+    main > section:nth-of-type(1) , .section8foto {
+     background-image:brightness(0.85) ;
+    }
+
+
+  /* SECTION 1 */
+  main > section:nth-of-type(1) > p {
+    color: var(--dark-background-white);
+  
+  }
+
+  main > section:nth-of-type(1) > img {
+    filter: brightness(0.85);
+  }
+
+  /* SECTION 2 */
+  main > section:nth-of-type(2) {
+    background-color: var(--dark-background-color-lightpurple);
+  }
+
+  .together {
+    color: var(--dark-letter-color-black);
+  }
+
+  /* SECTION 3 */
+  main > section:nth-of-type(3),
+  main > section:nth-of-type(3) > h2,
+  main > section:nth-of-type(3) > h3 {
+    background-color: var(--dark-background-white);
+    color: var(--dark-letter-color-black);
+  }
+
+  main > section:nth-of-type(3) ul > li > p {
+    background-color: var(--dark-background-white);
+  }
+
+  /* SECTION 4 */
+  main > section:nth-of-type(4),
+  main > section:nth-of-type(4) h3 {
+    background-color: var(--dark-background-color-lightgreen);
+  }
+
+  /* SECTION 5 */
+  main > section:nth-of-type(5),
+  main > section:nth-of-type(5) ul {
+    background-color: var(--dark-background-color-lightgreen);
+  }
+
+  main > section:nth-of-type(5) h6 {
+    background-color: var(--dark-background-color-lightpink);
+  }
+
+  /* SECTION 7 */
+  .section7pac > h2,
+  .section7pac h4 {
+    color: var(--dark-heading-color);
+  }
+
+  .section7pac,
+  .section7pac h3,
+  .section7pac p,
+  .section7pac1 {
+    background-color: var(--dark-background-color-lightyellow2);
+  }
+
+  /* SECTION 8 */
+  main > section:nth-of-type(8),
+  .section8pact,
+  .section8pact h3,
+  .section8pact li > p,
+  .section8pact li > h5,
+  .piercing,
+  .piercing > h3,
+  .caru {
+    background-color: var(--dark-background-white);
+  }
+
+  /* SECTION 10 */
+  .section10pact,
+  .section10pact > p {
+    background-color: var(--dark-background-white);
+  }
+
+  /* FOOTER */
+  footer,
+  footer > h3,
+  .footpact > h4 {
+    background-color: var(--dark-background-color-lightpurple);
+  }
+
+  /* HEADINGS */
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--dark-heading-color);
+  }
+
+  /* PARAGRAPHS */
+  p {
+    color: var(--dark-paragraph-color);
+  }
+
+  /* LINKS */
+  a {
+    color: var(--dark-paragraph-color);
+  }
+
+  /* SECTION 6 TEXT */
+  main > section:nth-of-type(6) > h3,
+  main > section:nth-of-type(6) > h4 {
+    color: var(--dark-background-white);
+  }
+
+  /* IMAGES */
+  img {
+    filter: brightness(0.85);
+  }
+
+  /* ANIMATED STRIPS */
+  .p-box {
+    background-color: var(--dark-claire-home-color-purple);
+  }
+
+  .p-box3 {
+    background-color: var(--dark-background-color-green);
+  }
+
+  .p-box4 {
+    background-color: var(--dark-claire-home-color-purple);
+  }
+
+  /* BUTTON */
+  .button {
+    background-color: var(--dark-background-color-green);
+  }
+
+  /* FOOTER INPUT AND MENU LINKS */
+  footer > label > input,
+  .ham > li > a {
+    background-color: var(--dark-border-guideline-black);
+    color: var(--dark-color-text-black);
+  }
+
+  /* FOOTER LINKS */
+  .footpact > ul > li > a {
+    color: var(--dark-paragraph-color);
+  }
+
+  .footpact > ul:nth-of-type(2) li ,
+  .footpact > h4{
+    color: var(--dark-heading-color);
+  }
+
+  
+
+  /* SECTION 8 BACKGROUNDS */
+.section8pact,
+.section8foto,
+.section8together {
+  background-color: var(--dark-background-white);
+}
+
+/* Remove white backgrounds from image containers */
+.section8foto,
+.section8foto picture {
+  background-color: var(--dark-background-white);
+}
+
+/* Main content background */
+main {
+  background-color: var(--dark-background-white);
+}
+
+
+header {
+  background-color:var(--dark-navbar-color);
+}
+
+header a,
+header button {
+  color: var(--dark-navbar-a-color);
+}
+
+.ham > li > a{
+  color:var(--dark-heading-color);
+}
+}

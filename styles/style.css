@@ -117,7 +117,6 @@ flex-direction: column;
 list-style: none;
 gap:1rem;
 font-size:1.5em;
-  border-style: solid;
   align-items: center;
 
 }
@@ -133,13 +132,6 @@ font-size:1.5em;
 
 
 
-
-
-/* Navigation - second nav */
-header nav:nth-of-type(2) {
-  background-color:var(--background-color-pink);
-}
-
 /* Second nav - unordered list */
 header nav:nth-of-type(2) ul {
   list-style: none;
@@ -148,7 +140,6 @@ header nav:nth-of-type(2) ul {
 
 /* Second nav - list items */
 header nav:nth-of-type(2) li {
-  background-color:var(--background-color-blue);
   min-width: 2rem;
   flex-grow: 1;
 }
@@ -161,7 +152,6 @@ header nav:nth-of-type(2) img {
 
 /* Second nav - links */
 header nav:nth-of-type(2) a {
-  background-color:var(--background-color-yellow);
   gap: 3rem;
   line-height: 1.5rem;
 }
@@ -186,14 +176,13 @@ header nav:nth-of-type(2) a {
   left:-1.7rem;
   bottom:-5rem;
   width:85%;
-    border-style: solid;
 
 }
 
 /* hamburger menu navigation socials  - links */
  .ham > ul  {
   list-style: none;
-    border-style: solid;
+
 
   
 }
@@ -202,7 +191,7 @@ header nav:nth-of-type(2) a {
   display:flex;
   flex-direction: row;
   gap:0.4rem;
-  border-style: solid;
+
 
 
 }
@@ -346,9 +335,7 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
   paint-order: stroke fill;
   font-size: 2.5rem;
   color:var(--background-white);
-  border-style: solid;
   border-width: 7px;
-  border-color:var(--background-color-red);
   text-align: center;
   margin-left:3rem;
    margin-top:6rem;
@@ -547,7 +534,6 @@ p {
   paint-order: stroke fill;
   font-size: 3rem;
   color:var(--claire-home-color-purple);
-  background-color:var(--background-color-lightyellow2);
   margin-bottom: 0;
 }
 
@@ -921,6 +907,7 @@ footer> label> button {
   border-style: none;
   margin-left: -3rem;
 }
+ 
 
 /* Footer - Links */
 footer, a {
@@ -1062,7 +1049,9 @@ footer, a:link {
 
 }
   
-
+.pact1 {
+  
+}
 
 
 
@@ -1075,12 +1064,34 @@ footer, a:link {
 }
 
 
-/*section 4 after guide picture */
 .pact4 {
-  display: flex;
-   min-height:40vh;
-
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+  
 }
+
+
+ .pact5 {
+    padding: 3rem;
+    min-height: 0;
+    height: auto;
+    max-width: 100%;
+  }
+
+/*section 4 after guide picture */
+.groupie3 {
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .groupie3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
 
 .sparkle {
   padding:1rem;
@@ -1215,14 +1226,13 @@ main section:nth-of-type(3),h3,h4 {
 
 
 .footpact1 {
-   display:block;
    width:100%;
    flex-direction: row;
 }
 
 .footpact > ul {
-  display:block;
-   width:100%;
+
+  width:100%;
 }
 
 
@@ -1250,6 +1260,16 @@ footer {
   list-style: none;
   height: 10rem;
 
+}
+
+.footpact ul {
+  list-style: none;
+  line-height: 1.9rem;
+  font-family: sans-serif;
+  font-weight: 600;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 
@@ -1325,5 +1345,137 @@ footer {
 }
 
 
+/*************************/
+/* DARK MODE COLORS */
+/*************************/
 
- 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --dark-color-text-black: #F8F3FF;
+    --dark-background-white: #211D29;
+    --dark-background-color-lightpurple: #33283F;
+    --dark-claire-home-color-purple: #45334F;
+    --dark-button-color-purple: #B99AE8;
+    --dark-background-color-lightgreen: #293D36;
+    --dark-background-color-light-yellow: #48402E;
+    --dark-background-color-pink: #49343D;
+    --dark-background-color-lightpink: #49343D;
+    --dark-background-color-lightyellow2: #48402E;
+    --dark-button-color-beige: #48402E;
+    --dark-border-guideline-black: #756B80;
+    --dark-background-color-blue: #30415C;
+    --dark-background-color-yellow: #48402E;
+    --dark-background-color-red: #49343D;
+    --dark-background-color-green: #293D36;
+    --dark-letter-color-black: #F8F3FF;
+    --dark-letter-color-dark-purple: #E5C5F0;
+    --dark-heading-color: #F8F3FF;
+--dark-paragraph-color: #D8CFE2;
+--dark-logo-color:#211D29;
+--dark-navbar-color: #E8E6EB;
+    --dark-navbar-a-color:#211D29;
+
+  }
+
+}
+
+/* DARK MODE */
+
+@media (prefers-color-scheme: dark) {
+
+  .pact1 {
+    background-color: var(--dark-background-color-lightpink);
+  }
+
+  .p-box {
+    background-color: var(--dark-background-color-light-yellow);
+  }
+
+  .p-box2 {
+    background-color: var(--dark-background-color-lightgreen);
+  }
+
+  .p-box3 {
+    background-color: var(--dark-claire-home-color-purple);
+  }
+
+  .p-box4 {
+    background-color: var(--dark-background-color-lightgreen);
+  }
+
+  .pact {
+    background-color: var(--dark-background-color-lightyellow2);
+  }
+
+  .pact5 {
+    background-color: var(--dark-background-color-lightpurple);
+  }
+
+  footer {
+    background-color: var(--dark-background-color-lightpurple);
+  }
+
+
+  h1, h2, h5{
+    color: var(--dark-heading-color);
+  }
+
+  p {
+    color: var(--dark-paragraph-color);
+  }
+
+  .footpact > ul:nth-of-type(2) li { 
+    color: var(--dark-heading-color);
+  }
+
+
+   .background-image {
+    filter: brightness(0.85);
+  }
+
+
+img {
+    filter: brightness(0.85);
+}
+
+.pact2 {
+    filter: brightness(0.85);
+}
+
+.footpact >h4,.ham {
+  background-color: var(--dark-background-color-lightpurple);
+  color:var(--dark-paragraph-color);
+}
+
+.pact2 > h2,
+.pact2 > h3 ,
+.button{
+  color:var(--dark-background-white);
+}
+
+
+.pact >h3 {
+  background-color: var(--dark-background-color-light-yellow);
+}
+
+footer > label> input{
+  background-color:var(--dark-border-guideline-black);
+  color: var(--dark-color-text-black);
+}
+
+.footpact > ul > li >a{
+  color: var(--dark-paragraph-color);
+}
+
+header {
+  background-color:var(--dark-navbar-color);
+}
+
+header a,
+header button{
+  color: var(--dark-navbar-a-color);
+}
+.ham > li > a{
+  color:var(--dark-heading-color);
+}
+}
