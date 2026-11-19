@@ -250,10 +250,11 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
 /* Button 1 tk pop girlies get it  */
 
 .button {
+  display:inline-block;
   background-color:var(--button-color-beige);
   font-size: 1rem;
   border-radius: 3rem;
-  padding: 0.9rem;
+  padding: 1rem;
   margin: 3rem;
   width: 14rem;
   border-style: solid;
@@ -261,10 +262,12 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
   font-weight: 800;
   font-style: normal;
   letter-spacing: 0.019rem;
-  padding-bottom:2.5rem;
+  
   font-size: 1.1rem;
   font-family: "Paax-Heavy";
 }
+
+
 
 /* Button 2 we are getting a glow up */
 .button1 {
@@ -347,7 +350,7 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
 .groupie2 img {
   display: block;
   max-width: 100%;
-}
+#}
 
 /* Section 1 - Heading H2 */
 .pact1 h2 {
@@ -927,9 +930,6 @@ footer, a:link {
 /*Mobile */
 
 @media (min-width:300px){
-
-
-
 .caru ul:nth-of-type(1)  {
   display: flex;
   gap: 0.5em;
@@ -979,8 +979,6 @@ footer, a:link {
   padding:1rem;
 }
 
-
-
   /* Section 1 - button */
   .pact1 > .pact11 > .button {
   margin-top: 1rem;
@@ -1000,9 +998,6 @@ footer, a:link {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
-
-
 }
 
 
@@ -1024,8 +1019,6 @@ footer, a:link {
   display: flex;
     gap: 0.3em;
   margin-left:0;
- 
-
 }
 
 
@@ -1045,14 +1038,8 @@ footer, a:link {
   flex-shrink: 0;
   list-style: none;
   height:9rem;
-
-
 }
   
-.pact1 {
-  
-}
-
 
 
 .groupie2 > img {
@@ -1096,9 +1083,91 @@ footer, a:link {
 .sparkle {
   padding:1rem;
 }
+}
+@media (min-width:750px) {
 
+ /*https://chatgpt.com/share/6aff54cf-d528-83ed-9dc2-f344e41f2d51*/
+/* TABLET NAVBAR */
+
+  /* Navigation links */
+    /* HEADER */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  /* FIRST NAV - remove parent layout box */
+  header > nav:nth-of-type(1) {
+    display: contents;
+  }
+
+  /* 1. HAMBURGER - FIRST */
+  .hamburger {
+    order: 1;
+    display: flex;
+    flex-shrink: 0;
+  }
+
+  /* 2. CLAIRE'S LOGO */
+  header > a {
+    order: 2;
+    flex-shrink: 0;
+  }
+
+  .logoclaire {
+    height: 1.8rem;
+  }
+
+  /* 3. BOOKING BUTTON */
+  .ham {
+    order: 3;
+    position: static;
+    transform: none;
+    transition: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: auto;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Hide all navigation links */
+  header > nav:nth-of-type(1) > ul.ham > li {
+    display: none;
+  }
+
+  /* Show only booking button */
+  header > nav:nth-of-type(1) > ul.ham > li:has(.buttonbar) {
+    display: block;
+  }
+
+  /* Booking button styling */
+  .buttonbar {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  /* 4. ICONS - LAST */
+  header > nav:nth-of-type(2) {
+    order: 4;
+    flex-shrink: 0;
+  }
+
+  /* Hide social icons */
+  .ham > div {
+    display: none;
+  }
 
 }
+
 
 /* Desktop */
 /* Desktop */
@@ -1107,6 +1176,87 @@ footer, a:link {
 
 @media (min-width:1000px){
   /*section 1 h1*/
+
+ .buttonbar {
+  display:none;
+}
+
+
+  header > a:has(.logoclaire) {
+    grid-column: 1;
+     align-items: center;
+  }
+
+ 
+
+  header > nav:nth-of-type(2) {
+    grid-column: 3;
+  }
+
+
+  /* Header layout */
+  header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 2rem;
+  }
+
+  /* Claire's logo - left */
+  header > a {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  /* First navigation - middle */
+  header > nav:nth-of-type(1) {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+  }
+
+  /* Navigation links */
+  .ham {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    position: static;
+    transform: none;
+    transition: none;
+    width: auto;
+    background-color: transparent;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .ham li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  /* Hide hamburger */
+  .hamburger {
+    display: none;
+  }
+
+  /* Icons - right */
+  header > nav:nth-of-type(2) {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+  }
+
+
+
+
 .pact1 h1 {
   padding: 3rem;
   margin-left:1rem;

@@ -10,4 +10,3 @@ button.addEventListener ("click", openMenu);
 function openMenu() {
   menu.classList.toggle("toonMenu");
 }
-
