@@ -678,7 +678,7 @@ Denk nog even goed na welke micro-interactie je wilt maken (moet iets met click 
 A11y nummero 2 wil ik graag in je procesverslag readme.md
 
 
-Toegankelijkheid test 2:
+Toegankelijksheid test 2:
 
 
 
