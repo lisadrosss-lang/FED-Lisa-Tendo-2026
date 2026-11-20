@@ -679,6 +679,30 @@ A11y nummero 2 wil ik graag in je procesverslag readme.md
 
 
 Toegankelijksheid test 2:
+Ik merkte tijdens de toegankelijkheidstest dat de voice over best veel opties aangaf als het ging om naar de volgende element te gaan.
+Het was telkens 2 of 3 elementen samen die je moest drukken. 
+
+Ik weet zelf niet hoe ik dat dan het beste kan veranderen en of dat stand zo is ingesteld, maar nu dat ik de vragen lijst heb gelezen merkte ik dat het normaal is!
+
+  <img src="readme-images/Screenshot 2026-11-20 at 14.37.02.png" width="375px" alt="photo screen reader ">
+
+
+  Vragen lijst WACG
+  <img src="readme-images/wcag1.png" width="375px" alt="pagina 1">
+
+  <img src="readme-images/wcag2.png" width="375px" alt="pagina 2">
+
+  <img src="readme-images/wcag3.png" width="375px" alt="pagina 3 ">
+
+  <img src="readme-images/wcag-4.pngpng" width="375px" alt="pagina 4">
+
+  <img src="readme-images/wcag5.png" width="375px" alt="pagina 5 ">
+
+
+
+
+
+
 
 
 
@@ -849,12 +873,6 @@ is het organiseren van elke element in de verschillende repsonsive device format
     Pagina 1 home HTML
   
   1.  <!--sparkle code https://chatgpt.com/share/6afb9c68-5530-83eb-99bc-4078bd5f3e30-->
- BRON 1: 
-
-
-
-
-
 
 
 
@@ -871,11 +889,7 @@ is het organiseren van elke element in de verschillende repsonsive device format
    }
 
 
- BRON 1 ( van chat gebruikt als voorbeeld):
-
-  Header  {
-     z-index: 100;
-   }
+}
 
 
 
@@ -904,7 +918,6 @@ is het organiseren van elke element in de verschillende repsonsive device format
 
 }
 
- BRON 2 ( van chat gebruikt als voorbeeld):
 }
 
 4. /*https://chatgpt.com/share/6af4e649-fc38-83ed-b7ee-61cdf9a7a8fe*/
@@ -968,40 +981,25 @@ BRON 6 (van mij):
   overflow: auto;
 }
 
- BRON 6 ( van chat gebruikt als voorbeeld):
 
 
 
 7. /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_circles */
 
-footer 
-BRON 7 (van mij):
 
-
- BRON 7 ( van chat gebruikt als voorbeeld):
 
 
 8.  /*https://chatgpt.com/share/6aff54cf-d528-83ed-9dc2-f344e41f2d51*/
-media min_width:750
-
-
-BRON 8 (van mij):
-
-  BRON 8 ( van chat gebruikt als voorbeeld):
-
-
+media min_width:750 
 
 
  9.https://chatgpt.com/share/6afcee5b-64bc-83ed-b3bb-abf5a47ac490*/
 .pact (min-width:1000px) 
 regel 1399-1407
 
-BRON 9 (van mij):
 
 
-
-  BRON 9 ( van chat gebruikt als voorbeeld):
-
+ 
 
 10.   /*trouble having image and section color on the same height 
  https://chatgpt.com/share/6afcee5b-64bc-83ed-b3bb-abf5a47ac490*/
@@ -1015,8 +1013,6 @@ BRON 10 (van mij):
     border-style: solid;
 
   }
-
-  BRON 10 ( van chat gebruikt als voorbeeld):
 
 
 
@@ -1035,12 +1031,6 @@ BRON 1 ( van chat gebruikt als voorbeeld):
 
 
 2.  <!-- https://chatgpt.com/share/6ae84e7d-1988-83eb-a82b-9b08d2098062-->
-
-BRON 2( van mij):
-
-BRON 2( van chat gebruikt als voorbeeld):
-
-
 
 
 
@@ -1097,7 +1087,6 @@ Pagina 2 CSS
   overflow: hidden;
 }
 
- BRON 2 ( van chat gebruikt als voorbeeld):
 
 
 3./*https://chatgpt.com/share/6af480db-ec7c-83eb-bcae-847d699ac6b5*/
@@ -1139,8 +1128,7 @@ main>section:nth-of-type(1) {
 
 }
 
- BRON 4 (van chat ): 
-
+ 
 
  5./*https://chatgpt.com/share/6aef5c7a-45a8-83eb-8e4a-6d0e87f9c2bd*/
 main>section:nth-of-type(5) ul>li>h6 
@@ -1155,8 +1143,6 @@ main>section:nth-of-type(5) ul>li>h6 {
 }
 
 
-
- BRON 5 (van chat ): 
 
 
  6. *understand now why my code jumps to claim other selectors because i did not select them well. */
@@ -1186,8 +1172,7 @@ main>section:nth-of-type(5) ul>li>h6 {
 
 }
 
- BRON 7 (van chat ): 
-
+ 
 
  /* bron 8*/
 /*height of section did not know https://chatgpt.com/share/6afaf750-8f00-83eb-9ab5-d998a40d8d54*/
@@ -1202,13 +1187,12 @@ main>section:nth-of-type(3) ul:nth-of-type(1) {
 
 }
 
- BRON 8 (van chat ): 
-
+ 
 9./* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_circles */
 
 BRON 9 (voor mij):
 
-BRON 9 (code van chat):
+
 
 10.  /*code voor grid https://chatgpt.com/c/6af9efae-7518-83eb-8542-6eff24a5e925*/
 
@@ -1228,12 +1212,14 @@ BRON 9 (code van chat):
 
 
 
-</details>
 
+https://chatgpt.com/share/6b0051d8-ff30-83ed-a9be-7023585cbea8?ogimg=plain
+
+Het maken van de JavaScript pop up 
 
 
 java script email
-link:
+
 
 oefenende met javascript theorie en maakt met behulp van ai deze code:
 
@@ -1268,10 +1254,13 @@ buttonemail.addEventListener("click", function() {
 
 
 
+https://chatgpt.com/share/6b0052b1-9f6c-83eb-8c18-4be21ddd8e07?ogimg=plain
+
+Het maken van de hamburger menu bron aanpassingen gedaan
 
 
 java sctipt hamburger
-link: 
+
 gekeken hoe het in her voorbeeld eruit zag en leerde ook theorie hiernee.
 
 button.addEventListener ("click", openMenu);
@@ -1279,3 +1268,4 @@ button.addEventListener ("click", openMenu);
 function openMenu() {
   menu.classList.toggle("toonMenu");
 }
+</details>
