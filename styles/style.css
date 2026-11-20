@@ -89,6 +89,7 @@ section:nth-of-type(6) img {
 /* 4. NAVIGATION */
 /*************************/
 
+/*bron 1*/
 /* Header */
 /* https://chatgpt.com/share/6afb5cba-02c0-83eb-a3ca-0299046cfd2f*/
 /*z-index to keep items under navbar*/
@@ -160,7 +161,7 @@ header nav:nth-of-type(2) a {
   line-height: 1.5rem;
 }
 
-
+/**/
 .ham {
   transform: translateX(-100%);
   transition: transform 0.5s ease;
@@ -201,6 +202,7 @@ header nav:nth-of-type(2) a {
 }
 
 
+/*bron 2*/
 /* hamburger menu navigation socials 
 https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
  - links- creating mobile navbar slide show */
@@ -373,6 +375,7 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
 /*  slider animations */
 /*************************/
 
+/*bron 4*/
 /*https://chatgpt.com/share/6af4e649-fc38-83ed-b7ee-61cdf9a7a8fe*/
 /* Section 1 - slider 1  */
 .p-box,
@@ -415,7 +418,7 @@ https://chatgpt.com/share/6af27003-0420-83ed-a75d-69a8ddd204f7
   padding-top: 1rem;
 }
 
-
+/*bron 5*/
 /*https://chatgpt.com/share/6af480db-ec7c-83eb-bcae-847d699ac6b5*/
 .p-text,
 .p-text2,
@@ -697,6 +700,8 @@ main section:nth-of-type(3) p {
 /*************************/
 /* 10. SECTION 5 */
 /*************************/
+
+/*bron 6*/
 /*height of section did not know https://chatgpt.com/share/6afaf750-8f00-83eb-9ab5-d998a40d8d54*/
 .caru ul:nth-of-type(1) {
   display: flex;
@@ -720,7 +725,6 @@ main section:nth-of-type(3) p {
 
 
 
-/* SECTION 3 controls the height of the images   */
 .caru ul:nth-of-type(1) li {
   flex-basis: 25%;
   flex-shrink: 0;
@@ -896,6 +900,7 @@ a:link {
 
 
 /* Reference */
+/*  Footer */
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_circles */
 
 /* Footer - First unordered list items */
@@ -1125,7 +1130,7 @@ a:link {
 }
 
 @media (min-width:750px) {
-
+  /* bron 8 */
   /*https://chatgpt.com/share/6aff54cf-d528-83ed-9dc2-f344e41f2d51*/
   /* TABLET NAVBAR */
 
@@ -1390,7 +1395,7 @@ a:link {
 
 
 
-  /*trouble having imgage and section color on the same height 
+  /*trouble having image and section color on the same height 
  https://chatgpt.com/share/6afcee5b-64bc-83ed-b3bb-abf5a47ac490*/
   /*section 4 after guide picture */
   .pact4 {
@@ -1426,10 +1431,6 @@ a:link {
   .pact5 h2 {
     font-size: 4rem;
   }
-
-  /*picture section: 4 after guide picture */
-
-
 
 
   .footpact1 {
